@@ -27,19 +27,19 @@ jobs:
           php epgziyong.php  # 运行生成 epgziyong.xml 的 PHP 脚本
 
       # 第四步：上传文件到 epgtest2 仓库
-      - name: Upload epgziyong.xml to epgtest2
+      - name: Upload epgziyong.xml to tvepg
         uses: actions/upload-artifact@v4
         with:
           name: epgziyong.xml
           path: epgziyong.xml
 
       # 第五步：下载到目标仓库并覆盖文件
-      - name: Checkout epgtest2 repository
+      - name: Checkout tvepg repository
         uses: actions/checkout@v4
         with:
-          repository: zzq1234567890/epgtest2  # 目标仓库
+          repository: zzq12345/tvepg  # 目标仓库
           token: ${{ secrets.GITHUB_TOKEN }}
-          path: epgtest2  # 克隆到本地的路径
+          path: tvepg  # 克隆到本地的路径
 
       # 第六步：检查 epgziyong.xml 是否存在并被修改
       - name: Check if epgziyong.xml exists and is modified
@@ -49,13 +49,13 @@ jobs:
             exit 1
           fi
           # 对比文件差异
-          diff epgtest2/epgziyong.xml epgziyong.xml || echo "File is modified"
+          diff tvepg/epgziyong.xml epgziyong.xml || echo "File is modified"
 
       # 第七步：将 epgziyong.xml 覆盖上传到 epgtest2
       - name: Replace epgziyong.xml and push
         run: |
-          mv epgziyong.xml epgtest2/epgziyong.xml  # 覆盖目标文件
-          cd epgtest2
+          mv epgziyong.xml tvepg/epgziyong.xml  # 覆盖目标文件
+          cd tvepg
           git config --local user.name "github-actions[bot]"
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           
