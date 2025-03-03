@@ -9,7 +9,7 @@
 
 具体格式
 
-#EXTM3U url-tvg="https://raw.githubusercontent.com/zzq12345/tvepg/refs/heads/main/epgastro.xml,https://raw.githubusercontent.com/zzq12345/tvepg/main/epgshanghai.xml,https://raw.githubusercontent.com/zzq12345/tvepg/main/112114.xml,https://raw.githubusercontent.com/zzq12345/tvepg/main/epgmytvsuper.xml,https://raw.githubusercontent.com/zzq12345/tvepg/main/epg4gtv2.xml,https://raw.githubusercontent.com/zzq12345/tvepg/main/epganywhere.xml,https://raw.githubusercontent.com/zzq12345/tvepg/refs/heads/main/epgpixman.xml" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}"
+#EXTM3U url-tvg="https://raw.githubusercontent.com/zzq12345/tvepg/refs/heads/main/epgziyong.xml" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}"
 
 
 #EXTINF:-1 tvg-id="cctv1" tvg-name="cctv1" tvg-logo="https://raw.githubusercontent.com/zzq12345/myepg/main/112114.xml://epg.51/tb1/CCTV/CCTV1.png" group-title="黑龙江移动",CCTV-1 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226016/index.m3u8
