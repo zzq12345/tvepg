@@ -2880,13 +2880,13 @@
 <desc lang="zh"> </desc>
 </programme>
 <channel id="看看新聞直播"><display-name lang="zh">看看新聞直播</display-name></channel>
-<programme start="20250307080000 +0800" stop="20250307083000 +0800" channel="看看新聞直播">
-<title lang="zh">全国政协十四届三次会议第二场“委员通道”</title>
-<desc lang="zh">全国政协十四届三次会议第二场“委员通道” </desc>
-</programme>
 <programme start="20250307100000 +0800" stop="20250307103000 +0800" channel="看看新聞直播">
 <title lang="zh">十四届全国人大三次会议外交主题记者会</title>
 <desc lang="zh">十四届全国人大三次会议外交主题记者会 </desc>
+</programme>
+<programme start="20250307110500 +0800" stop="20250307113500 +0800" channel="看看新聞直播">
+<title lang="zh">民生一网通</title>
+<desc lang="zh">民生一网通 </desc>
 </programme>
 <programme start="20250307140000 +0800" stop="20250307143000 +0800" channel="看看新聞直播">
 <title lang="zh">海外路路通 | 美国DEI文化对大学申请的影响</title>
@@ -2901,6 +2901,10 @@
 <desc lang="zh">科学认识“女性健康杀手” 精准防治宫颈癌 </desc>
 </programme>
 <channel id="第一財經直播"><display-name lang="zh">第一財經直播</display-name></channel>
+<programme start="20250307080000 +0800" stop="20250307090000 +0800" channel="第一財經直播">
+<title lang="zh">直播丨全国政协十四届三次会议第二场“委员通道”集体采访活动</title>
+<desc lang="zh"> 全国政协十四届三次会议第二场“委员通道”集体采访活动于2025年3月7日（星期五）8:00在人民大会堂中央大厅北侧举行。</desc>
+</programme>
 <programme start="20250307140000 +0800" stop="20250307150000 +0800" channel="第一財經直播">
 <title lang="zh">两会“数新风”丨商业航天撬动万亿级市场 如何把握“航天强国”的关键机遇？</title>
 <desc lang="zh"> 2025 年政府工作报告强调要培育壮大新兴产业、未来产业，商业航天便是其中的关键领域。从政策支持到技术突破，从产业链完善到市场需求释放，商业航天的发展路径有着怎样的独特之处？如何能撬动万亿级市场？在建设 “航天强国” 的征程中，又存在着哪些关键机遇呢？3月7日14:00《两会“数新风”》系列节目，邀请北斗三号卫星系统总设计师林宝军，陆石投资创始合伙人、董事长邓钊，一起解读最新政策导向，探寻商业航天背后的万亿级财富密码 。</desc>
@@ -2908,10 +2912,6 @@
 <programme start="20250307100000 +0800" stop="20250307110000 +0800" channel="第一財經直播">
 <title lang="zh">直播丨十四届全国人大三次会议外交主题记者会 王毅回答中外记者提问</title>
 <desc lang="zh"> 十四届全国人大三次会议定于2025年3月7日（星期五）上午10时，在梅地亚中心新闻发布厅举行记者会。中共中央政治局委员、外交部长王毅就“中国外交政策和对外关系”相关问题回答中外记者提问。</desc>
-</programme>
-<programme start="20250307080000 +0800" stop="20250307090000 +0800" channel="第一財經直播">
-<title lang="zh">直播丨全国政协十四届三次会议第二场“委员通道”集体采访活动</title>
-<desc lang="zh"> 全国政协十四届三次会议第二场“委员通道”集体采访活动于2025年3月7日（星期五）8:00在人民大会堂中央大厅北侧举行。</desc>
 </programme>
 <programme start="20250306200000 +0800" stop="20250306210000 +0800" channel="第一財經直播">
 <title lang="zh">直击业绩会丨京东2024年第四季度及全年业绩电话会</title>
@@ -3013,6 +3013,10 @@
 <title lang="zh">一线发布丨最高检召开“依法从严打击证券违法犯罪 促进资本市场健康稳定发展”新闻发布会</title>
 <desc lang="zh"> 最高检与中国证监会于2月21日下午15：00点在最高检机关多功能厅联合召开“依法从严打击证券违法犯罪 促进资本市场健康稳定发展”新闻发布会。最高检副检察长葛晓燕、中国证监会副主席李明将出席发布会并回答记者提问。</desc>
 </programme>
+<programme start="20250307080000 +0800" stop="20250307083000 +0800" channel="第一財經直播">
+<title lang="zh">直播丨全国政协十四届三次会议第二场“委员通道”集体采访活动</title>
+<desc lang="zh"> 全国政协十四届三次会议第二场“委员通道”集体采访活动于2025年3月7日（星期五）8:00在人民大会堂中央大厅北侧举行。</desc>
+</programme>
 <programme start="20250307140000 +0800" stop="20250307143000 +0800" channel="第一財經直播">
 <title lang="zh">两会“数新风”丨商业航天撬动万亿级市场 如何把握“航天强国”的关键机遇？</title>
 <desc lang="zh"> 2025 年政府工作报告强调要培育壮大新兴产业、未来产业，商业航天便是其中的关键领域。从政策支持到技术突破，从产业链完善到市场需求释放，商业航天的发展路径有着怎样的独特之处？如何能撬动万亿级市场？在建设 “航天强国” 的征程中，又存在着哪些关键机遇呢？3月7日14:00《两会“数新风”》系列节目，邀请北斗三号卫星系统总设计师林宝军，陆石投资创始合伙人、董事长邓钊，一起解读最新政策导向，探寻商业航天背后的万亿级财富密码 。</desc>
@@ -3020,10 +3024,6 @@
 <programme start="20250307100000 +0800" stop="20250307103000 +0800" channel="第一財經直播">
 <title lang="zh">直播丨十四届全国人大三次会议外交主题记者会 王毅回答中外记者提问</title>
 <desc lang="zh"> 十四届全国人大三次会议定于2025年3月7日（星期五）上午10时，在梅地亚中心新闻发布厅举行记者会。中共中央政治局委员、外交部长王毅就“中国外交政策和对外关系”相关问题回答中外记者提问。</desc>
-</programme>
-<programme start="20250307080000 +0800" stop="20250307083000 +0800" channel="第一財經直播">
-<title lang="zh">直播丨全国政协十四届三次会议第二场“委员通道”集体采访活动</title>
-<desc lang="zh"> 全国政协十四届三次会议第二场“委员通道”集体采访活动于2025年3月7日（星期五）8:00在人民大会堂中央大厅北侧举行。</desc>
 </programme>
 <programme start="20250306200000 +0800" stop="20250306203000 +0800" channel="第一財經直播">
 <title lang="zh">直击业绩会丨京东2024年第四季度及全年业绩电话会</title>
@@ -27258,6 +27258,10 @@
 <title lang="zh">卫视高尔夫</title>
 <desc lang="zh"> </desc>
 </programme>
+<programme start="19700101080000 +0800" stop="20250308001600 +0800" channel="海南卫视">
+<title lang="zh"></title>
+<desc lang="zh"> </desc>
+</programme>
 <programme start="20250308001600 +0800" stop="20250308010000 +0800" channel="海南卫视">
 <title lang="zh">午夜剧场</title>
 <desc lang="zh"> </desc>
@@ -27278,12 +27282,8 @@
 <title lang="zh">潮起海之南</title>
 <desc lang="zh"> </desc>
 </programme>
-<programme start="20250308032200 +0800" stop="20250308041500 +0800" channel="海南卫视">
+<programme start="20250308032200 +0800" stop="20250308044500 +0800" channel="海南卫视">
 <title lang="zh">卫视高尔夫</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20250308041500 +0800" stop="20250308044500 +0800" channel="海南卫视">
-<title lang="zh">视界</title>
 <desc lang="zh"> </desc>
 </programme>
 <programme start="20250308044500 +0800" stop="20250308052700 +0800" channel="海南卫视">
@@ -38201,18 +38201,6 @@
 <channel id="五星体育"><display-name lang="zh">五星体育</display-name></channel>
 <channel id="上海教育"><display-name lang="zh">上海教育</display-name></channel>
 <channel id="法治天地"><display-name lang="zh">法治天地</display-name></channel>
-<programme start="20250304063000 +0800" stop="20250304070000 +0800" channel="第一财经">
-<title lang="zh">＜财经视频集萃－投资有看头＞</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20250304070000 +0800" stop="20250304080000 +0800" channel="第一财经">
-<title lang="zh">今日股市</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20250304080000 +0800" stop="20250304090000 +0800" channel="第一财经">
-<title lang="zh">直播：财经早班车</title>
-<desc lang="zh"> </desc>
-</programme>
 <programme start="20250304090000 +0800" stop="20250304110000 +0800" channel="第一财经">
 <title lang="zh">直播：市场零距离</title>
 <desc lang="zh"> </desc>
@@ -38827,14 +38815,6 @@
 </programme>
 <programme start="20250308233000 +0800" stop="20250309000000 +0800" channel="第一财经">
 <title lang="zh">＜财经视频集萃－价值三人行＞2</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20250304063000 +0800" stop="20250304070000 +0800" channel="新闻综合">
-<title lang="zh">寻味（211）春日老街行之三：　江南春烩</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20250304070000 +0800" stop="20250304085500 +0800" channel="新闻综合">
-<title lang="zh">上海早晨</title>
 <desc lang="zh"> </desc>
 </programme>
 <programme start="20250304085500 +0800" stop="20250304090500 +0800" channel="新闻综合">
@@ -39579,30 +39559,6 @@
 </programme>
 <programme start="20250308233000 +0800" stop="20250309000000 +0800" channel="新闻综合">
 <title lang="zh">剧场</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20250304064800 +0800" stop="20250304065300 +0800" channel="都市频道">
-<title lang="zh">请您欣赏：海上申音＜金丝鸟＞</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20250304065300 +0800" stop="20250304070000 +0800" channel="都市频道">
-<title lang="zh">请您欣赏：京歌＜西凉·月夜书＞</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20250304070000 +0800" stop="20250304071900 +0800" channel="都市频道">
-<title lang="zh">人气美食（4812）</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20250304071900 +0800" stop="20250304080400 +0800" channel="都市频道">
-<title lang="zh">X诊所（2160）　了解耳朵的喜恶</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20250304080400 +0800" stop="20250304081200 +0800" channel="都市频道">
-<title lang="zh">都市圈＠AI科普荟（7）</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20250304081200 +0800" stop="20250304083700 +0800" channel="都市频道">
-<title lang="zh">乐活上海（37）</title>
 <desc lang="zh"> </desc>
 </programme>
 <programme start="20250304083700 +0800" stop="20250304090400 +0800" channel="都市频道">
@@ -40567,30 +40523,6 @@
 </programme>
 <programme start="20250308233900 +0800" stop="20250309000000 +0800" channel="都市频道">
 <title lang="zh">新老娘舅（精编）</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20250304061900 +0800" stop="20250304063800 +0800" channel="金色学堂">
-<title lang="zh">金色公开课：蔚兰话养老（2）</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20250304063800 +0800" stop="20250304064000 +0800" channel="金色学堂">
-<title lang="zh">海洋风光</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20250304064000 +0800" stop="20250304070000 +0800" channel="金色学堂">
-<title lang="zh">金色盛会：徐德兴＜我和我的祖国＞</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20250304070000 +0800" stop="20250304072900 +0800" channel="金色学堂">
-<title lang="zh">艺术课堂：中老年钢琴启蒙教程47</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20250304072900 +0800" stop="20250304075900 +0800" channel="金色学堂">
-<title lang="zh">艺术课堂：中老年钢琴启蒙教程48</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20250304075900 +0800" stop="20250304083700 +0800" channel="金色学堂">
-<title lang="zh">中国书法（9）</title>
 <desc lang="zh"> </desc>
 </programme>
 <programme start="20250304083700 +0800" stop="20250304084600 +0800" channel="金色学堂">
@@ -41793,10 +41725,6 @@
 <title lang="zh">烹饪：杏仁饼干</title>
 <desc lang="zh"> </desc>
 </programme>
-<programme start="20250307073800 +0800" stop="20250307073900 +0800" channel="金色学堂">
-<title lang="zh">金色学堂宣传片</title>
-<desc lang="zh"> </desc>
-</programme>
 <programme start="20250307073900 +0800" stop="20250307075500 +0800" channel="金色学堂">
 <title lang="zh">乐学书画：几何素描（4）</title>
 <desc lang="zh"> </desc>
@@ -42661,22 +42589,6 @@
 <title lang="zh">海洋风光</title>
 <desc lang="zh"> </desc>
 </programme>
-<programme start="20250304060400 +0800" stop="20250304063000 +0800" channel="五星体育">
-<title lang="zh">2025极速终点线1</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20250304063000 +0800" stop="20250304072700 +0800" channel="五星体育">
-<title lang="zh">2024上海超级杯第一天</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20250304072700 +0800" stop="20250304075300 +0800" channel="五星体育">
-<title lang="zh">2024极速终点线6</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20250304075300 +0800" stop="20250304085100 +0800" channel="五星体育">
-<title lang="zh">2024赛季中国乒乓球俱乐部超级联赛总决赛（第二天）</title>
-<desc lang="zh"> </desc>
-</programme>
 <programme start="20250304085100 +0800" stop="20250304094800 +0800" channel="五星体育">
 <title lang="zh">2025澳大利亚网球公开赛女单第一轮：韦思佳－鲍里妮</title>
 <desc lang="zh"> </desc>
@@ -43339,14 +43251,6 @@
 </programme>
 <programme start="20250308233900 +0800" stop="20250309000000 +0800" channel="五星体育">
 <title lang="zh">2024－25赛季NBA常规赛：骑士－森林狼</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20250304074200 +0800" stop="20250304080700 +0800" channel="上海教育">
-<title lang="zh">送你一桌鲜（1）</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20250304080700 +0800" stop="20250304084900 +0800" channel="上海教育">
-<title lang="zh">仁心说医事（88）</title>
 <desc lang="zh"> </desc>
 </programme>
 <programme start="20250304084900 +0800" stop="20250304091300 +0800" channel="上海教育">
@@ -44233,30 +44137,6 @@
 <title lang="zh">教视新闻</title>
 <desc lang="zh"> </desc>
 </programme>
-<programme start="20250304060500 +0800" stop="20250304063000 +0800" channel="法治天地">
-<title lang="zh">庭前庭后（1）</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20250304063000 +0800" stop="20250304070000 +0800" channel="法治天地">
-<title lang="zh">和大律师面对面（4567）：郑健</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20250304070000 +0800" stop="20250304072500 +0800" channel="法治天地">
-<title lang="zh">法治新闻</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20250304072500 +0800" stop="20250304073500 +0800" channel="法治天地">
-<title lang="zh">庭前庭后Ⅲ（6）</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20250304073500 +0800" stop="20250304080500 +0800" channel="法治天地">
-<title lang="zh">案件聚焦：小作坊里的热玛吉</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20250304080500 +0800" stop="20250304083000 +0800" channel="法治天地">
-<title lang="zh">律师界（1）：女性当自强</title>
-<desc lang="zh"> </desc>
-</programme>
 <programme start="20250304083000 +0800" stop="20250304090000 +0800" channel="法治天地">
 <title lang="zh">和大律师面对面（2840）：洁蕙</title>
 <desc lang="zh"> </desc>
@@ -44851,10 +44731,6 @@
 </programme>
 <programme start="20250307073500 +0800" stop="20250307080500 +0800" channel="法治天地">
 <title lang="zh">案件聚焦：妈妈，不要抛弃我</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20250307080500 +0800" stop="20250307083000 +0800" channel="法治天地">
-<title lang="zh">律师界（4）：摇一摇手机广告何时休</title>
 <desc lang="zh"> </desc>
 </programme>
 <programme start="20250307083000 +0800" stop="20250307090000 +0800" channel="法治天地">
