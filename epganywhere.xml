@@ -2780,13 +2780,13 @@
 <desc lang="zh"> </desc>
 </programme>
 <channel id="看看新聞直播"><display-name lang="zh">看看新聞直播</display-name></channel>
-<programme start="20250321090000 +0800" stop="20250321093000 +0800" channel="看看新聞直播">
-<title lang="zh">慢直播｜F1轰鸣再起 感受“上赛场”速度与激情</title>
-<desc lang="zh">慢直播｜F1轰鸣再起 感受“上赛场”速度与激情 </desc>
-</programme>
 <programme start="20250321100000 +0800" stop="20250321103000 +0800" channel="看看新聞直播">
 <title lang="zh">国务院政策例行吹风会：提升中药质量促进中医药产业高质量发展有关情况</title>
 <desc lang="zh">国务院政策例行吹风会：提升中药质量促进中医药产业高质量发展有关情况 </desc>
+</programme>
+<programme start="20250321103000 +0800" stop="20250321106000 +0800" channel="看看新聞直播">
+<title lang="zh">上海市人民政府新闻发布会｜介绍虹桥国际开放枢纽启动建设四周年成果</title>
+<desc lang="zh">上海市人民政府新闻发布会｜介绍虹桥国际开放枢纽启动建设四周年成果 </desc>
 </programme>
 <programme start="20250321133000 +0800" stop="20250321136000 +0800" channel="看看新聞直播">
 <title lang="zh">将反诈进行到底——守护银发一族</title>
@@ -38825,18 +38825,6 @@
 <channel id="五星体育"><display-name lang="zh">五星体育</display-name></channel>
 <channel id="上海教育"><display-name lang="zh">上海教育</display-name></channel>
 <channel id="法治天地"><display-name lang="zh">法治天地</display-name></channel>
-<programme start="20250318063000 +0800" stop="20250318070000 +0800" channel="第一财经">
-<title lang="zh">＜财经视频集萃－投资有看头＞</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20250318070000 +0800" stop="20250318080000 +0800" channel="第一财经">
-<title lang="zh">今日股市</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20250318080000 +0800" stop="20250318090000 +0800" channel="第一财经">
-<title lang="zh">直播：财经早班车</title>
-<desc lang="zh"> </desc>
-</programme>
 <programme start="20250318090000 +0800" stop="20250318092700 +0800" channel="第一财经">
 <title lang="zh">直播：市场零距离</title>
 <desc lang="zh"> </desc>
@@ -39411,14 +39399,6 @@
 </programme>
 <programme start="20250322233000 +0800" stop="20250323000000 +0800" channel="第一财经">
 <title lang="zh">＜财经视频集萃－价值三人行＞2</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20250318063000 +0800" stop="20250318070000 +0800" channel="新闻综合">
-<title lang="zh">寻味（213）春日老街行之五：春韵青溪</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20250318070000 +0800" stop="20250318085500 +0800" channel="新闻综合">
-<title lang="zh">上海早晨</title>
 <desc lang="zh"> </desc>
 </programme>
 <programme start="20250318085500 +0800" stop="20250318090500 +0800" channel="新闻综合">
@@ -40131,14 +40111,6 @@
 </programme>
 <programme start="20250322233000 +0800" stop="20250323000000 +0800" channel="新闻综合">
 <title lang="zh">剧场</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20250318065600 +0800" stop="20250318072100 +0800" channel="都市频道">
-<title lang="zh">人气美食（4820）</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20250318072100 +0800" stop="20250318080500 +0800" channel="都市频道">
-<title lang="zh">X诊所（2167）　强＂肾＂健体　守护＂生命之源＂</title>
 <desc lang="zh"> </desc>
 </programme>
 <programme start="20250318080500 +0800" stop="20250318081200 +0800" channel="都市频道">
@@ -41031,42 +41003,6 @@
 </programme>
 <programme start="20250322233900 +0800" stop="20250323000000 +0800" channel="都市频道">
 <title lang="zh">新老娘舅（精编）</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20250318062000 +0800" stop="20250318063400 +0800" channel="金色学堂">
-<title lang="zh">金色公开课：白内障、故事课－王军</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20250318063400 +0800" stop="20250318063800 +0800" channel="金色学堂">
-<title lang="zh">静安区老年大学－簪花引</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20250318063900 +0800" stop="20250318065900 +0800" channel="金色学堂">
-<title lang="zh">金色风采：学习达人黄慧萍</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20250318065900 +0800" stop="20250318071900 +0800" channel="金色学堂">
-<title lang="zh">生活好技艺：基础结艺（1）</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20250318071900 +0800" stop="20250318073500 +0800" channel="金色学堂">
-<title lang="zh">花样新时尚：彩妆入门（1）</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20250318073500 +0800" stop="20250318073800 +0800" channel="金色学堂">
-<title lang="zh">烹饪：杏仁饼干</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20250318073900 +0800" stop="20250318075500 +0800" channel="金色学堂">
-<title lang="zh">乐学书画：钢笔淡彩（2）</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20250318075500 +0800" stop="20250318075800 +0800" channel="金色学堂">
-<title lang="zh">烹饪：水果蛋糕</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20250318075900 +0800" stop="20250318084900 +0800" channel="金色学堂">
-<title lang="zh">金色营养课（8）</title>
 <desc lang="zh"> </desc>
 </programme>
 <programme start="20250318084900 +0800" stop="20250318085700 +0800" channel="金色学堂">
@@ -43005,14 +42941,6 @@
 <title lang="zh">海洋风光</title>
 <desc lang="zh"> </desc>
 </programme>
-<programme start="20250318063500 +0800" stop="20250318073200 +0800" channel="五星体育">
-<title lang="zh">2024－25赛季NFL美联决赛：布法罗比尔－堪萨斯城酋长</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20250318073200 +0800" stop="20250318082200 +0800" channel="五星体育">
-<title lang="zh">2024巴黎奥运会跳水女子双人10米跳台决赛（全红婵／陈芋汐－第7金）</title>
-<desc lang="zh"> </desc>
-</programme>
 <programme start="20250318082200 +0800" stop="20250318085900 +0800" channel="五星体育">
 <title lang="zh">2024巴黎奥运会体操男子吊环决赛（刘洋－第18金）</title>
 <desc lang="zh"> </desc>
@@ -43661,10 +43589,6 @@
 <title lang="zh">2024－25赛季CBA联赛第43轮：上海久事－北京北汽</title>
 <desc lang="zh"> </desc>
 </programme>
-<programme start="20250318074100 +0800" stop="20250318081200 +0800" channel="上海教育">
-<title lang="zh">美食令（9）　立秋</title>
-<desc lang="zh"> </desc>
-</programme>
 <programme start="20250318081200 +0800" stop="20250318085400 +0800" channel="上海教育">
 <title lang="zh">仁心说医事（102）</title>
 <desc lang="zh"> </desc>
@@ -44149,10 +44073,6 @@
 <title lang="zh">美食令（11）　白露</title>
 <desc lang="zh"> </desc>
 </programme>
-<programme start="20250321065500 +0800" stop="20250321070000 +0800" channel="上海教育">
-<title lang="zh">祝您晚安</title>
-<desc lang="zh"> </desc>
-</programme>
 <programme start="20250321070000 +0800" stop="20250321074200 +0800" channel="上海教育">
 <title lang="zh">五光食色（385）</title>
 <desc lang="zh"> </desc>
@@ -44483,26 +44403,6 @@
 </programme>
 <programme start="20250322234500 +0800" stop="20250323000000 +0800" channel="上海教育">
 <title lang="zh">教视新闻</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20250318060500 +0800" stop="20250318063000 +0800" channel="法治天地">
-<title lang="zh">庭前庭后（1）</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20250318063000 +0800" stop="20250318070000 +0800" channel="法治天地">
-<title lang="zh">和大律师面对面（4581）：郑健</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20250318070000 +0800" stop="20250318072500 +0800" channel="法治天地">
-<title lang="zh">法治新闻</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20250318072500 +0800" stop="20250318073500 +0800" channel="法治天地">
-<title lang="zh">庭前庭后Ⅲ（6）</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20250318073500 +0800" stop="20250318080500 +0800" channel="法治天地">
-<title lang="zh">案件聚焦：不孝子的下场</title>
 <desc lang="zh"> </desc>
 </programme>
 <programme start="20250318080500 +0800" stop="20250318083000 +0800" channel="法治天地">
