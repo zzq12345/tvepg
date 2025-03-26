@@ -1,73 +1,70 @@
 name: epgkai
 
-# 每小时执行一次
 on:
   schedule:
-    - cron: '1 */2 * * *'  # 每小时执行一次
-  workflow_dispatch:  # 允许手动触发
+    - cron: '1 * * * *'  # 每小時的第 1 分鐘執行一次
+  workflow_dispatch:  # 允許手動觸發
 
 jobs:
   generate_and_upload:
-    runs-on: ubuntu-latest  # 使用 Ubuntu 环境运行
+    runs-on: ubuntu-latest  # 使用 Ubuntu 環境運行
 
     steps:
-      # 第一步：检出代码
+      # 1. 檢出代碼
       - name: Checkout code
         uses: actions/checkout@v4
 
-      # 第二步：设置 PHP 7.4 环境
+      # 2. 設置 PHP 7.4 環境
       - name: Set up PHP 7.4
         uses: shivammathur/setup-php@v2
         with:
           php-version: '7.4'
 
-      # 第三步：运行 epgkai.php，生成 epgkai.xml
+      # 3. 生成 epgkai.xml
       - name: Run epgkai.php
         run: |
-          php epgkai.php  # 运行生成 epgkai.xml 的 PHP 脚本
+          php epgkai.php
 
-      # 第四步：上传文件到 epgtest2 仓库
+      # 4. 上傳文件到當前倉庫
       - name: Upload epgkai.xml to tvepg
         uses: actions/upload-artifact@v4
         with:
           name: epgkai.xml
           path: epgkai.xml
 
-      # 第五步：下载到目标仓库并覆盖文件
+      # 5. 檢出目標倉庫 tvepg
       - name: Checkout tvepg repository
         uses: actions/checkout@v4
         with:
-          repository: zzq12345/tvepg  # 目标仓库
+          repository: zzq12345/tvepg  # 目標倉庫
           token: ${{ secrets.GITHUB_TOKEN }}
-          path: tvepg  # 克隆到本地的路径
+          path: tvepg  # 克隆到本地的路徑
 
-      # 第六步：检查 epgkai.xml 是否存在并被修改
+      # 6. 確保 epgkai.xml 存在並比較是否有變更
       - name: Check if epgkai.xml exists and is modified
         run: |
           if [ ! -f epgkai.xml ]; then
             echo "epgkai.xml does not exist."
             exit 1
           fi
-          # 对比文件差异
-          diff tvepg/epgkai.xml epgkai.xml || echo "File is modified"
+          if cmp -s tvepg/epgkai.xml epgkai.xml; then
+            echo "No changes detected in epgkai.xml. Skipping commit."
+            exit 0
+          else
+            echo "File is modified, proceeding with update."
+          fi
 
-      # 第七步：将 epgkai.xml 覆盖上传到 epgtest2
+      # 7. 覆蓋並推送更新
       - name: Replace epgkai.xml and push
         run: |
-          mv epgkai.xml tvepg/epgkai.xml  # 覆盖目标文件
+          mv epgkai.xml tvepg/epgkai.xml  # 覆蓋文件
           cd tvepg
           git config --local user.name "github-actions[bot]"
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           
-          # 检查文件是否真的有更改
-          if git diff --exit-code epgkai.xml; then
-            echo "No changes to commit"
-            exit 0  # 如果没有修改则跳过后续步骤
-          fi
-
           git add epgkai.xml
-          git pull origin main || echo "No changes to pull" 
+          git pull --rebase origin main || echo "No remote changes to pull" 
+
           now_time=$(TZ='Asia/Shanghai' date '+%Y-%m-%d %H:%M:%S')
-          git commit -m "更新时间：$now_time"
-          git commit -m "Update epgkai.xml" --allow-empty  # 如果没有修改也强制提交
-          git push origin main || echo "推送到GitHub失败"
+          git commit -m "更新時間：$now_time"
+          git push origin main || echo "推送到GitHub失敗"
