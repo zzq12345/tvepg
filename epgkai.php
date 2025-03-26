@@ -2,7 +2,7 @@
 header( 'Content-Type: text/plain; charset=UTF-8');
 ini_set("max_execution_time", "30000000");
 ini_set('date.timezone','Asia/Shanghai');
-$fp="epg4gtv2.xml";//压缩版本的扩展名后加.gz
+$fp="epgkai.xml";//压缩版本的扩展名后加.gz
 $dt1=date('Ymd');//獲取當前日期
 $dt2=date('Ymd',time()+24*3600);//第二天日期
 $dt21=date('Ymd',time()+48*3600);//第三天日期
@@ -94,6 +94,8 @@ $chn.="<programme start=\"".str_replace(' ','',str_replace('-','',str_replace(':
     }
 }
 }
-echo $chn;
+$chn.="</tv>\n";
+//写入文件。这里一次性写入，可以自己分次写入操作
+file_put_contents($fp, $chn);
 
 ?>
