@@ -13,6 +13,8 @@ jobs:
       # 1. 檢出代碼
       - name: Checkout code
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # 拉取完整提交歷史，避免 Git 提交問題
 
       # 2. 設置 PHP 7.4 環境
       - name: Set up PHP 7.4
@@ -25,22 +27,36 @@ jobs:
         run: |
           php epgkai.php
 
-      # 4. 上傳文件到當前倉庫
-      - name: Upload epgkai.xml to tvepg
+      # 4. 提交到当前仓库
+      - name: Commit epgkai.xml to current repository
+        run: |
+          if [ -f epgkai.xml ]; then
+            git config --local user.name "github-actions[bot]"
+            git config --local user.email "github-actions[bot]@users.noreply.github.com"
+            git add epgkai.xml
+            git commit -m "Update epgkai.xml: $(TZ='Asia/Shanghai' date '+%Y-%m-%d %H:%M:%S')" || echo "No changes to commit."
+            git push origin main || echo "推送到当前仓库失败"
+          else
+            echo "epgkai.xml does not exist. Skipping commit."
+          fi
+
+      # 5. 上傳文件到 GitHub Actions 工件（可选）
+      - name: Upload epgkai.xml as artifact
         uses: actions/upload-artifact@v4
         with:
           name: epgkai.xml
           path: epgkai.xml
+          if-no-files-found: error  # 若文件不存在则报错
 
-      # 5. 檢出目標倉庫 tvepg
+      # 6. 檢出目標倉庫 tvepg
       - name: Checkout tvepg repository
         uses: actions/checkout@v4
         with:
-          repository: zzq12345/tvepg  # 目標倉庫
+          repository: zzq12345/tvepg  # 目标仓库
           token: ${{ secrets.GITHUB_TOKEN }}
-          path: tvepg  # 克隆到本地的路徑
+          path: tvepg  # 克隆到本地的路径
 
-      # 6. 確保 epgkai.xml 存在並比較是否有變更
+      # 7. 確保 epgkai.xml 存在並比較是否有變更
       - name: Check if epgkai.xml exists and is modified
         run: |
           if [ ! -f epgkai.xml ]; then
@@ -49,14 +65,14 @@ jobs:
           fi
           # 使用 diff 命令严格比较文件内容
           if diff -q epgkai.xml tvepg/epgkai.xml >/dev/null; then
-            echo "No changes detected in epgkai.xml. Skipping commit."
+            echo "No changes detected in epgkai.xml. Skipping commit to tvepg."
             exit 0
           else
-            echo "File is modified, proceeding with update."
+            echo "File is modified, proceeding with update to tvepg."
           fi
 
-      # 7. 覆蓋並推送更新
-      - name: Replace epgkai.xml and push
+      # 8. 覆蓋並推送更新到 tvepg 仓库
+      - name: Replace epgkai.xml and push to tvepg
         run: |
           # 调试：检查源文件是否存在
           ls -l epgkai.xml
@@ -77,7 +93,7 @@ jobs:
           
           # 检查是否有变更需要提交
           if git diff --cached --quiet; then
-            echo "No changes to commit."
+            echo "No changes to commit in tvepg."
             exit 0
           fi
           
@@ -87,6 +103,6 @@ jobs:
           
           # 推送更新并处理可能的错误
           if ! git push origin main; then
-            echo "推送到GitHub失敗"
+            echo "推送到 tvepg 失敗"
             exit 1
           fi
