@@ -47,7 +47,8 @@ jobs:
             echo "epgkai.xml does not exist."
             exit 1
           fi
-          if cmp -s tvepg/epgkai.xml epgkai.xml; then
+          # 使用 diff 命令严格比较文件内容
+          if diff -q epgkai.xml tvepg/epgkai.xml >/dev/null; then
             echo "No changes detected in epgkai.xml. Skipping commit."
             exit 0
           else
@@ -57,14 +58,35 @@ jobs:
       # 7. 覆蓋並推送更新
       - name: Replace epgkai.xml and push
         run: |
-          mv epgkai.xml tvepg/epgkai.xml  # 覆蓋文件
+          # 调试：检查源文件是否存在
+          ls -l epgkai.xml
+          # 移动文件并验证目标路径
+          mv epgkai.xml tvepg/epgkai.xml
+          ls -l tvepg/epgkai.xml
+          
           cd tvepg
+          # 配置 Git 用户信息
           git config --local user.name "github-actions[bot]"
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           
-          git add epgkai.xml
-          git pull --rebase origin main || echo "No remote changes to pull" 
-
+          # 强制添加文件（处理可能的权限问题）
+          git add -f epgkai.xml
+          
+          # 拉取最新代码并处理变基冲突
+          git pull --rebase origin main || echo "No remote changes to pull"
+          
+          # 检查是否有变更需要提交
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+          
+          # 提交更新并添加时间戳
           now_time=$(TZ='Asia/Shanghai' date '+%Y-%m-%d %H:%M:%S')
           git commit -m "更新時間：$now_time"
-          git push origin main || echo "推送到GitHub失敗"
+          
+          # 推送更新并处理可能的错误
+          if ! git push origin main; then
+            echo "推送到GitHub失敗"
+            exit 1
+          fi
