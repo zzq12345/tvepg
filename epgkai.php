@@ -42,7 +42,6 @@ function replace_unicode_escape_sequence($match)
 $chn="<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<!DOCTYPE tv SYSTEM \"http://api.torrent-tv.ru/xmltv.dtd\">\n<tv generator-info-name=\"秋哥綜合\" generator-info-url=\"https://www.tdm.com.mo/c_tv/?ch=Satellite\">\n";
 
 
-
 $id30=101951;
 $cid30=array(
 
