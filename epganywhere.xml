@@ -2460,6 +2460,10 @@
 <title lang="zh">“和美红城 千姿百色”2025年“三月三”各族群众大联欢活动融媒体直播</title>
 <desc lang="zh">“和美红城 千姿百色”2025年“三月三”各族群众大联欢活动融媒体直播 </desc>
 </programme>
+<programme start="20250329120000 +0800" stop="20250329123000 +0800" channel="看看新聞直播">
+<title lang="zh">中国考古报道</title>
+<desc lang="zh">中国考古报道 </desc>
+</programme>
 <programme start="20250329140000 +0800" stop="20250329143000 +0800" channel="看看新聞直播">
 <title lang="zh">SEA-H！新经济视野下的城市更新——活力焕新，创引未来</title>
 <desc lang="zh">SEA-H！新经济视野下的城市更新——活力焕新，创引未来 </desc>
@@ -3119,15 +3123,15 @@
 <desc lang="zh"> </desc>
 </programme>
 <programme start="20250330141830 +0800" stop="20250330150855 +0800" channel="cctv1">
-<title lang="zh">画眉23/38</title>
+<title lang="zh">画眉第23集</title>
 <desc lang="zh"> </desc>
 </programme>
 <programme start="20250330150855 +0800" stop="20250330155710 +0800" channel="cctv1">
-<title lang="zh">画眉24/38</title>
+<title lang="zh">画眉第24集</title>
 <desc lang="zh"> </desc>
 </programme>
 <programme start="20250330155710 +0800" stop="20250330164625 +0800" channel="cctv1">
-<title lang="zh">画眉25/38</title>
+<title lang="zh">画眉第25集</title>
 <desc lang="zh"> </desc>
 </programme>
 <programme start="20250330164625 +0800" stop="20250330171710 +0800" channel="cctv1">
@@ -3150,11 +3154,11 @@
 <title lang="zh">焦点访谈</title>
 <desc lang="zh"> </desc>
 </programme>
-<programme start="20250330200600 +0800" stop="20250330215000 +0800" channel="cctv1">
+<programme start="20250330200600 +0800" stop="20250330214955 +0800" channel="cctv1">
 <title lang="zh">三餐四季(第二季)-6(江西篇)</title>
 <desc lang="zh"> </desc>
 </programme>
-<programme start="20250330215000 +0800" stop="20250330220000 +0800" channel="cctv1">
+<programme start="20250330214955 +0800" stop="20250330220000 +0800" channel="cctv1">
 <title lang="zh">山水间的家-主题曲</title>
 <desc lang="zh"> </desc>
 </programme>
@@ -37853,18 +37857,6 @@
 <channel id="五星体育"><display-name lang="zh">五星体育</display-name></channel>
 <channel id="上海教育"><display-name lang="zh">上海教育</display-name></channel>
 <channel id="法治天地"><display-name lang="zh">法治天地</display-name></channel>
-<programme start="20250326063000 +0800" stop="20250326070000 +0800" channel="第一财经">
-<title lang="zh">＜财经视频集萃－投资有看头＞</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20250326070000 +0800" stop="20250326080000 +0800" channel="第一财经">
-<title lang="zh">今日股市</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20250326080000 +0800" stop="20250326090000 +0800" channel="第一财经">
-<title lang="zh">直播：财经早班车</title>
-<desc lang="zh"> </desc>
-</programme>
 <programme start="20250326090000 +0800" stop="20250326092700 +0800" channel="第一财经">
 <title lang="zh">直播：市场零距离</title>
 <desc lang="zh"> </desc>
@@ -38499,14 +38491,6 @@
 </programme>
 <programme start="20250330231500 +0800" stop="20250331000000 +0800" channel="第一财经">
 <title lang="zh">第六交易日</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20250326062800 +0800" stop="20250326070000 +0800" channel="新闻综合">
-<title lang="zh">中国考古报道（52）</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20250326070000 +0800" stop="20250326085500 +0800" channel="新闻综合">
-<title lang="zh">上海早晨</title>
 <desc lang="zh"> </desc>
 </programme>
 <programme start="20250326085500 +0800" stop="20250326090500 +0800" channel="新闻综合">
@@ -39183,14 +39167,6 @@
 </programme>
 <programme start="20250330232500 +0800" stop="20250331000000 +0800" channel="新闻综合">
 <title lang="zh">54集连续剧：咱家（10）</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20250326065700 +0800" stop="20250326072100 +0800" channel="都市频道">
-<title lang="zh">人气美食（4826）</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20250326072100 +0800" stop="20250326080500 +0800" channel="都市频道">
-<title lang="zh">X诊所（2172）　古老又致命的传染病</title>
 <desc lang="zh"> </desc>
 </programme>
 <programme start="20250326080500 +0800" stop="20250326081100 +0800" channel="都市频道">
@@ -40099,34 +40075,6 @@
 </programme>
 <programme start="20250330234000 +0800" stop="20250331000000 +0800" channel="都市频道">
 <title lang="zh">人气美食（4826）</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20250326062000 +0800" stop="20250326063300 +0800" channel="金色学堂">
-<title lang="zh">金色公开课、故事课：李亚非</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20250326063300 +0800" stop="20250326064000 +0800" channel="金色学堂">
-<title lang="zh">烹饪：香蕉酥排</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20250326064000 +0800" stop="20250326065900 +0800" channel="金色学堂">
-<title lang="zh">金色盛会：徐德兴＜我和我的祖国＞</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20250326065900 +0800" stop="20250326071900 +0800" channel="金色学堂">
-<title lang="zh">生活好技艺：咖啡制作四要素</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20250326071900 +0800" stop="20250326073900 +0800" channel="金色学堂">
-<title lang="zh">花样新时尚：茶与养生（1）</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20250326074000 +0800" stop="20250326080000 +0800" channel="金色学堂">
-<title lang="zh">乐学书画：绘画（7）</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20250326080000 +0800" stop="20250326085000 +0800" channel="金色学堂">
-<title lang="zh">金色营养课（3）</title>
 <desc lang="zh"> </desc>
 </programme>
 <programme start="20250326085000 +0800" stop="20250326085700 +0800" channel="金色学堂">
@@ -42217,18 +42165,6 @@
 <title lang="zh">海洋风光</title>
 <desc lang="zh"> </desc>
 </programme>
-<programme start="20250326060400 +0800" stop="20250326063000 +0800" channel="五星体育">
-<title lang="zh">2024极速终点线13</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20250326063000 +0800" stop="20250326072800 +0800" channel="五星体育">
-<title lang="zh">2025上海虚拟体育公开赛：高山滑雪精英赛</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20250326072800 +0800" stop="20250326082500 +0800" channel="五星体育">
-<title lang="zh">2024－25FIH女子曲棍球世界超级联赛（中国站）第三天：比利时－英格兰</title>
-<desc lang="zh"> </desc>
-</programme>
 <programme start="20250326082500 +0800" stop="20250326095500 +0800" channel="五星体育">
 <title lang="zh">2024－2025赛季国际篮联篮球冠军联赛　佩里斯特里－德索纳</title>
 <desc lang="zh"> </desc>
@@ -42897,10 +42833,6 @@
 <title lang="zh">2024－25赛季CBA联赛第11轮（补赛）：上海久事－新疆伊力特</title>
 <desc lang="zh"> </desc>
 </programme>
-<programme start="20250326074200 +0800" stop="20250326080600 +0800" channel="上海教育">
-<title lang="zh">送你一桌春（5）</title>
-<desc lang="zh"> </desc>
-</programme>
 <programme start="20250326080600 +0800" stop="20250326084800 +0800" channel="上海教育">
 <title lang="zh">仁心说医事（110）</title>
 <desc lang="zh"> </desc>
@@ -43409,10 +43341,6 @@
 <title lang="zh">送你一桌鲜（2）</title>
 <desc lang="zh"> </desc>
 </programme>
-<programme start="20250329064100 +0800" stop="20250329070000 +0800" channel="上海教育">
-<title lang="zh">祝您晚安</title>
-<desc lang="zh"> </desc>
-</programme>
 <programme start="20250329070000 +0800" stop="20250329074200 +0800" channel="上海教育">
 <title lang="zh">五光食色（393）</title>
 <desc lang="zh"> </desc>
@@ -43763,22 +43691,6 @@
 </programme>
 <programme start="20250330234300 +0800" stop="20250331000000 +0800" channel="上海教育">
 <title lang="zh">紫禁城（4）</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20250326063000 +0800" stop="20250326070000 +0800" channel="法治天地">
-<title lang="zh">和大律师面对面（2854）：洁蕙</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20250326070000 +0800" stop="20250326072500 +0800" channel="法治天地">
-<title lang="zh">法治新闻</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20250326072500 +0800" stop="20250326073500 +0800" channel="法治天地">
-<title lang="zh">庭前庭后Ⅲ（14）</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20250326073500 +0800" stop="20250326080500 +0800" channel="法治天地">
-<title lang="zh">案件聚焦：疯狂租车的秘密</title>
 <desc lang="zh"> </desc>
 </programme>
 <programme start="20250326080500 +0800" stop="20250326083000 +0800" channel="法治天地">
@@ -44682,11 +44594,11 @@
 <title lang="zh">【非賽事直播時段】 英超：全台獨家 每輪精選直播 </title>
 <desc lang="zh"> </desc>
 </programme>
-<programme start="20250329040000 +0800" stop="20250329070000 +0800" channel="elta體育max 1">
+<programme start="20250329040000 +0800" stop="20250329063400 +0800" channel="elta體育max 1">
 <title lang="zh">MLB 洛磯 VS 光芒 例行賽 3\/29 (原音) LIVE</title>
 <desc lang="zh"> </desc>
 </programme>
-<programme start="20250329070000 +0800" stop="20250329080000 +0800" channel="elta體育max 1">
+<programme start="20250329063400 +0800" stop="20250329080000 +0800" channel="elta體育max 1">
 <title lang="zh">【非賽事直播時段】 英超：全台獨家 每輪精選直播 </title>
 <desc lang="zh"> </desc>
 </programme>
