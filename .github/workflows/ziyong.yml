@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest  # 使用 Ubuntu 环境运行
 
     steps:
-      # 第一步：检出代码
+      # 第一步：检出代码（当前仓库）
       - name: Checkout code
         uses: actions/checkout@v4
 
@@ -24,50 +24,56 @@ jobs:
       # 第三步：运行 epgziyong.php，生成 epgziyong.xml
       - name: Run epgziyong.php
         run: |
-          php epgziyong.php  # 运行生成 epgziyong.xml 的 PHP 脚本
+          php epgziyong.php  # 生成 epgziyong.xml
 
-      # 第四步：上传文件到 epgtest2 仓库
-      - name: Upload epgziyong.xml to tvepg
-        uses: actions/upload-artifact@v4
-        with:
-          name: epgziyong.xml
-          path: epgziyong.xml
-
-      # 第五步：下载到目标仓库并覆盖文件
+      # 第四步：检出目标仓库（tvepg）
       - name: Checkout tvepg repository
         uses: actions/checkout@v4
         with:
           repository: zzq12345/tvepg  # 目标仓库
           token: ${{ secrets.GITHUB_TOKEN }}
-          path: tvepg  # 克隆到本地的路径
+          path: tvepg  # 克隆到本地的路径（路径为 tvepg 文件夹）
 
-      # 第六步：检查 epgziyong.xml 是否存在并被修改
+      # 第五步：检查生成的 epgziyong.xml 是否存在并对比差异
       - name: Check if epgziyong.xml exists and is modified
         run: |
+          # 检查当前生成的 epgziyong.xml 是否存在
           if [ ! -f epgziyong.xml ]; then
             echo "epgziyong.xml does not exist."
             exit 1
           fi
-          # 对比文件差异
+
+          # 对比新生成的文件与目标仓库中的文件差异
+          # 如果差异存在，继续后续步骤；否则跳过提交
           diff tvepg/epgziyong.xml epgziyong.xml || echo "File is modified"
 
-      # 第七步：将 epgziyong.xml 覆盖上传到 epgtest2
+      # 第六步：覆盖目标仓库的文件并提交
       - name: Replace epgziyong.xml and push
         run: |
-          mv epgziyong.xml tvepg/epgziyong.xml  # 覆盖目标文件
+          # 将新生成的文件覆盖到目标仓库目录
+          mv epgziyong.xml tvepg/epgziyong.xml
+
+          # 进入目标仓库目录
           cd tvepg
+
+          # 配置 Git 身份
           git config --local user.name "github-actions[bot]"
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          
-          # 检查文件是否真的有更改
+
+          # 检查文件是否有变化
           if git diff --exit-code epgziyong.xml; then
             echo "No changes to commit"
-            exit 0  # 如果没有修改则跳过后续步骤
+            exit 0  # 如果没有修改则跳过提交
           fi
 
-          git add epgziyong.xml
-          git pull origin main || echo "No changes to pull" 
+          # 拉取最新代码（避免冲突）
+          git pull origin main --rebase || echo "拉取失败，可能没有新变化"
+
+          # 提交更改
           now_time=$(TZ='Asia/Shanghai' date '+%Y-%m-%d %H:%M:%S')
+          git add epgziyong.xml
           git commit -m "更新时间：$now_time"
-          git commit -m "Update epgziyong.xml" --allow-empty  # 如果没有修改也强制提交
+          git commit -m "Update epgziyong.xml" --allow-empty  # 强制提交（即使无变化）
+
+          # 推送到目标仓库
           git push origin main || echo "推送到GitHub失败"
