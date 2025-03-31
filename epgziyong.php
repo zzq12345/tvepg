@@ -1,7 +1,7 @@
 <?php
 
 // 定义要合并的XML文件列表
-$xmlFiles = [  './epganywhere.xml', './epgmytvsuper.xml','./epg4gtv2.xml','./epgpixman.xml','./epgshanghai.xml','./epgastro.xml','./feiyang.xml','./epgunifi.xml','./epgkai.xml']; // 替换为实际的文件路径
+$xmlFiles = [  './epgmytvsuper.xml','./epg4gtv2.xml','./epgpixman.xml','./epgshanghai.xml','./epgastro.xml','./feiyang.xml','./epgunifi.xml','./epgkai.xml','./epganywhere.xml']; // 替换为实际的文件路径
 
 // 创建一个新的SimpleXMLElement对象作为根元素
 $mergedXml = new SimpleXMLElement('<?xml version="1.0" encoding="UTF-8"?><tv></tv>');
