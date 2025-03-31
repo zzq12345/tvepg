@@ -7,7 +7,7 @@ $xmlFiles = [
     './epgpixman.xml',
     './epgshanghai.xml',
     './epgastro.xml',
-    'https://epg.v1.mk/fy.xml',
+    
     './epgunifi.xml',
     './epgkai.xml'
 ];
