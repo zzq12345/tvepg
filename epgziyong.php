@@ -7,7 +7,6 @@ $xmlFiles = [
     './epgpixman.xml',
     './epgshanghai.xml',
     './epgastro.xml',
-    
     './epgunifi.xml',
     './epgkai.xml'
 ];
