@@ -77,7 +77,7 @@ jobs:
           # 调试：检查源文件是否存在
           ls -l epgziyong.xml
           # 移动文件并验证目标路径
-          mv epgkai.xml tvepg/epgziyong.xml
+          mv epgziyong.xml tvepg/epgziyong.xml
           ls -l tvepg/epgziyong.xml
           
           cd tvepg
