@@ -40,14 +40,7 @@ jobs:
             echo "epgziyong.xml does not exist. Skipping commit."
           fi
 
-      # 5. 上傳文件到 GitHub Actions 工件（可选）
-      - name: Upload epgziyong.xml as artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: epgziyong.xml
-          path: epgziyong.xml
-          if-no-files-found: error  # 若文件不存在则报错
-
+      
       # 6. 檢出目標倉庫 tvepg
       - name: Checkout tvepg repository
         uses: actions/checkout@v4
