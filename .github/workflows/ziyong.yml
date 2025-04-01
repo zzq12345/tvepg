@@ -2,57 +2,66 @@ name: epgziyong
 
 on:
   schedule:
-    - cron: '11 */2 * * *'  # 每小時的第 1 分鐘執行一次
-  workflow_dispatch:  # 允許手動觸發
+    - cron: '1 * * * *'
+  workflow_dispatch:
 
 jobs:
   generate_and_upload:
-    runs-on: ubuntu-latest  # 使用 Ubuntu 環境運行
+    runs-on: ubuntu-latest
 
     steps:
-      # 1. 檢出代碼
+      # 第一步：检出当前仓库
       - name: Checkout code
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0  # 拉取完整提交歷史，避免 Git 提交問題
 
-      # 2. 設置 PHP 7.4 環境
+      # 第二步：设置 PHP 环境
       - name: Set up PHP 7.4
         uses: shivammathur/setup-php@v2
         with:
           php-version: '7.4'
 
-      # 3. 生成 epgkai.xml
+      # 第三步：生成文件
       - name: Run epgziyong.php
-        run: |
-          php epgziyong.php
+        run: php epgziyong.php
 
-      - name: Commit and push changes
-        run: |
-          git config --local user.name "github-actions[bot]"
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+      # 第四步：检出目标仓库
+      - name: Checkout target repo
+        uses: actions/checkout@v4
+        with:
+          repository: zzq12345/tvepg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          path: tvepg
 
-          files_to_add=""
-          for var in $(env | grep 'FILENAME_' | cut -d '=' -f 2); do
-            if [ -f "$var" ]; then
-              files_to_add="$files_to_add $var"
-            fi
-          done
-          
-          if [ -n "$files_to_add" ]; then
-            git add $files_to_add
+      # 第五步：强制覆盖文件（关键修复）
+      - name: Overwrite target file
+        run: |
+          # 确保覆盖前文件存在
+          ls -l egziyong.xml
+          # 强制复制并保留权限
+          cp -f epgziyong.xml tvepg/epgziyong.xml
+          # 验证覆盖结果
+          ls -l tvepg/epgziyong.xml
+
+      # 第六步：提交变更（优化路径处理）
+      - name: Commit and push
+        working-directory: tvepg  # 使用官方推荐方式指定路径
+        run: |
+          # 显式检查文件状态
+          git status
+          git diff
+
+          # 配置 Git 身份
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          # 添加所有变化（适应文件名大小写变化）
+          git add --all
+
+          # 检测是否有可提交内容
+          if [ -n "$(git status --porcelain)" ]; then
             now_time=$(TZ='Asia/Shanghai' date '+%Y-%m-%d %H:%M:%S')
-            git commit -m "更新时间：$now_time"
-            git push origin main || echo "推送到GitHub失败"
+            git commit -m "自动更新时间：$now_time"
+            git push origin main
           else
-            echo "没有文件可提交"
-          fi          
-          # 提交更新并添加时间戳
-          now_time=$(TZ='Asia/Shanghai' date '+%Y-%m-%d %H:%M:%S')
-          git commit -m "更新時間：$now_time"
-          
-          # 推送更新并处理可能的错误
-          if ! git push origin main; then
-            echo "推送到 tvepg 失敗"
-            exit 1
+            echo "无实际文件变更，跳过提交"
           fi
