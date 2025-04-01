@@ -2,7 +2,7 @@ name: epgziyong
 
 on:
   schedule:
-    - cron: '1 */4 * * *'  # 每小時的第 1 分鐘執行一次
+    - cron: '11 */2 * * *'  # 每小時的第 1 分鐘執行一次
   workflow_dispatch:  # 允許手動觸發
 
 jobs:
