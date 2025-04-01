@@ -1,0 +1,103 @@
+name: epgziyong
+
+on:
+  schedule:
+    - cron: '11 */2 * * *'  # 每小时的第11分钟执行一次
+  workflow_dispatch:  # 允许手动触发
+
+jobs:
+  generate_and_upload:
+    runs-on: ubuntu-latest  # 使用 Ubuntu 环境运行
+
+    steps:
+      # 1. 检出代码
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # 拉取完整提交历史
+
+      # 2. 设置 PHP 7.4 环境
+      - name: Set up PHP 7.4
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '7.4'
+
+      # 3. 生成 epgziyong.xml
+      - name: Run epgziyong.php
+        run: php epgziyong.php
+
+      # 4. 提交到当前仓库
+      - name: Commit epgziyong.xml to current repository
+        run: |
+          if [ -f epgziyong.xml ]; then
+            git config --local user.name "github-actions[bot]"
+            git config --local user.email "github-actions[bot]@users.noreply.github.com"
+            git add epgziyong.xml
+            git commit -m "Update epgziyong.xml: $(TZ='Asia/Shanghai' date '+%Y-%m-%d %H:%M:%S')" || echo "No changes to commit."
+            git push origin main || echo "推送到当前仓库失败"
+          else
+            echo "epgziyong.xml does not exist. Skipping commit."
+          fi
+
+      # 5. 上传文件到 GitHub Actions 工件（可选）
+      - name: Upload epgziyong.xml as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: epgziyong.xml
+          path: epgziyong.xml
+          if-no-files-found: error  # 若文件不存在则报错
+
+      # 6. 检出目标仓库 tvepg
+      - name: Checkout tvepg repository
+        uses: actions/checkout@v4
+        with:
+          repository: zzq12345/tvepg  # 目标仓库
+          token: ${{ secrets.GITHUB_TOKEN }}
+          path: tvepg  # 克隆到本地的路径
+          fetch-depth: 0  # 拉取完整提交历史
+
+      # 7. 拉取 tvepg 仓库的最新更改
+      - name: Pull latest changes from tvepg
+        run: |
+          cd tvepg
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git pull origin main || echo "No remote changes to pull"
+
+      # 8. 确认 epgziyong.xml 是否有变更
+      - name: Check if epgziyong.xml exists and is modified
+        run: |
+          if [ ! -f epgziyong.xml ]; then
+            echo "epgziyong.xml does not exist."
+            exit 1
+          fi
+          if diff -q epgziyong.xml tvepg/epgziyong.xml >/dev/null; then
+            echo "No changes detected in epgziyong.xml. Skipping commit to tvepg."
+            exit 0
+          else
+            echo "File is modified, proceeding with update to tvepg."
+          fi
+
+      # 9. 覆盖并推送更新到 tvepg 仓库
+      - name: Replace epgziyong.xml and push to tvepg
+        run: |
+          mv epgziyong.xml tvepg/epgziyong.xml
+
+          cd tvepg
+          git add epgziyong.xml
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit in tvepg."
+            exit 0
+          fi
+
+          now_time=$(TZ='Asia/Shanghai' date '+%Y-%m-%d %H:%M:%S')
+          git commit -m "更新時間：$now_time"
+
+          git push origin main || echo "推送到 tvepg 失敗"
+          if [ $? -ne 0 ]; then
+            echo "推送到 tvepg 失敗，尝试合并远程更改后重试。"
+            git pull origin main --rebase || echo "合并远程更改失败"
+            git push origin main || echo "再次推送到 tvepg 失敗"
+          fi
+ 
