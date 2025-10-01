@@ -49,7 +49,7 @@ jobs:
           ls -l tvepg/epghebeiiptv1.xml
           
           # 确保覆盖前文件存在
-          ls -l epgyidong.xmll
+          ls -l epgyidong.xml
           # 强制复制并保留权限
           cp -f epgyidong.xml tvepg/epgyidong.xml
           # 验证覆盖结果
