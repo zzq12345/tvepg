@@ -40,7 +40,7 @@ jobs:
           # 强制复制并保留权限
           cp -f epgnew51zmt.xml tvepg/epgnew51zmt.xml
           # 验证覆盖结果
-          ls -l tvepg/epg51zmt.xml
+          ls -l tvepg/epgnew51zmt.xml
         
       # 第六步：提交变更（优化路径处理）
       - name: Commit and push
