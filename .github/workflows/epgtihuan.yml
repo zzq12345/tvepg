@@ -32,7 +32,31 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           path: tvepg
 
-    
+     # 第五步：强制覆盖文件（关键修复）
+      - name: Overwrite target file
+        run: |
+          # 确保覆盖前文件存在
+          ls -l epgshanghai.xml
+          # 强制复制并保留权限
+          cp -f epgshanghai.xml tvepg/epgshanghai.xml
+          # 验证覆盖结果
+          ls -l tvepg/epgshanghai.xml
+          # 确保覆盖前文件存在
+          ls -l epghebeiiptv1.xml
+          # 强制复制并保留权限
+          cp -f epghebeiiptv1.xml tvepg/epghebeiiptv1.xml
+          # 验证覆盖结果
+          ls -l tvepg/epghebeiiptv1.xml
+          
+          # 确保覆盖前文件存在
+          ls -l epgyidong.xmll
+          # 强制复制并保留权限
+          cp -f epgyidong.xml tvepg/epgyidong.xml
+          # 验证覆盖结果
+          ls -l tvepg/epgyidong.xml
+
+
+          
         
       # 第六步：提交变更（优化路径处理）
       - name: Commit and push
