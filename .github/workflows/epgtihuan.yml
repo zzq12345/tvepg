@@ -54,7 +54,13 @@ jobs:
           cp -f epgyidong.xml tvepg/epgyidong.xml
           # 验证覆盖结果
           ls -l tvepg/epgyidong.xml
-
+            
+          # 确保覆盖前文件存在
+          ls -l epg51zmt.xml
+          # 强制复制并保留权限
+          cp -f epg51zmt.xml tvepg/epg51zmt.xml
+          # 验证覆盖结果
+          ls -l tvepg/epg51zmt.xml
 
           
         
