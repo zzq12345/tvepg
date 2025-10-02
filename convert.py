@@ -15,6 +15,6 @@ def convert_epg(xml_file):
 
 if __name__ == '__main__':
     if len(sys.argv) != 2:
-        print("Usage: python convert.py epg.xml")
+        print("Usage: python convert.py epgguangdong.xml")
         sys.exit(1)
     convert_epg(sys.argv[1])
