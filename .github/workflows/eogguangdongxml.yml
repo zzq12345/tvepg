@@ -1,5 +1,4 @@
-name: Download and Convert EPG
-
+name: convert guangdong 
 on:
   schedule:
     - cron: "0 */2 * * *"  # 每两小时运行一次
