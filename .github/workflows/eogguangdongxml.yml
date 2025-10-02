@@ -23,15 +23,15 @@ jobs:
 
       - name: Download XML.GZ file
         run: |
-          curl -L -o epg.xml.gz https://raw.githubusercontent.com/litiande03/epg/refs/heads/master/pl.xml.gz
+          curl -L -o epguangdong.xml.gz https://raw.githubusercontent.com/litiande03/epg/refs/heads/master/pl.xml.gz
 
       - name: Decompress XML.GZ
         run: |
-          gunzip -f epg.xml.gz
+          gunzip -f epgguangdong.xml.gz
 
       - name: Run Conversion Script
         run: |
-          python convert.py epg.xml
+          python convert.py epgguangdong.xml
 
       - name: Commit and push changes (optional)
         run: |
