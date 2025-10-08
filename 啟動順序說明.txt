@@ -1,14 +1,14 @@
-1.epg copy
-2.epgkai
-3.epgkai1
-4.convert guangdong
-5.epgnewguangdong
-6.epgtihuan
-7.epgnewhebei
-8.epgnewshanghai
-9.epgziyong
-10.Convert to Traditional Chinese
-11.Convert to Simplified Chinese
+1.epg copy  複製自己專用EPG
+2.epgkai    建立HOY直播xml
+3.epgkai1   建立HOY點播
+4.convert guangdong  複製廣東電信xml
+5.epgnewguangdong    保留廣東電信自己需要電視台
+6.epgtihuan          替換名稱，以電視台名稱
+7.epgnewhebei        提取河北地方台
+8.epgnewshanghai      提取上海地方台
+9.epgziyong           合併所有電視台數據
+10.Convert to Traditional Chinese   將所有電視台轉為繁體，適合港澳台人士
+11.Convert to Simplified Chinese    轉換簡體，適合中國大陸新加坡馬來西亞華人
 
 
 
