@@ -1,0 +1,90 @@
+name: Convert  to Traditional Chinese
+
+on:
+  push:
+    paths:
+      - "epgziyong.xml"            # 只有 epgziyong.xml 改動時才觸發
+
+  schedule:
+    - cron: '27 */1 * * *'          # 每小時的第 2 分鐘執行
+
+  workflow_dispatch:               # 手動觸發支持
+
+jobs:
+  convert:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Install dependencies
+        run: pip install opencc
+
+      - name: Convert epgziyong.xml (Simplified → Traditional) and Compress
+        run: |
+          python - <<'EOF'
+          from opencc import OpenCC
+          import os, gzip
+
+          input_file = "epgziyong.xml"
+          output_file = "twepg.xml"
+          gzip_file = output_file + ".gz"
+
+          if not os.path.exists(input_file):
+              raise FileNotFoundError(f"{input_file} 不存在")
+
+          # 初始化轉換器：簡體轉繁體
+          cc = OpenCC('s2t')
+
+          with open(input_file, "r", encoding="utf-8") as f:
+              text = f.read()
+
+          traditional = cc.convert(text)
+
+          # 寫入繁體文件
+          with open(output_file, "w", encoding="utf-8") as f:
+              f.write(traditional)
+
+          # 生成壓縮文件 twepg.xml.gz
+          with open(output_file, "rb") as f_in, gzip.open(gzip_file, "wb") as f_out:
+              f_out.writelines(f_in)
+
+          print(f"✅ 已生成 {output_file} 和 {gzip_file}")
+          EOF
+
+      - name: Commit and push result
+        run: |
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+
+          changes=0
+
+          if [ -s twepg.xml ]; then
+            git add twepg.xml
+            changes=1
+            echo "✅ 已添加 twepg.xml"
+          else
+            echo "⚠️ 生成失敗：twepg.xml 為空或不存在"
+          fi
+
+          if [ -s twepg.xml.gz ]; then
+            git add twepg.xml.gz
+            changes=1
+            echo "✅ 已添加 twepg.xml.gz"
+          else
+            echo "⚠️ 生成失敗：twepg.xml.gz 為空或不存在"
+          fi
+
+          if [ "$changes" -eq 1 ]; then
+            git commit -m "Auto convert epgziyong.xml from Simplified to Traditional Chinese and compress"
+            git push
+            echo "🚀 變更已成功提交到倉庫"
+          else
+            echo "🛑 無變更可提交"
+          fi

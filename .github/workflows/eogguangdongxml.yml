@@ -1,0 +1,45 @@
+name: convert guangdong 
+on:
+  schedule:
+    - cron: "7 */1 * * *"  # 每两小时运行一次
+  workflow_dispatch:       # 支持手动触发
+
+jobs:
+  download-convert-epg:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout the repo
+        uses: actions/checkout@v3
+
+      - name: Install Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Install requirements (if any)
+        run: |
+          pip install -r requirements.txt || true
+
+      - name: Download XML.GZ file
+        run: |
+          curl -L -o epgguangdong.xml.gz https://raw.githubusercontent.com/litiande03/epg/refs/heads/master/pl.xml.gz
+
+      - name: Decompress XML.GZ
+        run: |
+          gunzip -f epgguangdong.xml.gz
+
+      - name: Run Conversion Script
+        run: |
+          python convert.py epgguangdong.xml
+
+      - name: Commit and push changes (optional)
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add .
+          git commit -m "Auto update EPG and convert XML [$(date)]" || echo "No changes to commit"
+          git push
+        env:
+          # GitHub token for push access
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
