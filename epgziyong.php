@@ -1,7 +1,6 @@
 <?php
 // 定义要合并的XML文件列表
 $xmlFiles = [
-    './epganywhereusa.xml',
     './epgkai.xml',
     './epgkai1.xml',
     './epgmytvsuper.xml',
