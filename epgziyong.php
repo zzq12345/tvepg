@@ -3,11 +3,12 @@
 $xmlFiles = [
     './epgkai.xml',
     './epgkai1.xml',
+    './epgnewshanghai.xml',
     './epgmytvsuper.xml',
     './epganywhere.xml',
     './epg4gtv2.xml', 
    // './epgnew51zmt.xml', 
-    './epgnewshanghai.xml',
+   
     './epgnewhebei.xml',
     './epgnewguangdong.xml',
     './epgyidong.xml'
