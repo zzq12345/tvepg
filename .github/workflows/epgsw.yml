@@ -58,30 +58,35 @@ jobs:
       - name: Commit and push result
         run: |
           git config --local user.name "github-actions[bot]"
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-
-          changes=0
-
-          if [ -s swepg.xml ]; then
-            git add swepg.xml
-            changes=1
-            echo "✅ 已添加 swepg.xml"
-          else
-            echo "⚠️ 生成失敗：swepg.xml 為空或不存在"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com" changes=0
+          if [ -s twepg.xml ]; then
+          git add twepg.xml
+          changes=1
+          echo "✅ 已添加 twepg.xml"
+           else
+           echo "⚠️ 生成失敗：twepg.xml 為空或不存在"
           fi
 
-          if [ -s swepg.xml.gz ]; then
-            git add swepg.xml.gz
-            changes=1
-            echo "✅ 已添加 swepg.xml.gz"
+          if [ -s twepg.xml.gz ]; then
+          git add twepg.xml.gz
+          changes=1
+          echo "✅ 已添加 twepg.xml.gz"
           else
-            echo "⚠️ 生成失敗：swepg.xml.gz 為空或不存在"
+          echo "⚠️ 生成失敗：twepg.xml.gz 為空或不存在"
           fi
 
           if [ "$changes" -eq 1 ]; then
-            git commit -m "Auto convert and compress: Traditional → Simplified Chinese"
-            git push
-            echo "🚀 變更已成功提交到倉庫"
+          git commit -m "Auto convert epgziyong.xml from Simplified to Traditional Chinese and compress"
+  
+          echo "🔄 嘗試同步遠端 main 分支..."
+          git pull --rebase origin main || {
+          echo "⚠️ 自動 rebase 失敗，嘗試強制推送"
+          git push origin main --force
+          exit 0
+          }
+  
+          git push origin main
+          echo "🚀 變更已成功提交到倉庫"
           else
-            echo "🛑 無變更可提交"
+          echo "🛑 無變更可提交"
           fi
