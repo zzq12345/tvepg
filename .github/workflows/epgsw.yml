@@ -48,27 +48,36 @@ jobs:
           echo "✅ 已壓縮為 swepg.xml.gz"
       - name: Commit and push result
         run: |
+         - name: Set Git user
           git config --local user.name "github-actions[bot]"
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          changes=0
-          if [ -s swepg.xml ]; then
-            git add swepg.xml
-            changes=1
-            echo "✅ 已添加 swepg.xml"
-          else
-            echo "⚠️ 生成失敗：swepg.xml 為空或不存在"
+
+      - name: Make changes / auto generate files
+        run: |
+          # 这里放你要做的变更，比如生成 swepg.xml、压缩等等
+          # 假设你有一个脚本 convert-and-compress.sh
+          ./scripts/convert-and-compress.sh
+
+      - name: Commit changes (if any)
+        run: |
+          git add .
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+            exit 0
           fi
-          if [ -s swepg.xml.gz ]; then
-            git add swepg.xml.gz
-            changes=1
-            echo "✅ 已添加 swepg.xml.gz"
-          else
-            echo "⚠️ 生成失敗：swepg.xml.gz 為空或不存在"
-          fi
-          if [ "$changes" -eq 1 ]; then
-            git commit -m "Auto convert and compress: Traditional → Simplified Chinese"
-            git push
-            echo "🚀 變更已成功提交到倉庫"
-          else
-            echo "🛑 無變更可提交"
-          fi
+          git commit -m "Auto convert and compress: Traditional → Simplified Chinese"
+
+      - name: Pull remote and rebase
+        run: |
+          # 先拉最新远端
+          git fetch origin main
+          # 使用 rebase 把你的提交放到远端最新之后
+          git rebase origin/main
+        # 如果 rebase 出错（有冲突），job 会失败，日志里你可以看到冲突文件，需要手动干预
+
+      - name: Push changes
+        run: |
+          git push origin main
+        # 如果你知道没有别人会跟你同时改，或者做好风险评估，也可以改为强制推：
+        # git push origin main --force-with-lease
+
