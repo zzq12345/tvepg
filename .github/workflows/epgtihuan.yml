@@ -2,7 +2,7 @@ name: epgtihuan
 
 on:
   schedule:
-    - cron: '11 */1 * * *'  # 每小时的第 11 分钟执行
+    - cron: '11 */1 * * *'  # 每小时第 11 分钟执行
   workflow_dispatch:
 
 jobs:
@@ -10,21 +10,21 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # 第一步：检出当前仓库
+      # 1️⃣ 检出当前仓库（包含 epggen2.php）
       - name: Checkout code
         uses: actions/checkout@v4
 
-      # 第二步：设置 PHP 环境
+      # 2️⃣ 设置 PHP 环境
       - name: Set up PHP 7.4
         uses: shivammathur/setup-php@v2
         with:
           php-version: '7.4'
 
-      # 第三步：运行 PHP 脚本生成 EPG 文件
+      # 3️⃣ 运行 PHP 脚本生成文件
       - name: Run epggen2.php
         run: php epggen2.php
 
-      # 第四步：检出目标仓库到子目录 tvepg
+      # 4️⃣ 检出目标仓库到子目录 tvepg
       - name: Checkout target repo
         uses: actions/checkout@v4
         with:
@@ -32,22 +32,18 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           path: tvepg
 
-      # 第五步：复制生成的文件到目标仓库
-      - name: Overwrite target files
+      # 5️⃣ 复制生成文件到目标仓库
+      - name: Copy updated files
         run: |
-          echo "📁 当前目录结构:"
-          ls -l
-
-          echo "📦 拷贝文件到 tvepg 仓库"
+          echo "📦 拷贝生成的 XML 文件..."
           cp -f epgshanghai.xml tvepg/epgshanghai.xml
           cp -f epghebeiiptv1.xml tvepg/epghebeiiptv1.xml
           cp -f epgyidong.xml tvepg/epgyidong.xml
-
           echo "✅ 文件已更新到 tvepg 目录:"
           ls -l tvepg
 
-      # 第六步：提交并推送变更
-      - name: Commit and push
+      # 6️⃣ 提交并推送变更
+      - name: Commit and push changes
         run: |
           cd tvepg
           echo "🔍 当前 Git 状态:"
@@ -57,7 +53,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          # 同步远端最新提交并 rebase
+          # 同步远端并 rebase
           git fetch origin main
           if ! git rebase origin/main; then
             echo "⚠️ Rebase 发生冲突，已中止"
@@ -65,10 +61,11 @@ jobs:
             exit 1
           fi
 
-          # 检查是否有变更
-          if [ -n "$(git status --porcelain)" ]; then
+          # ✅ 关键修复点：先 add，再判断是否有变更
+          git add -A
+
+          if [ -n "$(git diff --cached)" ]; then
             now_time=$(TZ='Asia/Shanghai' date '+%Y-%m-%d %H:%M:%S')
-            git add -A
             git commit -m "自动更新时间：$now_time"
             git push origin main --force-with-lease
             echo "✅ 已推送更新：$now_time"
