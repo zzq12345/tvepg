@@ -47,7 +47,7 @@ jobs:
           ls -l tvepg/epgyidong.xml
       # 第六步：在子目录（目标仓库）中提交并推送变更
       - name: Commit and push
-        working-directory: tvepg
+        
         run: |
       # 显示当前状态／差异（方便调试）
          git status
