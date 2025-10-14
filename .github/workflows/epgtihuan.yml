@@ -49,26 +49,26 @@ jobs:
       - name: Commit and push
         working-directory: tvepg
         run: |
-          # 显示当前状态／差异（方便调试）
-          git status
-          git diff
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          # 同步远端最新提交并 rebase
-          git fetch origin main
-          git rebase origin/main || {
-            echo "Rebase 过程中有冲突，退出 workflow"
-            git rebase --abort
-            exit 1
-          }
-          # 添加所有变动
-          git add -a
-          # 只有有变动时才 commit + push
-          if [ -n "$(git status --porcelain)" ]; then
-            now_time=$(TZ='Asia/Shanghai' date '+%Y-%m-%d %H:%M:%S')
-            git commit -m "自动更新时间：$now_time"
-            # 推送时使用 force‑with‑lease 防止误覆盖
-            git push origin main --force-with-lease
-          else
-            echo "无实际文件变更，跳过提交与推送"
-          fi
+      # 显示当前状态／差异（方便调试）
+         git status
+         git diff
+         git config user.name "github-actions[bot]"
+         git config user.email "github-actions[bot]@users.noreply.github.com"
+      # 同步远端最新提交并 rebase
+         git fetch origin main
+         git rebase origin/main || {
+         echo "Rebase 过程中有冲突，退出 workflow"
+         git rebase --abort
+         exit 1
+         }
+      # 添加所有变动
+        git add -A
+      # 只有有变动时才 commit + push
+        if [ -n "$(git status --porcelain)" ]; then
+        now_time=$(TZ='Asia/Shanghai' date '+%Y-%m-%d %H:%M:%S')
+        git commit -m "自动更新时间：$now_time"
+        # 推送时使用 force-with-lease 防止误覆盖
+        git push origin main --force-with-lease
+        else
+        echo "无实际文件变更，跳过提交与推送"
+        fi
