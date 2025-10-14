@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # 1️⃣ 检出当前仓库（包含 epggen2.php）
+      # 1️⃣ 检出源仓库
       - name: Checkout code
         uses: actions/checkout@v4
 
@@ -20,11 +20,11 @@ jobs:
         with:
           php-version: '7.4'
 
-      # 3️⃣ 运行 PHP 脚本生成文件
+      # 3️⃣ 运行 PHP 生成文件
       - name: Run epggen2.php
         run: php epggen2.php
 
-      # 4️⃣ 检出目标仓库到子目录 tvepg
+      # 4️⃣ 检出目标仓库到 tvepg 子目录
       - name: Checkout target repo
         uses: actions/checkout@v4
         with:
@@ -32,28 +32,26 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           path: tvepg
 
-      # 5️⃣ 复制生成文件到目标仓库
-      - name: Copy updated files
+      # 5️⃣ 拷贝生成的文件到目标仓库
+      - name: Copy updated XML files
         run: |
           echo "📦 拷贝生成的 XML 文件..."
           cp -f epgshanghai.xml tvepg/epgshanghai.xml
           cp -f epghebeiiptv1.xml tvepg/epghebeiiptv1.xml
           cp -f epgyidong.xml tvepg/epgyidong.xml
-          echo "✅ 文件已更新到 tvepg 目录:"
-          ls -l tvepg
+          echo "✅ 文件已复制："
+          ls -l tvepg/*.xml
 
-      # 6️⃣ 提交并推送变更
+      # 6️⃣ 提交并推送到目标仓库
       - name: Commit and push changes
         run: |
           cd tvepg
           echo "🔍 当前 Git 状态:"
           git status
-          git diff || true
 
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          # 同步远端并 rebase
           git fetch origin main
           if ! git rebase origin/main; then
             echo "⚠️ Rebase 发生冲突，已中止"
@@ -61,8 +59,10 @@ jobs:
             exit 1
           fi
 
-          # ✅ 关键修复点：先 add，再判断是否有变更
+          # 🔧 关键修复：强制刷新索引、重新检测修改
+          git update-index --refresh
           git add -A
+          git status
 
           if [ -n "$(git diff --cached)" ]; then
             now_time=$(TZ='Asia/Shanghai' date '+%Y-%m-%d %H:%M:%S')
@@ -70,5 +70,5 @@ jobs:
             git push origin main --force-with-lease
             echo "✅ 已推送更新：$now_time"
           else
-            echo "ℹ️ 无文件变化，跳过提交"
+            echo "ℹ️ 未检测到新变更，跳过提交"
           fi
