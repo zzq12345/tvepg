@@ -2,29 +2,29 @@ name: epgtihuan
 
 on:
   schedule:
-    - cron: '11 */1 * * *'   # 每小時第 11 分鐘執行
-  workflow_dispatch:           # 支援手動觸發
+    - cron: '11 */1 * * *'
+  workflow_dispatch:
 
 jobs:
   generate_and_upload:
     runs-on: ubuntu-latest
 
     steps:
-      # 第一步：檢出當前倉庫（生成腳本所在倉庫）
-      - name: Checkout source repo
+      # 第一步：检出当前仓库（生成脚本所在仓库）
+      - name: Checkout code
         uses: actions/checkout@v4
 
-      # 第二步：設定 PHP 環境
+      # 第二步：设置 PHP 环境
       - name: Set up PHP 7.4
         uses: shivammathur/setup-php@v2
         with:
           php-version: '7.4'
 
-      # 第三步：執行生成腳本
+      # 第三步：生成文件（假设在当前工作区执行生成脚本）
       - name: Run epggen2.php
         run: php epggen2.php
 
-      # 第四步：檢出目標倉庫到子目錄 tvepg
+      # 第四步：检出目标仓库到子目录 tvepg
       - name: Checkout target repo
         uses: actions/checkout@v4
         with:
@@ -32,53 +32,43 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           path: tvepg
 
-      # 第五步：覆蓋目標倉庫中的檔案
+      # 第五步：覆盖目标仓库中的文件
       - name: Overwrite target files
         run: |
-          echo "📂 檢查生成的檔案..."
-          ls -l epgshanghai.xml epghebeiiptv1.xml epgyidong.xml
-
-          echo "🔁 覆蓋到 tvepg 目錄..."
+          # 打印原文件以便调试
+          ls -l epgshanghai.xml
           cp -f epgshanghai.xml tvepg/epgshanghai.xml
+          ls -l tvepg/epgshanghai.xml
+          ls -l epghebeiiptv1.xml
           cp -f epghebeiiptv1.xml tvepg/epghebeiiptv1.xml
+          ls -l tvepg/epghebeiiptv1.xml
+          ls -l epgyidong.xml
           cp -f epgyidong.xml tvepg/epgyidong.xml
-
-          echo "✅ 覆蓋後檔案清單："
-          ls -l tvepg/*.xml
-
-      # 第六步：提交並推送變更
-      - name: Commit and push changes
+          ls -l tvepg/epgyidong.xml
+      # 第六步：在子目录（目标仓库）中提交并推送变更
+      - name: Commit and push
         working-directory: tvepg
         run: |
-          echo "🔧 設定 Git 環境..."
-          git config --global --add safe.directory "$(pwd)"
+          # 显示当前状态／差异（方便调试）
+          git status
+          git diff
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-
-          echo "📡 同步遠端..."
+          # 同步远端最新提交并 rebase
           git fetch origin main
           git rebase origin/main || {
-            echo "⚠️ Rebase 遇到衝突，退出 workflow"
+            echo "Rebase 过程中有冲突，退出 workflow"
             git rebase --abort
             exit 1
           }
-
-          echo "🧩 檢查目前狀態..."
-          git status
-          git diff || true
-
-          echo "📦 加入所有變更..."
-          git add -A
-
-          echo "---- 檢查 staged 狀態 ----"
-          git diff --cached || true
-
-          # 只有在有變更時才提交
-          if [ -n "$(git diff --cached)" ]; then
+          # 添加所有变动
+          git add --all
+          # 只有有变动时才 commit + push
+          if [ -n "$(git status --porcelain)" ]; then
             now_time=$(TZ='Asia/Shanghai' date '+%Y-%m-%d %H:%M:%S')
             git commit -m "自动更新时间：$now_time"
+            # 推送时使用 force‑with‑lease 防止误覆盖
             git push origin main --force-with-lease
-            echo "✅ 成功提交並推送變更"
           else
-            echo "⚠️ 無實際內容變更，跳過提交與推送"
+            echo "无实际文件变更，跳过提交与推送"
           fi
