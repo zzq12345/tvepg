@@ -1,12 +1,12 @@
-name: Convert  to Simplified Chinese
+name: Convert to Simplified Chinese
 
 on:
   push:
     paths:
-      - "epgziyong.xml"          # 只有 epgziyong.xml 有更動才會觸發
-  workflow_dispatch:             # 允許手動執行
+      - "epgziyong.xml"
+  workflow_dispatch:
   schedule:
-    - cron: '23 */1 * * *'        # 每小時第 2 分鐘執行一次
+    - cron: '23 */1 * * *'
 
 jobs:
   convert:
@@ -15,6 +15,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0            # 拉全历史以便后面 rebase
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -26,6 +28,7 @@ jobs:
           pip install opencc
           sudo apt-get update
           sudo apt-get install -y gzip
+
       - name: Convert and compress
         run: |
           python - <<'EOF'
@@ -43,24 +46,18 @@ jobs:
               f.write(simplified)
           print(f"✅ 已生成 {output_file}")
           EOF
-          # 壓縮 swepg.xml 為 swepg.xml.gz
           gzip -kf swepg.xml
           echo "✅ 已壓縮為 swepg.xml.gz"
-      - name: Commit and push result
+
+      - name: Set Git user
         run: |
-         - name: Set Git user
           git config --local user.name "github-actions[bot]"
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
 
-      - name: Make changes / auto generate files
+      - name: Commit changes if any
         run: |
-          # 这里放你要做的变更，比如生成 swepg.xml、压缩等等
-          # 假设你有一个脚本 convert-and-compress.sh
-          ./scripts/convert-and-compress.sh
-
-      - name: Commit changes (if any)
-        run: |
-          git add .
+          git add swepg.xml swepg.xml.gz
+          # 也可以 `git add .`，但建议只加必需的文件
           if git diff --cached --quiet; then
             echo "No changes to commit"
             exit 0
@@ -69,15 +66,11 @@ jobs:
 
       - name: Pull remote and rebase
         run: |
-          # 先拉最新远端
           git fetch origin main
-          # 使用 rebase 把你的提交放到远端最新之后
           git rebase origin/main
-        # 如果 rebase 出错（有冲突），job 会失败，日志里你可以看到冲突文件，需要手动干预
 
       - name: Push changes
         run: |
           git push origin main
-        # 如果你知道没有别人会跟你同时改，或者做好风险评估，也可以改为强制推：
-        # git push origin main --force-with-lease
-
+          # 或者：
+          # git push origin main --force-with-lease
