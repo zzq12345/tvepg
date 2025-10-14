@@ -68,7 +68,7 @@ jobs:
           }
 
           # 添加所有变动
-          git add --A
+          git add -A
 
           # 只有有变动时才 commit + push
           if [ -n "$(git status --porcelain)" ]; then
