@@ -62,7 +62,7 @@ jobs:
             exit 1
           }
           # 添加所有变动
-          git add --all
+          git add -a
           # 只有有变动时才 commit + push
           if [ -n "$(git status --porcelain)" ]; then
             now_time=$(TZ='Asia/Shanghai' date '+%Y-%m-%d %H:%M:%S')
