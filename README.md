@@ -15,3 +15,17 @@
 
 7.twepg.xml  繁體版本epg,適合港澳台
   swepg.xml  簡體版本epg,适合内地！
+
+
+  yml啟動先後順序
+1.epg copy
+2.epgkai
+3.epgkai1
+4.convert guangdong
+5.epgnewshanghai
+6.epgnewguangdong
+7.epgnewhebei
+8.epgtihuan
+9.epgziyong
+10.Convert to Simplified Chinese
+11.Convert to Traditional Chinese
