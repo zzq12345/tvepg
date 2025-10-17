@@ -15,7 +15,7 @@
 
 7.twepg.xml  繁體版本epg,適合港澳台
 
-  swepg.xml  簡體版本epg,适合内地！
+   swepg.xml  簡體版本epg,适合内地！
 
 
 二. yml啟動先後順序
