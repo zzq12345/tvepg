@@ -1,4 +1,4 @@
-文件架構
+一.文件架構
 
 
 1.file.json 用來複製一些epg文件！
@@ -17,7 +17,7 @@
   swepg.xml  簡體版本epg,适合内地！
 
 
-  yml啟動先後順序
+二. yml啟動先後順序
   
 1.epg copy
 
