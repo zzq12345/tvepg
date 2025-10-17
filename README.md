@@ -14,6 +14,7 @@
 6.epgnewhebei.php提取河北地方台
 
 7.twepg.xml  繁體版本epg,適合港澳台
+
   swepg.xml  簡體版本epg,适合内地！
 
 
