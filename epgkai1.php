@@ -57,7 +57,7 @@ for ($idm = 3; $idm <= $nid-1; $idm++){
     $name[$idm] =json_decode($re)->data[$idm]->name->zh_hk;
      $chn.="<channel id=\"".$name[$idm] ."\"><display-name lang=\"zh\">".$name[$idm] ."</display-name></channel>\n";
 }
-for ($idm = 2; $idm <= $nid-1; $idm++){
+for ($idm = 3; $idm <= $nid-1; $idm++){
 //$epg30[$idm] =json_decode($re)->data[$idm]->epg;
  $ch30 = curl_init();
     curl_setopt($ch30, CURLOPT_URL, json_decode($re)->data[$idm]->epg );
