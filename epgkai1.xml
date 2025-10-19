@@ -5,6 +5,7 @@
 <channel id="HOY生活台"><display-name lang="zh">HOY生活台</display-name></channel>
 <channel id="HOY劇集台"><display-name lang="zh">HOY劇集台</display-name></channel>
 <channel id="HOY怪談台"><display-name lang="zh">HOY怪談台</display-name></channel>
+<channel id="HOY體育台"><display-name lang="zh">HOY體育台</display-name></channel>
 <channel id="SportsPlus"><display-name lang="zh">SportsPlus</display-name></channel>
 <channel id="Travel &amp; Food TV"><display-name lang="zh">Travel &amp; Food TV</display-name></channel>
 <channel id="spot on news"><display-name lang="zh">spot on news</display-name></channel>
@@ -4952,10 +4953,6 @@
 <title lang="zh">有線新聞</title>
 <desc lang="zh"> </desc>
 </programme>
-<programme start="20251017000000 +0800" stop="20251017235959 +0800" channel="HOY生活台">
-<title lang="zh">節目未能提供</title>
-<desc lang="zh"> </desc>
-</programme>
 <programme start="20251018000000 +0800" stop="20251018003000 +0800" channel="HOY生活台">
 <title lang="zh">煮題COOK 2 第14集</title>
 <desc lang="zh"> </desc>
@@ -6068,10 +6065,6 @@
 <title lang="zh">香港奇則 第16集</title>
 <desc lang="zh"> </desc>
 </programme>
-<programme start="20251017000000 +0800" stop="20251017230400 +0800" channel="HOY劇集台">
-<title lang="zh">節目未能提供</title>
-<desc lang="zh"> </desc>
-</programme>
 <programme start="20251017230400 +0800" stop="20251018000400 +0800" channel="HOY劇集台">
 <title lang="zh">全能老婆 第44集</title>
 <desc lang="zh"> </desc>
@@ -6842,10 +6835,6 @@
 </programme>
 <programme start="20251025230400 +0800" stop="20251026000400 +0800" channel="HOY劇集台">
 <title lang="zh">樂遊原 第23集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251017000000 +0800" stop="20251017230800 +0800" channel="HOY怪談台">
-<title lang="zh">節目未能提供</title>
 <desc lang="zh"> </desc>
 </programme>
 <programme start="20251017230800 +0800" stop="20251018000800 +0800" channel="HOY怪談台">
@@ -7620,8 +7609,436 @@
 <title lang="zh">我們都是這樣撞鬼的 第3集</title>
 <desc lang="zh"> </desc>
 </programme>
-<programme start="20251017000000 +0800" stop="20251017224100 +0800" channel="SportsPlus">
+<programme start="20251018000000 +0800" stop="20251018020000 +0800" channel="HOY體育台">
+<title lang="zh">世界盃南美洲區外圍賽 - 阿根廷 對 巴西</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251018020000 +0800" stop="20251018040000 +0800" channel="HOY體育台">
+<title lang="zh">亞洲聯賽冠軍盃精英聯賽 - 拿薩夫 對 希拉爾</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251018040000 +0800" stop="20251018060000 +0800" channel="HOY體育台">
+<title lang="zh">澳洲冠軍聯賽 - 海德堡聯 對 馬可尼駿馬</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251018060000 +0800" stop="20251018235959 +0800" channel="HOY體育台">
 <title lang="zh">節目未能提供</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019000000 +0800" stop="20251019060000 +0800" channel="HOY體育台">
+<title lang="zh">節目未能提供</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019060000 +0800" stop="20251019080000 +0800" channel="HOY體育台">
+<title lang="zh">阿根廷甲組足球聯賽 - 聖羅倫素 對 聖馬田聖祖安</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019080000 +0800" stop="20251019095500 +0800" channel="HOY體育台">
+<title lang="zh">世界盃南美洲區外圍賽 - 阿根廷 對 巴西</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019095500 +0800" stop="20251019120000 +0800" channel="HOY體育台">
+<title lang="zh">澳洲冠軍聯賽 - 悉尼奧林匹克 對 布羅德梅多魔術 </title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019120000 +0800" stop="20251019123000 +0800" channel="HOY體育台">
+<title lang="zh">第45屆黃金海岸馬拉松精華 第1集</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019123000 +0800" stop="20251019130000 +0800" channel="HOY體育台">
+<title lang="zh">第十五屆全國運動會前奏 第1集</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019130000 +0800" stop="20251019131500 +0800" channel="HOY體育台">
+<title lang="zh">全運HOY動 第5集</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019131500 +0800" stop="20251019132500 +0800" channel="HOY體育台">
+<title lang="zh">全運HOY動 第8集</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019132500 +0800" stop="20251019153000 +0800" channel="HOY體育台">
+<title lang="zh">澳洲冠軍聯賽 - 比斯活特城 對 都會之星</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019153000 +0800" stop="20251019160000 +0800" channel="HOY體育台">
+<title lang="zh">第十五屆全國運動會前奏 第2集</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019160000 +0800" stop="20251019180000 +0800" channel="HOY體育台">
+<title lang="zh">世界盃南美洲區外圍賽 - 阿根廷 對 巴西</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019180000 +0800" stop="20251019200000 +0800" channel="HOY體育台">
+<title lang="zh">亞洲聯賽冠軍盃精英聯賽 - 拿薩夫 對 希拉爾</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019200000 +0800" stop="20251019220000 +0800" channel="HOY體育台">
+<title lang="zh">澳洲冠軍聯賽 - 海德堡聯 對 馬可尼駿馬</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019220000 +0800" stop="20251020000000 +0800" channel="HOY體育台">
+<title lang="zh">阿根廷甲組足球聯賽 - 聖羅倫素 對 聖馬田聖祖安</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251020000000 +0800" stop="20251020020000 +0800" channel="HOY體育台">
+<title lang="zh">世界盃南美洲區外圍賽 - 阿根廷 對 巴西</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251020020000 +0800" stop="20251020040000 +0800" channel="HOY體育台">
+<title lang="zh">亞洲聯賽冠軍盃精英聯賽 - 拿薩夫 對 希拉爾</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251020040000 +0800" stop="20251020060000 +0800" channel="HOY體育台">
+<title lang="zh">澳洲冠軍聯賽 - 海德堡聯 對 馬可尼駿馬</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251020060000 +0800" stop="20251020080000 +0800" channel="HOY體育台">
+<title lang="zh">阿根廷甲組足球聯賽 - 阿度斯維 對 颶風隊</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251020080000 +0800" stop="20251020100000 +0800" channel="HOY體育台">
+<title lang="zh">世界盃南美洲區外圍賽 - 玻利維亞 對 巴西</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251020100000 +0800" stop="20251020120000 +0800" channel="HOY體育台">
+<title lang="zh">亞洲聯賽冠軍盃精英聯賽 - 廣島三箭 對 上海海港</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251020120000 +0800" stop="20251020140000 +0800" channel="HOY體育台">
+<title lang="zh">澳洲冠軍聯賽 - 悉尼聯 對 比斯活特城</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251020140000 +0800" stop="20251020160000 +0800" channel="HOY體育台">
+<title lang="zh">阿根廷甲組足球聯賽 - 阿度斯維 對 颶風隊</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251020160000 +0800" stop="20251020180000 +0800" channel="HOY體育台">
+<title lang="zh">世界盃南美洲區外圍賽 - 玻利維亞 對 巴西</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251020180000 +0800" stop="20251020200000 +0800" channel="HOY體育台">
+<title lang="zh">亞洲聯賽冠軍盃精英聯賽 - 廣島三箭 對 上海海港</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251020200000 +0800" stop="20251020203000 +0800" channel="HOY體育台">
+<title lang="zh">第十五屆全國運動會前奏 第3集</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251020203000 +0800" stop="20251020210000 +0800" channel="HOY體育台">
+<title lang="zh">第十五屆全國運動會前奏 第4集</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251020210000 +0800" stop="20251020213000 +0800" channel="HOY體育台">
+<title lang="zh">第45屆黃金海岸馬拉松精華 第2集</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251020213000 +0800" stop="20251020214000 +0800" channel="HOY體育台">
+<title lang="zh">全運HOY動 第9集</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251020214000 +0800" stop="20251020235500 +0800" channel="HOY體育台">
+<title lang="zh">亞洲聯賽冠軍盃精英聯賽 - 阿爾華達 對 艾杜哈尼</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251020235500 +0800" stop="20251021020000 +0800" channel="HOY體育台">
+<title lang="zh">亞洲聯賽冠軍盃精英聯賽 - 艾爾索達 對 伊蒂哈德</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021020000 +0800" stop="20251021023000 +0800" channel="HOY體育台">
+<title lang="zh">大眾參與 2025 第1集</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021023000 +0800" stop="20251021030000 +0800" channel="HOY體育台">
+<title lang="zh">第十五屆全國運動會前奏 第5集</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021030000 +0800" stop="20251021033000 +0800" channel="HOY體育台">
+<title lang="zh">2025年個人賽車賽事 第1集</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021033000 +0800" stop="20251021040000 +0800" channel="HOY體育台">
+<title lang="zh">第十五屆全國運動會前奏 第6集</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021040000 +0800" stop="20251021055500 +0800" channel="HOY體育台">
+<title lang="zh">澳洲冠軍聯賽 - 悉尼聯 對 比斯活特城</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021055500 +0800" stop="20251021081000 +0800" channel="HOY體育台">
+<title lang="zh">阿根廷甲組足球聯賽 - 堤格雷 對 巴拉卡斯中央</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021081000 +0800" stop="20251021101500 +0800" channel="HOY體育台">
+<title lang="zh">阿根廷甲組足球聯賽 - 圖庫曼體育會 對 聖羅倫素</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021101500 +0800" stop="20251021103000 +0800" channel="HOY體育台">
+<title lang="zh">全運HOY動 第6集</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021103000 +0800" stop="20251021110000 +0800" channel="HOY體育台">
+<title lang="zh">第十五屆全國運動會前奏 第6集</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021110000 +0800" stop="20251021120000 +0800" channel="HOY體育台">
+<title lang="zh">大眾參與 2025 第6集</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021120000 +0800" stop="20251021140000 +0800" channel="HOY體育台">
+<title lang="zh">澳洲冠軍聯賽 - 艾雲達爾 對 坎培拉克羅地亞</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021140000 +0800" stop="20251021150000 +0800" channel="HOY體育台">
+<title lang="zh">電競世界杯精華 第1集</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021150000 +0800" stop="20251021153000 +0800" channel="HOY體育台">
+<title lang="zh">第十五屆全國運動會前奏 第7集</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021153000 +0800" stop="20251021154000 +0800" channel="HOY體育台">
+<title lang="zh">全運HOY動 第8集</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021154000 +0800" stop="20251021175500 +0800" channel="HOY體育台">
+<title lang="zh">亞洲聯賽冠軍盃精英聯賽 - 墨爾本城 對 武里南聯</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021175500 +0800" stop="20251021201000 +0800" channel="HOY體育台">
+<title lang="zh">亞洲聯賽冠軍盃精英聯賽 - 蔚山HD 對 廣島三箭</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021201000 +0800" stop="20251021221500 +0800" channel="HOY體育台">
+<title lang="zh">亞洲聯賽冠軍盃精英聯賽 - 上海海港 對 町田澤維亞</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021221500 +0800" stop="20251021223000 +0800" channel="HOY體育台">
+<title lang="zh">全運HOY動 第7集</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021223000 +0800" stop="20251021230000 +0800" channel="HOY體育台">
+<title lang="zh">第十五屆全國運動會前奏 第1集</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021230000 +0800" stop="20251021233000 +0800" channel="HOY體育台">
+<title lang="zh">大眾參與 2025 第2集</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021233000 +0800" stop="20251022000000 +0800" channel="HOY體育台">
+<title lang="zh">第十五屆全國運動會前奏 第2集</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251022000000 +0800" stop="20251022020000 +0800" channel="HOY體育台">
+<title lang="zh">世界盃南美洲區外圍賽 - 巴西 對 哥倫比亞</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251022020000 +0800" stop="20251022040000 +0800" channel="HOY體育台">
+<title lang="zh">亞洲聯賽冠軍盃精英聯賽 - 成都蓉城 對 FC江原</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251022040000 +0800" stop="20251022060000 +0800" channel="HOY體育台">
+<title lang="zh">澳洲冠軍聯賽 - 艾雲達爾 對 坎培拉克羅地亞</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251022060000 +0800" stop="20251022061000 +0800" channel="HOY體育台">
+<title lang="zh">全運HOY動 第8集</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251022061000 +0800" stop="20251022081500 +0800" channel="HOY體育台">
+<title lang="zh">阿根廷甲組足球聯賽 - 聖達菲聯 對 防衛者</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251022081500 +0800" stop="20251022083000 +0800" channel="HOY體育台">
+<title lang="zh">全運HOY動 第15集</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251022083000 +0800" stop="20251022093000 +0800" channel="HOY體育台">
+<title lang="zh">電競世界杯精華 第1集</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251022093000 +0800" stop="20251022100000 +0800" channel="HOY體育台">
+<title lang="zh">第十五屆全國運動會前奏 第7集</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251022100000 +0800" stop="20251022120000 +0800" channel="HOY體育台">
+<title lang="zh">亞洲聯賽冠軍盃精英聯賽 - 神戶勝利船 對 墨爾本城</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251022120000 +0800" stop="20251022140000 +0800" channel="HOY體育台">
+<title lang="zh">節目未能提供</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251022140000 +0800" stop="20251022160000 +0800" channel="HOY體育台">
+<title lang="zh">阿根廷甲組足球聯賽 - 河床 對 沙米恩圖</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251022160000 +0800" stop="20251022175500 +0800" channel="HOY體育台">
+<title lang="zh">世界盃南美洲區外圍賽 - 哥倫比亞 對 玻利維亞</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251022175500 +0800" stop="20251022201000 +0800" channel="HOY體育台">
+<title lang="zh">亞洲聯賽冠軍盃精英聯賽 - FC江原 對 神戶勝利船</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251022201000 +0800" stop="20251022221500 +0800" channel="HOY體育台">
+<title lang="zh">亞洲聯賽冠軍盃二級聯賽 - 拉查武里 對 東方</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251022221500 +0800" stop="20251022223000 +0800" channel="HOY體育台">
+<title lang="zh">全運HOY動 第8集</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251022223000 +0800" stop="20251022230000 +0800" channel="HOY體育台">
+<title lang="zh">第十五屆全國運動會前奏 第3集</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251022230000 +0800" stop="20251022233000 +0800" channel="HOY體育台">
+<title lang="zh">大眾參與 2025 第3集</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251022233000 +0800" stop="20251023000000 +0800" channel="HOY體育台">
+<title lang="zh">第十五屆全國運動會前奏 第4集</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251023000000 +0800" stop="20251023020000 +0800" channel="HOY體育台">
+<title lang="zh">世界盃南美洲區外圍賽 - 哥倫比亞 對 玻利維亞</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251023020000 +0800" stop="20251023040000 +0800" channel="HOY體育台">
+<title lang="zh">亞洲聯賽冠軍盃精英聯賽 - 神戶勝利船 對 墨爾本城</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251023040000 +0800" stop="20251023060000 +0800" channel="HOY體育台">
+<title lang="zh">節目未能提供</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251023060000 +0800" stop="20251023062500 +0800" channel="HOY體育台">
+<title lang="zh">第45屆黃金海岸馬拉松精華 第1集</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251023062500 +0800" stop="20251023083000 +0800" channel="HOY體育台">
+<title lang="zh">阿根廷甲組足球聯賽 - 颶風隊 對 CA科爾多瓦中央</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251023083000 +0800" stop="20251023090000 +0800" channel="HOY體育台">
+<title lang="zh">第45屆黃金海岸馬拉松精華 第2集</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251023090000 +0800" stop="20251023093000 +0800" channel="HOY體育台">
+<title lang="zh">第十五屆全國運動會前奏 第1集</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251023093000 +0800" stop="20251023100000 +0800" channel="HOY體育台">
+<title lang="zh">大眾參與 2025 第1集</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251023100000 +0800" stop="20251023140000 +0800" channel="HOY體育台">
+<title lang="zh">節目未能提供</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251023140000 +0800" stop="20251023160000 +0800" channel="HOY體育台">
+<title lang="zh">阿根廷甲組足球聯賽 - 沙士菲 對 羅沙里奧中央</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251023160000 +0800" stop="20251023175500 +0800" channel="HOY體育台">
+<title lang="zh">世界盃南美洲區外圍賽 - 巴西 對 智利</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251023175500 +0800" stop="20251023201000 +0800" channel="HOY體育台">
+<title lang="zh">亞洲聯賽冠軍盃二級聯賽 - 大埔 對 FC北京</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251023201000 +0800" stop="20251023221500 +0800" channel="HOY體育台">
+<title lang="zh">亞洲聯賽冠軍盃二級聯賽 - 淡濱尼流浪 對 浦項制鐵</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251023221500 +0800" stop="20251023223000 +0800" channel="HOY體育台">
+<title lang="zh">全運HOY動 第10集</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251023223000 +0800" stop="20251023230000 +0800" channel="HOY體育台">
+<title lang="zh">第十五屆全國運動會前奏 第5集</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251023230000 +0800" stop="20251023233000 +0800" channel="HOY體育台">
+<title lang="zh">大眾參與 2025 第4集</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251023233000 +0800" stop="20251024000000 +0800" channel="HOY體育台">
+<title lang="zh">第十五屆全國運動會前奏 第6集</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251024000000 +0800" stop="20251024020000 +0800" channel="HOY體育台">
+<title lang="zh">世界盃南美洲區外圍賽 - 巴西 對 智利</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251024020000 +0800" stop="20251024040000 +0800" channel="HOY體育台">
+<title lang="zh">亞洲聯賽冠軍盃精英聯賽 - 上海申花 對 蔚山HD</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251024040000 +0800" stop="20251024060000 +0800" channel="HOY體育台">
+<title lang="zh">節目未能提供</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251024060000 +0800" stop="20251024080000 +0800" channel="HOY體育台">
+<title lang="zh">阿根廷甲組足球聯賽 - 競賽會 對 阿度斯維</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251024080000 +0800" stop="20251024100000 +0800" channel="HOY體育台">
+<title lang="zh">世界盃南美洲區外圍賽 - 秘魯 對 厄瓜多爾</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251024100000 +0800" stop="20251024160000 +0800" channel="HOY體育台">
+<title lang="zh">節目未能提供</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251024160000 +0800" stop="20251024180000 +0800" channel="HOY體育台">
+<title lang="zh">世界盃南美洲區外圍賽 - 秘魯 對 厄瓜多爾</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251024180000 +0800" stop="20251024220000 +0800" channel="HOY體育台">
+<title lang="zh">節目未能提供</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251024220000 +0800" stop="20251025000000 +0800" channel="HOY體育台">
+<title lang="zh">阿根廷甲組足球聯賽 - 競賽會 對 阿度斯維</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251025000000 +0800" stop="20251025020000 +0800" channel="HOY體育台">
+<title lang="zh">世界盃南美洲區外圍賽 - 秘魯 對 厄瓜多爾</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251025020000 +0800" stop="20251025060000 +0800" channel="HOY體育台">
+<title lang="zh">節目未能提供</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251025060000 +0800" stop="20251025080000 +0800" channel="HOY體育台">
+<title lang="zh">阿根廷甲組足球聯賽 - 小阿根廷人 對 紐維爾舊生</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251025080000 +0800" stop="20251025100000 +0800" channel="HOY體育台">
+<title lang="zh">世界盃南美洲區外圍賽 - 厄瓜多爾 對 阿根廷</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251025100000 +0800" stop="20251025120000 +0800" channel="HOY體育台">
+<title lang="zh">節目未能提供</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251025120000 +0800" stop="20251025140000 +0800" channel="HOY體育台">
+<title lang="zh">澳洲冠軍聯賽 - 臥龍崗狼隊 對 海德堡聯</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251025140000 +0800" stop="20251025200000 +0800" channel="HOY體育台">
+<title lang="zh">節目未能提供</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251025200000 +0800" stop="20251025220000 +0800" channel="HOY體育台">
+<title lang="zh">澳洲冠軍聯賽 - 臥龍崗狼隊 對 海德堡聯</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251025220000 +0800" stop="20251026000000 +0800" channel="HOY體育台">
+<title lang="zh">阿根廷甲組足球聯賽 - 小阿根廷人 對 紐維爾舊生</title>
 <desc lang="zh"> </desc>
 </programme>
 <programme start="20251017224100 +0800" stop="20251018002200 +0800" channel="SportsPlus">
@@ -8448,7 +8865,7 @@
 <title lang="zh">節目未能提供</title>
 <desc lang="zh"> </desc>
 </programme>
-<programme start="20251017000000 +0800" stop="20251017234100 +0800" channel="Travel &amp; Food TV">
+<programme start="20251025000000 +0800" stop="20251025235959 +0800" channel="SportsPlus">
 <title lang="zh">節目未能提供</title>
 <desc lang="zh"> </desc>
 </programme>
@@ -9804,7 +10221,7 @@
 <title lang="zh">節目未能提供</title>
 <desc lang="zh"> </desc>
 </programme>
-<programme start="20251017000000 +0800" stop="20251017235900 +0800" channel="spot on news">
+<programme start="20251025000000 +0800" stop="20251025235959 +0800" channel="Travel &amp; Food TV">
 <title lang="zh">節目未能提供</title>
 <desc lang="zh"> </desc>
 </programme>
@@ -11697,11 +12114,11 @@
 <desc lang="zh"> </desc>
 </programme>
 <programme start="20251018072600 +0800" stop="20251018072600 +0800" channel="spot on news">
-<title lang="zh">German-Israeli twins Gali and Ziv embrace after being released</title>
+<title lang="zh">Drone show ends in chaos: shower of sparks hits spectators</title>
 <desc lang="zh"> </desc>
 </programme>
 <programme start="20251018072600 +0800" stop="20251018072600 +0800" channel="spot on news">
-<title lang="zh">Drone show ends in chaos: shower of sparks hits spectators</title>
+<title lang="zh">German-Israeli twins Gali and Ziv embrace after being released</title>
 <desc lang="zh"> </desc>
 </programme>
 <programme start="20251018072600 +0800" stop="20251018072700 +0800" channel="spot on news">
@@ -12549,11 +12966,11 @@
 <desc lang="zh"> </desc>
 </programme>
 <programme start="20251018104300 +0800" stop="20251018104300 +0800" channel="spot on news">
-<title lang="zh">Cute! Maltipoo puppy puts himself to bed</title>
+<title lang="zh">Golden Retriever destroys sofa and puts himself in time out</title>
 <desc lang="zh"> </desc>
 </programme>
 <programme start="20251018104300 +0800" stop="20251018104300 +0800" channel="spot on news">
-<title lang="zh">Golden Retriever destroys sofa and puts himself in time out</title>
+<title lang="zh">Cute! Maltipoo puppy puts himself to bed</title>
 <desc lang="zh"> </desc>
 </programme>
 <programme start="20251018104300 +0800" stop="20251018104500 +0800" channel="spot on news">
@@ -13681,11 +14098,11 @@
 <desc lang="zh"> </desc>
 </programme>
 <programme start="20251018150800 +0800" stop="20251018150800 +0800" channel="spot on news">
-<title lang="zh">Stolen car flies spectacularly over intersection</title>
+<title lang="zh">Unusual duo: sharks and alligator swim side by side</title>
 <desc lang="zh"> </desc>
 </programme>
 <programme start="20251018150800 +0800" stop="20251018150800 +0800" channel="spot on news">
-<title lang="zh">Unusual duo: sharks and alligator swim side by side</title>
+<title lang="zh">Stolen car flies spectacularly over intersection</title>
 <desc lang="zh"> </desc>
 </programme>
 <programme start="20251018150800 +0800" stop="20251018150900 +0800" channel="spot on news">
@@ -13889,11 +14306,11 @@
 <desc lang="zh"> </desc>
 </programme>
 <programme start="20251018155200 +0800" stop="20251018155200 +0800" channel="spot on news">
-<title lang="zh">Cute! Golden Retriever wants to jump into television</title>
+<title lang="zh">Sarah Jessica Parker with black wings on the red carpet</title>
 <desc lang="zh"> </desc>
 </programme>
 <programme start="20251018155200 +0800" stop="20251018155200 +0800" channel="spot on news">
-<title lang="zh">Sarah Jessica Parker with black wings on the red carpet</title>
+<title lang="zh">Cute! Golden Retriever wants to jump into television</title>
 <desc lang="zh"> </desc>
 </programme>
 <programme start="20251018155200 +0800" stop="20251018155300 +0800" channel="spot on news">
@@ -18476,7 +18893,531 @@
 <title lang="zh">"You set a very bad tone": Trump threatens reporter with consequences</title>
 <desc lang="zh"> </desc>
 </programme>
-<programme start="20251019100700 +0800" stop="20251019235959 +0800" channel="spot on news">
+<programme start="20251019100700 +0800" stop="20251019100800 +0800" channel="spot on news">
+<title lang="zh">Shock on stage: drone hits singer in the face</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019100800 +0800" stop="20251019101100 +0800" channel="spot on news">
+<title lang="zh">'Devastated': Kiss band members mourn Ace Frehley</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019101100 +0800" stop="20251019101100 +0800" channel="spot on news">
+<title lang="zh">Animal speedster: Rat interrupts football match</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019101100 +0800" stop="20251019101200 +0800" channel="spot on news">
+<title lang="zh">Man gets stuck on giant American flag at NFL game</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019101200 +0800" stop="20251019101200 +0800" channel="spot on news">
+<title lang="zh">California: Mudslide traps pickup truck and driver</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019101200 +0800" stop="20251019101300 +0800" channel="spot on news">
+<title lang="zh">Data protection disaster! Ikea films thousands of customers paying</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019101300 +0800" stop="20251019101400 +0800" channel="spot on news">
+<title lang="zh">Drone show ends in chaos: shower of sparks hits spectators</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019101400 +0800" stop="20251019101400 +0800" channel="spot on news">
+<title lang="zh">TV star Brad Everett Young dies at age 46 after car accident</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019101400 +0800" stop="20251019101600 +0800" channel="spot on news">
+<title lang="zh">IQ over 140: These stars are pretty smart</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019101600 +0800" stop="20251019101900 +0800" channel="spot on news">
+<title lang="zh">Explosion rocks cargo ship</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019101900 +0800" stop="20251019101900 +0800" channel="spot on news">
+<title lang="zh">Typhoon Halong: House swept away by floodwaters</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019101900 +0800" stop="20251019102000 +0800" channel="spot on news">
+<title lang="zh">Toni Garrn presents dress from 2012</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019102000 +0800" stop="20251019102100 +0800" channel="spot on news">
+<title lang="zh">Emily Blunt steals the show with her dress in Venice</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019102100 +0800" stop="20251019102100 +0800" channel="spot on news">
+<title lang="zh">Pubic hair thong: Kim Kardashian is "shocked" by the reactions</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019102100 +0800" stop="20251019102200 +0800" channel="spot on news">
+<title lang="zh">Data protection disaster! Ikea films thousands of customers paying</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019102200 +0800" stop="20251019102200 +0800" channel="spot on news">
+<title lang="zh">Sensation: Tourists spot albino dolphin on the east coast of the USA</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019102200 +0800" stop="20251019102300 +0800" channel="spot on news">
+<title lang="zh">Hot air balloon makes emergency landing on UK street</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019102300 +0800" stop="20251019102400 +0800" channel="spot on news">
+<title lang="zh">Rare appearance: Lana del Rey shows up with her husband</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019102400 +0800" stop="20251019102400 +0800" channel="spot on news">
+<title lang="zh">Chaos in the Knesset: Protest disrupts Trump's historic speech</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019102400 +0800" stop="20251019102700 +0800" channel="spot on news">
+<title lang="zh">Dangerous walk: Duck family causes chaos on freeway</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019102700 +0800" stop="20251019102800 +0800" channel="spot on news">
+<title lang="zh">Angry rhino attacks pick-up truck</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019102800 +0800" stop="20251019102900 +0800" channel="spot on news">
+<title lang="zh">Cara Delevingne pays tribute to the Beatles at fashion show</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019102900 +0800" stop="20251019102900 +0800" channel="spot on news">
+<title lang="zh">New album leaked hours before release: this is how Taylor Swift reacts</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019102900 +0800" stop="20251019103000 +0800" channel="spot on news">
+<title lang="zh">Florida: Government paints over rainbow memorial crosswalk</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019103000 +0800" stop="20251019103100 +0800" channel="spot on news">
+<title lang="zh">Bus with schoolchildren crashes into several cars and catches fire</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019103100 +0800" stop="20251019103100 +0800" channel="spot on news">
+<title lang="zh">From head to toe: Jason Momoa shines in pink</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019103100 +0800" stop="20251019103200 +0800" channel="spot on news">
+<title lang="zh">Kim Kardashian shows up to Paris fashion show with a pixie cut</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019103200 +0800" stop="20251019103300 +0800" channel="spot on news">
+<title lang="zh">MTV VMAs: Sabrina Carpenter dazzles in see-through dress</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019103300 +0800" stop="20251019103500 +0800" channel="spot on news">
+<title lang="zh">Two planes collide on the runway at Manchester</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019103500 +0800" stop="20251019103600 +0800" channel="spot on news">
+<title lang="zh">Truck catches fire and cannot brake</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019103600 +0800" stop="20251019103600 +0800" channel="spot on news">
+<title lang="zh">Diane Keaton has died: Insiders open up about her health</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019103600 +0800" stop="20251019103700 +0800" channel="spot on news">
+<title lang="zh">Attack near Lisbon: Orcas sink sailing yacht</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019103700 +0800" stop="20251019103800 +0800" channel="spot on news">
+<title lang="zh">Firefighting helicopter crashes into pond: rotor torn apart</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019103800 +0800" stop="20251019103800 +0800" channel="spot on news">
+<title lang="zh">"O'zapft is!" Mayor Dieter Reiter opens Oktoberfest 2025</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019103800 +0800" stop="20251019103900 +0800" channel="spot on news">
+<title lang="zh">Passenger attacks stewardess and is dragged off plane</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019103900 +0800" stop="20251019104000 +0800" channel="spot on news">
+<title lang="zh">Horror slide: Holidaymaker gets stuck in tube slide</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019104000 +0800" stop="20251019104100 +0800" channel="spot on news">
+<title lang="zh">Taylor Swift: Donald Trump's reaction to her engagement</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019104100 +0800" stop="20251019104300 +0800" channel="spot on news">
+<title lang="zh">Zebra does somersault through fence</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019104300 +0800" stop="20251019104400 +0800" channel="spot on news">
+<title lang="zh">Unusual duo: sharks and alligator swim side by side</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019104400 +0800" stop="20251019104500 +0800" channel="spot on news">
+<title lang="zh">Sensational discovery: Researchers uncover previously unknown dinosaur</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019104500 +0800" stop="20251019104500 +0800" channel="spot on news">
+<title lang="zh">Sarah Jessica Parker with black wings on the red carpet</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019104500 +0800" stop="20251019104600 +0800" channel="spot on news">
+<title lang="zh">Stolen car flies spectacularly over intersection</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019104600 +0800" stop="20251019104600 +0800" channel="spot on news">
+<title lang="zh">World's highest bridge: China opens structure to traffic</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019104600 +0800" stop="20251019104700 +0800" channel="spot on news">
+<title lang="zh">Dead shark on Mallorca beach: What's the story?</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019104700 +0800" stop="20251019104800 +0800" channel="spot on news">
+<title lang="zh">Sicily: Dilapidated bridge crumbles under cars</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019104800 +0800" stop="20251019104800 +0800" channel="spot on news">
+<title lang="zh">Data protection disaster! Ikea films thousands of customers paying</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019104800 +0800" stop="20251019104900 +0800" channel="spot on news">
+<title lang="zh">"Star Wars" stars wowed fans with lightsaber show</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019104900 +0800" stop="20251019105300 +0800" channel="spot on news">
+<title lang="zh">From Hokkaido to Butternut: An overview of pumpkin varieties</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019105300 +0800" stop="20251019105400 +0800" channel="spot on news">
+<title lang="zh">Road swallowed up: Giant crater in front of Bangkok hospital</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019105400 +0800" stop="20251019105500 +0800" channel="spot on news">
+<title lang="zh">Amal and George Clooney shine at "Jay Kelly" premiere</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019105500 +0800" stop="20251019105500 +0800" channel="spot on news">
+<title lang="zh">"Mothership": Monstrous storm cloud passes over Kansas</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019105500 +0800" stop="20251019105600 +0800" channel="spot on news">
+<title lang="zh">Scary moment: Lightning strikes car</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019105600 +0800" stop="20251019105600 +0800" channel="spot on news">
+<title lang="zh">Car drives into group: Deadly attack outside synagogue in Manchester</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019105600 +0800" stop="20251019105700 +0800" channel="spot on news">
+<title lang="zh">SUV crashes into restaurant: guests escape with a scare</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019105700 +0800" stop="20251019105800 +0800" channel="spot on news">
+<title lang="zh">On campus: Students excavate skeleton of giant whale</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019105800 +0800" stop="20251019110000 +0800" channel="spot on news">
+<title lang="zh">Near Los Angeles: Helicopter crashes on beach</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019110000 +0800" stop="20251019110100 +0800" channel="spot on news">
+<title lang="zh">Fishing boats collide: Captain arrested</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019110100 +0800" stop="20251019110100 +0800" channel="spot on news">
+<title lang="zh">Almost 100 kilometers: Sandstorm swallows entire region</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019110100 +0800" stop="20251019110200 +0800" channel="spot on news">
+<title lang="zh">Violent storm sets aircraft in motion</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019110200 +0800" stop="20251019110200 +0800" channel="spot on news">
+<title lang="zh">Hundreds of Koreans are flocking to this Swiss village - here's why</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019110200 +0800" stop="20251019110300 +0800" channel="spot on news">
+<title lang="zh">Girogio Armani dead at 91: celebs pay tribute</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019110300 +0800" stop="20251019110400 +0800" channel="spot on news">
+<title lang="zh">Kathleen Turner appears on the red carpet with a walking stick</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019110400 +0800" stop="20251019110500 +0800" channel="spot on news">
+<title lang="zh">Elle Fanning and Stellan Skarsgård turn red carpet into dance floor</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019110500 +0800" stop="20251019110600 +0800" channel="spot on news">
+<title lang="zh">Naked dresses: Margot Robbie and Dakota Johnson show almost everything</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019110600 +0800" stop="20251019110600 +0800" channel="spot on news">
+<title lang="zh">Kristen Stewart shines in a mini dress</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019110600 +0800" stop="20251019110900 +0800" channel="spot on news">
+<title lang="zh">Richard Gere and Alejandra Silva shine together in Milan</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019110900 +0800" stop="20251019111000 +0800" channel="spot on news">
+<title lang="zh">Dramatic rescue operation: tourist stuck on cliff</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019111000 +0800" stop="20251019111100 +0800" channel="spot on news">
+<title lang="zh">Ruby Rose defends Taylor Swift and rails against "Wackadoodles"</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019111100 +0800" stop="20251019111100 +0800" channel="spot on news">
+<title lang="zh">Rare public appearance by Rachel Weisz and Daniel Craig</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019111100 +0800" stop="20251019111200 +0800" channel="spot on news">
+<title lang="zh">Victoria's Secret Show: Jasmine Tookes opens with baby bump</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019111200 +0800" stop="20251019111300 +0800" channel="spot on news">
+<title lang="zh">Reception at Windsor Castle: Royals welcome the Trumps</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019111300 +0800" stop="20251019111300 +0800" channel="spot on news">
+<title lang="zh">Hurricane Erin: heavy waves flood US coast</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019111300 +0800" stop="20251019111400 +0800" channel="spot on news">
+<title lang="zh">"Dances with Wolves" actor Graham Greene is dead</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019111400 +0800" stop="20251019111500 +0800" channel="spot on news">
+<title lang="zh">"The Crown" star Claire Foy turns heads in extravagant gown</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019111500 +0800" stop="20251019111700 +0800" channel="spot on news">
+<title lang="zh">Dakota Johnson causes a stir in a see-through dress</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019111700 +0800" stop="20251019111800 +0800" channel="spot on news">
+<title lang="zh">Madonna and daughter Lourdes: Joint appearance at Fashion Week</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019111800 +0800" stop="20251019111900 +0800" channel="spot on news">
+<title lang="zh">Donald Trump is furious about hairstyle scandal and photo manipulation</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019111900 +0800" stop="20251019112000 +0800" channel="spot on news">
+<title lang="zh">Data protection disaster! Ikea films thousands of customers paying</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019112000 +0800" stop="20251019112100 +0800" channel="spot on news">
+<title lang="zh">Water masses smash glass doors: Typhoon floods hotel lobby</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019112100 +0800" stop="20251019112100 +0800" channel="spot on news">
+<title lang="zh">Refueling mishap: fuel hose detaches from aircraft</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019112100 +0800" stop="20251019112200 +0800" channel="spot on news">
+<title lang="zh">Pubic hair thong: Kim Kardashian is "shocked" by the reactions</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019112200 +0800" stop="20251019112300 +0800" channel="spot on news">
+<title lang="zh">Rare appearance: Lana del Rey shows up with her husband</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019112300 +0800" stop="20251019112400 +0800" channel="spot on news">
+<title lang="zh">Prince William jokes while baking: "You'll get what you're given"</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019112400 +0800" stop="20251019112600 +0800" channel="spot on news">
+<title lang="zh">Golden Retriever celebrates birthday and goes viral</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019112600 +0800" stop="20251019112700 +0800" channel="spot on news">
+<title lang="zh">Huge columns of fire: Industrial building in Torrington ablaze</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019112700 +0800" stop="20251019112700 +0800" channel="spot on news">
+<title lang="zh">Over 60 containers tumble from ship in Long Beach port</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019112700 +0800" stop="20251019112800 +0800" channel="spot on news">
+<title lang="zh">Halloween decorations keep firefighters busy</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019112800 +0800" stop="20251019112900 +0800" channel="spot on news">
+<title lang="zh">'Devastated': Kiss band members mourn Ace Frehley</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019112900 +0800" stop="20251019113000 +0800" channel="spot on news">
+<title lang="zh">Happy Elon Musk: test flight with Starship rocket finally a success</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019113000 +0800" stop="20251019113000 +0800" channel="spot on news">
+<title lang="zh">Wall collapses - woman narrowly escapes</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019113000 +0800" stop="20251019113100 +0800" channel="spot on news">
+<title lang="zh">Bus with schoolchildren crashes into several cars and catches fire</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019113100 +0800" stop="20251019113200 +0800" channel="spot on news">
+<title lang="zh">On the hook: Police stop car in unusual way</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019113200 +0800" stop="20251019113400 +0800" channel="spot on news">
+<title lang="zh">Sensation: Tourists spot albino dolphin on the east coast of the USA</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019113400 +0800" stop="20251019113500 +0800" channel="spot on news">
+<title lang="zh">George Clooney drags himself sick to the movie premiere of "Jay Kelly"</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019113500 +0800" stop="20251019113600 +0800" channel="spot on news">
+<title lang="zh">35 train cars derail near Fort Worth, Texas</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019113600 +0800" stop="20251019113700 +0800" channel="spot on news">
+<title lang="zh">Prince William jokes while baking: "You'll get what you're given"</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019113700 +0800" stop="20251019113800 +0800" channel="spot on news">
+<title lang="zh">Heidi Klum celebrates at Oktoberfest</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019113800 +0800" stop="20251019113800 +0800" channel="spot on news">
+<title lang="zh">Annoyed elephant attacks selfie tourist</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019113800 +0800" stop="20251019113900 +0800" channel="spot on news">
+<title lang="zh">Man gets stuck on giant American flag at NFL game</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019113900 +0800" stop="20251019113900 +0800" channel="spot on news">
+<title lang="zh">Cable car tragedy in Lisbon: Father among the victims</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019113900 +0800" stop="20251019114000 +0800" channel="spot on news">
+<title lang="zh">Cat mom adopts mouse - the internet celebrates her</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019114000 +0800" stop="20251019114300 +0800" channel="spot on news">
+<title lang="zh">At the last second: security guard saves woman from tram</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019114300 +0800" stop="20251019114300 +0800" channel="spot on news">
+<title lang="zh">Fighter jet catches fire: Pilots escape using ejector seats</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019114300 +0800" stop="20251019114400 +0800" channel="spot on news">
+<title lang="zh">Chaos in the Knesset: Protest disrupts Trump's historic speech</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019114400 +0800" stop="20251019114400 +0800" channel="spot on news">
+<title lang="zh">German-Israeli twins Gali and Ziv embrace after being released</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019114400 +0800" stop="20251019114500 +0800" channel="spot on news">
+<title lang="zh">Dangerous walk: Duck family causes chaos on freeway</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019114500 +0800" stop="20251019114500 +0800" channel="spot on news">
+<title lang="zh">Shock in London: Double-decker bus veers off the road</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019114500 +0800" stop="20251019114600 +0800" channel="spot on news">
+<title lang="zh">Adam Brody and Leighton Meester celebrate premiere of Netflix series</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019114600 +0800" stop="20251019114700 +0800" channel="spot on news">
+<title lang="zh">Kim Kardashian shows up to Paris fashion show with a pixie cut</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019114700 +0800" stop="20251019114700 +0800" channel="spot on news">
+<title lang="zh">Pole dancing fail on cruise ship goes viral</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019114700 +0800" stop="20251019114800 +0800" channel="spot on news">
+<title lang="zh">Daniel Day-Lewis is back in the spotlight</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019114800 +0800" stop="20251019114800 +0800" channel="spot on news">
+<title lang="zh">Amanda Seyfried copies Julia Roberts' look</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019114800 +0800" stop="20251019115100 +0800" channel="spot on news">
+<title lang="zh">Protests in Indonesia: Demonstrators set fire to parliament</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019115100 +0800" stop="20251019115200 +0800" channel="spot on news">
+<title lang="zh">Norway: Landslide tears road and railway tracks into the depths</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019115200 +0800" stop="20251019115200 +0800" channel="spot on news">
+<title lang="zh">After chemical accident: Toxic gas cloud spotted in Germany</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019115200 +0800" stop="20251019115300 +0800" channel="spot on news">
+<title lang="zh">Prince Harry rides the waves in rare clip posted by Meghan</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019115300 +0800" stop="20251019115400 +0800" channel="spot on news">
+<title lang="zh">Naomi Watts receives star on the Walk of Fame</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019115400 +0800" stop="20251019115400 +0800" channel="spot on news">
+<title lang="zh">From head to toe: Jason Momoa shines in pink</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019115400 +0800" stop="20251019115500 +0800" channel="spot on news">
+<title lang="zh">Road swallowed up: Giant crater in front of Bangkok hospital</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019115500 +0800" stop="20251019115600 +0800" channel="spot on news">
+<title lang="zh">Fire breaks out at former BBC headquarters in London</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019115600 +0800" stop="20251019115700 +0800" channel="spot on news">
+<title lang="zh">Diane Keaton has died: Insiders open up about her health</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019115700 +0800" stop="20251019120000 +0800" channel="spot on news">
+<title lang="zh">"Never my intention": Jimmy Kimmel fights back tears upon his return</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019120000 +0800" stop="20251019120000 +0800" channel="spot on news">
+<title lang="zh">Hollywood star Robert Redford dies at 89</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019120000 +0800" stop="20251019120100 +0800" channel="spot on news">
+<title lang="zh">Hundreds of Koreans are flocking to this Swiss village - here's why</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019120100 +0800" stop="20251019120200 +0800" channel="spot on news">
+<title lang="zh">Donald Trump is furious about hairstyle scandal and photo manipulation</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019120200 +0800" stop="20251019120200 +0800" channel="spot on news">
+<title lang="zh">Kristen Stewart shines in a mini dress</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019120200 +0800" stop="20251019120300 +0800" channel="spot on news">
+<title lang="zh">"O'zapft is!" Mayor Dieter Reiter opens Oktoberfest 2025</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019120300 +0800" stop="20251019120400 +0800" channel="spot on news">
+<title lang="zh">Bus with schoolchildren crashes into several cars and catches fire</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019120400 +0800" stop="20251019120400 +0800" channel="spot on news">
+<title lang="zh">Emotional moment: Ousmane Dembélé in tears</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019120400 +0800" stop="20251019120500 +0800" channel="spot on news">
+<title lang="zh">After chemical accident: Toxic gas cloud spotted in Germany</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019120500 +0800" stop="20251019120800 +0800" channel="spot on news">
+<title lang="zh">Storms in Bali: Deaths after flooding on holiday island</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251019120800 +0800" stop="20251019235959 +0800" channel="spot on news">
 <title lang="zh">節目未能提供</title>
 <desc lang="zh"> </desc>
 </programme>
@@ -18497,6 +19438,10 @@
 <desc lang="zh"> </desc>
 </programme>
 <programme start="20251024000000 +0800" stop="20251024235959 +0800" channel="spot on news">
+<title lang="zh">節目未能提供</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251025000000 +0800" stop="20251025235959 +0800" channel="spot on news">
 <title lang="zh">節目未能提供</title>
 <desc lang="zh"> </desc>
 </programme>
