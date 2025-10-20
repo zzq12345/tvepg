@@ -1,1049 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tv SYSTEM "http://api.torrent-tv.ru/xmltv.dtd">
 <tv generator-info-name="秋哥綜合" generator-info-url="https://www.tdm.com.mo/c_tv/?ch=Satellite">
-<channel id="HOY生活台"><display-name lang="zh">HOY生活台</display-name></channel>
 <channel id="HOY劇集台"><display-name lang="zh">HOY劇集台</display-name></channel>
 <channel id="HOY怪談台"><display-name lang="zh">HOY怪談台</display-name></channel>
 <channel id="HOY體育台"><display-name lang="zh">HOY體育台</display-name></channel>
 <channel id="SportsPlus"><display-name lang="zh">SportsPlus</display-name></channel>
 <channel id="Travel &amp; Food TV"><display-name lang="zh">Travel &amp; Food TV</display-name></channel>
 <channel id="spot on news"><display-name lang="zh">spot on news</display-name></channel>
-<programme start="20251019000000 +0800" stop="20251019235959 +0800" channel="HOY生活台">
-<title lang="zh">節目未能提供</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251020000000 +0800" stop="20251020003000 +0800" channel="HOY生活台">
-<title lang="zh">煮題COOK 2 第18集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251020003000 +0800" stop="20251020010000 +0800" channel="HOY生活台">
-<title lang="zh">煮題COOK 2 第19集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251020010000 +0800" stop="20251020013000 +0800" channel="HOY生活台">
-<title lang="zh">升級美食 第3集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251020013000 +0800" stop="20251020020000 +0800" channel="HOY生活台">
-<title lang="zh">升級美食 第4集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251020020000 +0800" stop="20251020030000 +0800" channel="HOY生活台">
-<title lang="zh">香港空間改造王 第7集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251020030000 +0800" stop="20251020040000 +0800" channel="HOY生活台">
-<title lang="zh">伍姑娘真識食 第8集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251020040000 +0800" stop="20251020043000 +0800" channel="HOY生活台">
-<title lang="zh">30分鐘大放餸 第43集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251020043000 +0800" stop="20251020050000 +0800" channel="HOY生活台">
-<title lang="zh">30分鐘大放餸 第44集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251020050000 +0800" stop="20251020053000 +0800" channel="HOY生活台">
-<title lang="zh">香港奇則 第13集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251020053000 +0800" stop="20251020060000 +0800" channel="HOY生活台">
-<title lang="zh">香港奇則 第14集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251020060000 +0800" stop="20251020063000 +0800" channel="HOY生活台">
-<title lang="zh">煮題COOK 2 第20集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251020063000 +0800" stop="20251020070000 +0800" channel="HOY生活台">
-<title lang="zh">煮題COOK 2 第21集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251020070000 +0800" stop="20251020080000 +0800" channel="HOY生活台">
-<title lang="zh">味力昭人 第3集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251020080000 +0800" stop="20251020090000 +0800" channel="HOY生活台">
-<title lang="zh">臥底旅行團 3.0 第1集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251020090000 +0800" stop="20251020100000 +0800" channel="HOY生活台">
-<title lang="zh">臥底旅行團 3.0 第2集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251020100000 +0800" stop="20251020103000 +0800" channel="HOY生活台">
-<title lang="zh">30分鐘大放餸 第45集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251020103000 +0800" stop="20251020110000 +0800" channel="HOY生活台">
-<title lang="zh">30分鐘大放餸 第46集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251020110000 +0800" stop="20251020120000 +0800" channel="HOY生活台">
-<title lang="zh">一粒鐘真人蘇 第20集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251020120000 +0800" stop="20251020123000 +0800" channel="HOY生活台">
-<title lang="zh">煮題COOK 2 第20集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251020123000 +0800" stop="20251020130000 +0800" channel="HOY生活台">
-<title lang="zh">煮題COOK 2 第21集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251020130000 +0800" stop="20251020140000 +0800" channel="HOY生活台">
-<title lang="zh">味力昭人 第3集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251020140000 +0800" stop="20251020150000 +0800" channel="HOY生活台">
-<title lang="zh">臥底旅行團 3.0 第1集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251020150000 +0800" stop="20251020160000 +0800" channel="HOY生活台">
-<title lang="zh">臥底旅行團 3.0 第2集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251020160000 +0800" stop="20251020163000 +0800" channel="HOY生活台">
-<title lang="zh">30分鐘大放餸 第45集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251020163000 +0800" stop="20251020170000 +0800" channel="HOY生活台">
-<title lang="zh">30分鐘大放餸 第46集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251020170000 +0800" stop="20251020180000 +0800" channel="HOY生活台">
-<title lang="zh">一粒鐘真人蘇 第20集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251020180000 +0800" stop="20251020183000 +0800" channel="HOY生活台">
-<title lang="zh">煮題COOK 2 第20集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251020183000 +0800" stop="20251020190000 +0800" channel="HOY生活台">
-<title lang="zh">煮題COOK 2 第21集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251020190000 +0800" stop="20251020200000 +0800" channel="HOY生活台">
-<title lang="zh">味力昭人 第3集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251020200000 +0800" stop="20251020210000 +0800" channel="HOY生活台">
-<title lang="zh">臥底旅行團 3.0 第1集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251020210000 +0800" stop="20251020220000 +0800" channel="HOY生活台">
-<title lang="zh">臥底旅行團 3.0 第2集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251020220000 +0800" stop="20251020223000 +0800" channel="HOY生活台">
-<title lang="zh">30分鐘大放餸 第45集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251020223000 +0800" stop="20251020230000 +0800" channel="HOY生活台">
-<title lang="zh">30分鐘大放餸 第46集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251020230000 +0800" stop="20251021000000 +0800" channel="HOY生活台">
-<title lang="zh">一粒鐘真人蘇 第20集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251021000000 +0800" stop="20251021003000 +0800" channel="HOY生活台">
-<title lang="zh">煮題COOK 2 第20集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251021003000 +0800" stop="20251021010000 +0800" channel="HOY生活台">
-<title lang="zh">煮題COOK 2 第21集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251021010000 +0800" stop="20251021020000 +0800" channel="HOY生活台">
-<title lang="zh">味力昭人 第3集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251021020000 +0800" stop="20251021030000 +0800" channel="HOY生活台">
-<title lang="zh">臥底旅行團 3.0 第1集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251021030000 +0800" stop="20251021040000 +0800" channel="HOY生活台">
-<title lang="zh">臥底旅行團 3.0 第2集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251021040000 +0800" stop="20251021043000 +0800" channel="HOY生活台">
-<title lang="zh">30分鐘大放餸 第45集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251021043000 +0800" stop="20251021050000 +0800" channel="HOY生活台">
-<title lang="zh">30分鐘大放餸 第46集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251021050000 +0800" stop="20251021060000 +0800" channel="HOY生活台">
-<title lang="zh">一粒鐘真人蘇 第20集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251021060000 +0800" stop="20251021063000 +0800" channel="HOY生活台">
-<title lang="zh">煮題COOK 2 第22集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251021063000 +0800" stop="20251021070000 +0800" channel="HOY生活台">
-<title lang="zh">煮題COOK 2 第23集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251021070000 +0800" stop="20251021080000 +0800" channel="HOY生活台">
-<title lang="zh">味力昭人 第4集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251021080000 +0800" stop="20251021090000 +0800" channel="HOY生活台">
-<title lang="zh">臥底旅行團 3.0 第3集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251021090000 +0800" stop="20251021100000 +0800" channel="HOY生活台">
-<title lang="zh">臥底旅行團 3.0 第4集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251021100000 +0800" stop="20251021103000 +0800" channel="HOY生活台">
-<title lang="zh">30分鐘大放餸 第47集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251021103000 +0800" stop="20251021110000 +0800" channel="HOY生活台">
-<title lang="zh">30分鐘大放餸 第48集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251021110000 +0800" stop="20251021120000 +0800" channel="HOY生活台">
-<title lang="zh">一粒鐘真人蘇 第21集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251021120000 +0800" stop="20251021123000 +0800" channel="HOY生活台">
-<title lang="zh">煮題COOK 2 第22集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251021123000 +0800" stop="20251021130000 +0800" channel="HOY生活台">
-<title lang="zh">煮題COOK 2 第23集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251021130000 +0800" stop="20251021140000 +0800" channel="HOY生活台">
-<title lang="zh">味力昭人 第4集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251021140000 +0800" stop="20251021150000 +0800" channel="HOY生活台">
-<title lang="zh">臥底旅行團 3.0 第3集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251021150000 +0800" stop="20251021160000 +0800" channel="HOY生活台">
-<title lang="zh">臥底旅行團 3.0 第4集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251021160000 +0800" stop="20251021163000 +0800" channel="HOY生活台">
-<title lang="zh">30分鐘大放餸 第47集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251021163000 +0800" stop="20251021170000 +0800" channel="HOY生活台">
-<title lang="zh">30分鐘大放餸 第48集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251021170000 +0800" stop="20251021180000 +0800" channel="HOY生活台">
-<title lang="zh">一粒鐘真人蘇 第21集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251021180000 +0800" stop="20251021183000 +0800" channel="HOY生活台">
-<title lang="zh">煮題COOK 2 第22集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251021183000 +0800" stop="20251021190000 +0800" channel="HOY生活台">
-<title lang="zh">煮題COOK 2 第23集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251021190000 +0800" stop="20251021200000 +0800" channel="HOY生活台">
-<title lang="zh">味力昭人 第4集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251021200000 +0800" stop="20251021210000 +0800" channel="HOY生活台">
-<title lang="zh">臥底旅行團 3.0 第3集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251021210000 +0800" stop="20251021220000 +0800" channel="HOY生活台">
-<title lang="zh">臥底旅行團 3.0 第4集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251021220000 +0800" stop="20251021223000 +0800" channel="HOY生活台">
-<title lang="zh">30分鐘大放餸 第47集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251021223000 +0800" stop="20251021230000 +0800" channel="HOY生活台">
-<title lang="zh">30分鐘大放餸 第48集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251021230000 +0800" stop="20251022000000 +0800" channel="HOY生活台">
-<title lang="zh">一粒鐘真人蘇 第21集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251022000000 +0800" stop="20251022003000 +0800" channel="HOY生活台">
-<title lang="zh">煮題COOK 2 第22集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251022003000 +0800" stop="20251022010000 +0800" channel="HOY生活台">
-<title lang="zh">煮題COOK 2 第23集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251022010000 +0800" stop="20251022020000 +0800" channel="HOY生活台">
-<title lang="zh">味力昭人 第4集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251022020000 +0800" stop="20251022030000 +0800" channel="HOY生活台">
-<title lang="zh">臥底旅行團 3.0 第3集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251022030000 +0800" stop="20251022040000 +0800" channel="HOY生活台">
-<title lang="zh">臥底旅行團 3.0 第4集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251022040000 +0800" stop="20251022043000 +0800" channel="HOY生活台">
-<title lang="zh">30分鐘大放餸 第47集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251022043000 +0800" stop="20251022050000 +0800" channel="HOY生活台">
-<title lang="zh">30分鐘大放餸 第48集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251022050000 +0800" stop="20251022060000 +0800" channel="HOY生活台">
-<title lang="zh">一粒鐘真人蘇 第21集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251022060000 +0800" stop="20251022063000 +0800" channel="HOY生活台">
-<title lang="zh">煮題COOK 2 第24集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251022063000 +0800" stop="20251022070000 +0800" channel="HOY生活台">
-<title lang="zh">煮題COOK 2 第25集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251022070000 +0800" stop="20251022080000 +0800" channel="HOY生活台">
-<title lang="zh">味力昭人 第5集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251022080000 +0800" stop="20251022090000 +0800" channel="HOY生活台">
-<title lang="zh">臥底旅行團 3.0 第5集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251022090000 +0800" stop="20251022100000 +0800" channel="HOY生活台">
-<title lang="zh">臥底旅行團 3.0 第6集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251022100000 +0800" stop="20251022103000 +0800" channel="HOY生活台">
-<title lang="zh">30分鐘大放餸 第49集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251022103000 +0800" stop="20251022110000 +0800" channel="HOY生活台">
-<title lang="zh">30分鐘大放餸 第50集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251022110000 +0800" stop="20251022120000 +0800" channel="HOY生活台">
-<title lang="zh">一粒鐘真人蘇 第23集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251022120000 +0800" stop="20251022123000 +0800" channel="HOY生活台">
-<title lang="zh">煮題COOK 2 第24集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251022123000 +0800" stop="20251022130000 +0800" channel="HOY生活台">
-<title lang="zh">煮題COOK 2 第25集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251022130000 +0800" stop="20251022140000 +0800" channel="HOY生活台">
-<title lang="zh">味力昭人 第5集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251022140000 +0800" stop="20251022150000 +0800" channel="HOY生活台">
-<title lang="zh">臥底旅行團 3.0 第5集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251022150000 +0800" stop="20251022160000 +0800" channel="HOY生活台">
-<title lang="zh">臥底旅行團 3.0 第6集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251022160000 +0800" stop="20251022163000 +0800" channel="HOY生活台">
-<title lang="zh">30分鐘大放餸 第49集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251022163000 +0800" stop="20251022170000 +0800" channel="HOY生活台">
-<title lang="zh">30分鐘大放餸 第50集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251022170000 +0800" stop="20251022180000 +0800" channel="HOY生活台">
-<title lang="zh">一粒鐘真人蘇 第23集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251022180000 +0800" stop="20251022183000 +0800" channel="HOY生活台">
-<title lang="zh">煮題COOK 2 第24集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251022183000 +0800" stop="20251022190000 +0800" channel="HOY生活台">
-<title lang="zh">煮題COOK 2 第25集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251022190000 +0800" stop="20251022200000 +0800" channel="HOY生活台">
-<title lang="zh">味力昭人 第5集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251022200000 +0800" stop="20251022210000 +0800" channel="HOY生活台">
-<title lang="zh">臥底旅行團 3.0 第5集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251022210000 +0800" stop="20251022220000 +0800" channel="HOY生活台">
-<title lang="zh">臥底旅行團 3.0 第6集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251022220000 +0800" stop="20251022223000 +0800" channel="HOY生活台">
-<title lang="zh">30分鐘大放餸 第49集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251022223000 +0800" stop="20251022230000 +0800" channel="HOY生活台">
-<title lang="zh">30分鐘大放餸 第50集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251022230000 +0800" stop="20251023000000 +0800" channel="HOY生活台">
-<title lang="zh">一粒鐘真人蘇 第23集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251023000000 +0800" stop="20251023003000 +0800" channel="HOY生活台">
-<title lang="zh">煮題COOK 2 第24集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251023003000 +0800" stop="20251023010000 +0800" channel="HOY生活台">
-<title lang="zh">煮題COOK 2 第25集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251023010000 +0800" stop="20251023020000 +0800" channel="HOY生活台">
-<title lang="zh">味力昭人 第5集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251023020000 +0800" stop="20251023030000 +0800" channel="HOY生活台">
-<title lang="zh">臥底旅行團 3.0 第5集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251023030000 +0800" stop="20251023040000 +0800" channel="HOY生活台">
-<title lang="zh">臥底旅行團 3.0 第6集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251023040000 +0800" stop="20251023043000 +0800" channel="HOY生活台">
-<title lang="zh">30分鐘大放餸 第49集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251023043000 +0800" stop="20251023050000 +0800" channel="HOY生活台">
-<title lang="zh">30分鐘大放餸 第50集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251023050000 +0800" stop="20251023060000 +0800" channel="HOY生活台">
-<title lang="zh">一粒鐘真人蘇 第23集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251023060000 +0800" stop="20251023063000 +0800" channel="HOY生活台">
-<title lang="zh">煮題COOK 2 第26集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251023063000 +0800" stop="20251023070000 +0800" channel="HOY生活台">
-<title lang="zh">煮題COOK 2 第27集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251023070000 +0800" stop="20251023080000 +0800" channel="HOY生活台">
-<title lang="zh">味力昭人 第6集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251023080000 +0800" stop="20251023090000 +0800" channel="HOY生活台">
-<title lang="zh">臥底旅行團 3.0 第7集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251023090000 +0800" stop="20251023100000 +0800" channel="HOY生活台">
-<title lang="zh">臥底旅行團 3.0 第8集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251023100000 +0800" stop="20251023103000 +0800" channel="HOY生活台">
-<title lang="zh">30分鐘大放餸 第51集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251023103000 +0800" stop="20251023110000 +0800" channel="HOY生活台">
-<title lang="zh">30分鐘大放餸 第52集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251023110000 +0800" stop="20251023120000 +0800" channel="HOY生活台">
-<title lang="zh">一粒鐘真人蘇 第24集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251023120000 +0800" stop="20251023123000 +0800" channel="HOY生活台">
-<title lang="zh">煮題COOK 2 第26集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251023123000 +0800" stop="20251023130000 +0800" channel="HOY生活台">
-<title lang="zh">煮題COOK 2 第27集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251023130000 +0800" stop="20251023140000 +0800" channel="HOY生活台">
-<title lang="zh">味力昭人 第6集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251023140000 +0800" stop="20251023150000 +0800" channel="HOY生活台">
-<title lang="zh">臥底旅行團 3.0 第7集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251023150000 +0800" stop="20251023160000 +0800" channel="HOY生活台">
-<title lang="zh">臥底旅行團 3.0 第8集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251023160000 +0800" stop="20251023163000 +0800" channel="HOY生活台">
-<title lang="zh">30分鐘大放餸 第51集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251023163000 +0800" stop="20251023170000 +0800" channel="HOY生活台">
-<title lang="zh">30分鐘大放餸 第52集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251023170000 +0800" stop="20251023180000 +0800" channel="HOY生活台">
-<title lang="zh">一粒鐘真人蘇 第24集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251023180000 +0800" stop="20251023183000 +0800" channel="HOY生活台">
-<title lang="zh">煮題COOK 2 第26集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251023183000 +0800" stop="20251023190000 +0800" channel="HOY生活台">
-<title lang="zh">煮題COOK 2 第27集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251023190000 +0800" stop="20251023200000 +0800" channel="HOY生活台">
-<title lang="zh">味力昭人 第6集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251023200000 +0800" stop="20251023210000 +0800" channel="HOY生活台">
-<title lang="zh">臥底旅行團 3.0 第7集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251023210000 +0800" stop="20251023220000 +0800" channel="HOY生活台">
-<title lang="zh">臥底旅行團 3.0 第8集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251023220000 +0800" stop="20251023223000 +0800" channel="HOY生活台">
-<title lang="zh">30分鐘大放餸 第51集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251023223000 +0800" stop="20251023230000 +0800" channel="HOY生活台">
-<title lang="zh">30分鐘大放餸 第52集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251023230000 +0800" stop="20251024000000 +0800" channel="HOY生活台">
-<title lang="zh">一粒鐘真人蘇 第24集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251024000000 +0800" stop="20251024003000 +0800" channel="HOY生活台">
-<title lang="zh">煮題COOK 2 第26集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251024003000 +0800" stop="20251024010000 +0800" channel="HOY生活台">
-<title lang="zh">煮題COOK 2 第27集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251024010000 +0800" stop="20251024020000 +0800" channel="HOY生活台">
-<title lang="zh">味力昭人 第6集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251024020000 +0800" stop="20251024030000 +0800" channel="HOY生活台">
-<title lang="zh">臥底旅行團 3.0 第7集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251024030000 +0800" stop="20251024040000 +0800" channel="HOY生活台">
-<title lang="zh">臥底旅行團 3.0 第8集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251024040000 +0800" stop="20251024043000 +0800" channel="HOY生活台">
-<title lang="zh">30分鐘大放餸 第51集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251024043000 +0800" stop="20251024050000 +0800" channel="HOY生活台">
-<title lang="zh">30分鐘大放餸 第52集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251024050000 +0800" stop="20251024060000 +0800" channel="HOY生活台">
-<title lang="zh">一粒鐘真人蘇 第24集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251024060000 +0800" stop="20251024063000 +0800" channel="HOY生活台">
-<title lang="zh">煮題COOK 2 第28集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251024063000 +0800" stop="20251024070000 +0800" channel="HOY生活台">
-<title lang="zh">煮題COOK 2 第29集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251024070000 +0800" stop="20251024080000 +0800" channel="HOY生活台">
-<title lang="zh">味力昭人 第7集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251024080000 +0800" stop="20251024090000 +0800" channel="HOY生活台">
-<title lang="zh">臥底旅行團 3.0 第9集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251024090000 +0800" stop="20251024100000 +0800" channel="HOY生活台">
-<title lang="zh">臥底旅行團 3.0 第10集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251024100000 +0800" stop="20251024103000 +0800" channel="HOY生活台">
-<title lang="zh">30分鐘大放餸 第53集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251024103000 +0800" stop="20251024110000 +0800" channel="HOY生活台">
-<title lang="zh">30分鐘大放餸 第54集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251024110000 +0800" stop="20251024120000 +0800" channel="HOY生活台">
-<title lang="zh">一粒鐘真人蘇 第25集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251024120000 +0800" stop="20251024123000 +0800" channel="HOY生活台">
-<title lang="zh">煮題COOK 2 第28集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251024123000 +0800" stop="20251024130000 +0800" channel="HOY生活台">
-<title lang="zh">煮題COOK 2 第29集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251024130000 +0800" stop="20251024140000 +0800" channel="HOY生活台">
-<title lang="zh">味力昭人 第7集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251024140000 +0800" stop="20251024150000 +0800" channel="HOY生活台">
-<title lang="zh">臥底旅行團 3.0 第9集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251024150000 +0800" stop="20251024160000 +0800" channel="HOY生活台">
-<title lang="zh">臥底旅行團 3.0 第10集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251024160000 +0800" stop="20251024163000 +0800" channel="HOY生活台">
-<title lang="zh">30分鐘大放餸 第53集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251024163000 +0800" stop="20251024170000 +0800" channel="HOY生活台">
-<title lang="zh">30分鐘大放餸 第54集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251024170000 +0800" stop="20251024180000 +0800" channel="HOY生活台">
-<title lang="zh">一粒鐘真人蘇 第25集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251024180000 +0800" stop="20251024183000 +0800" channel="HOY生活台">
-<title lang="zh">煮題COOK 2 第28集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251024183000 +0800" stop="20251024190000 +0800" channel="HOY生活台">
-<title lang="zh">煮題COOK 2 第29集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251024190000 +0800" stop="20251024200000 +0800" channel="HOY生活台">
-<title lang="zh">味力昭人 第7集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251024200000 +0800" stop="20251024210000 +0800" channel="HOY生活台">
-<title lang="zh">臥底旅行團 3.0 第9集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251024210000 +0800" stop="20251024220000 +0800" channel="HOY生活台">
-<title lang="zh">臥底旅行團 3.0 第10集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251024220000 +0800" stop="20251024223000 +0800" channel="HOY生活台">
-<title lang="zh">30分鐘大放餸 第53集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251024223000 +0800" stop="20251024230000 +0800" channel="HOY生活台">
-<title lang="zh">30分鐘大放餸 第54集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251024230000 +0800" stop="20251025000000 +0800" channel="HOY生活台">
-<title lang="zh">一粒鐘真人蘇 第25集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251025000000 +0800" stop="20251025003000 +0800" channel="HOY生活台">
-<title lang="zh">煮題COOK 2 第28集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251025003000 +0800" stop="20251025010000 +0800" channel="HOY生活台">
-<title lang="zh">煮題COOK 2 第29集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251025010000 +0800" stop="20251025020000 +0800" channel="HOY生活台">
-<title lang="zh">味力昭人 第7集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251025020000 +0800" stop="20251025030000 +0800" channel="HOY生活台">
-<title lang="zh">臥底旅行團 3.0 第9集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251025030000 +0800" stop="20251025040000 +0800" channel="HOY生活台">
-<title lang="zh">臥底旅行團 3.0 第10集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251025040000 +0800" stop="20251025043000 +0800" channel="HOY生活台">
-<title lang="zh">30分鐘大放餸 第53集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251025043000 +0800" stop="20251025050000 +0800" channel="HOY生活台">
-<title lang="zh">30分鐘大放餸 第54集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251025050000 +0800" stop="20251025060000 +0800" channel="HOY生活台">
-<title lang="zh">一粒鐘真人蘇 第25集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251025060000 +0800" stop="20251025063000 +0800" channel="HOY生活台">
-<title lang="zh">煮題COOK 2 第30集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251025063000 +0800" stop="20251025070000 +0800" channel="HOY生活台">
-<title lang="zh">煮題COOK 2 第31集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251025070000 +0800" stop="20251025073000 +0800" channel="HOY生活台">
-<title lang="zh">升級美食 第5集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251025073000 +0800" stop="20251025080000 +0800" channel="HOY生活台">
-<title lang="zh">升級美食 第6集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251025080000 +0800" stop="20251025090000 +0800" channel="HOY生活台">
-<title lang="zh">香港空間改造王 第8集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251025090000 +0800" stop="20251025100000 +0800" channel="HOY生活台">
-<title lang="zh">伍姑娘真識食 第9集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251025100000 +0800" stop="20251025103000 +0800" channel="HOY生活台">
-<title lang="zh">30分鐘大放餸 第55集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251025103000 +0800" stop="20251025110000 +0800" channel="HOY生活台">
-<title lang="zh">30分鐘大放餸 第56集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251025110000 +0800" stop="20251025113000 +0800" channel="HOY生活台">
-<title lang="zh">香港奇則 第15集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251025113000 +0800" stop="20251025120000 +0800" channel="HOY生活台">
-<title lang="zh">香港奇則 第16集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251025120000 +0800" stop="20251025123000 +0800" channel="HOY生活台">
-<title lang="zh">煮題COOK 2 第30集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251025123000 +0800" stop="20251025130000 +0800" channel="HOY生活台">
-<title lang="zh">煮題COOK 2 第31集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251025130000 +0800" stop="20251025133000 +0800" channel="HOY生活台">
-<title lang="zh">升級美食 第5集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251025133000 +0800" stop="20251025140000 +0800" channel="HOY生活台">
-<title lang="zh">升級美食 第6集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251025140000 +0800" stop="20251025150000 +0800" channel="HOY生活台">
-<title lang="zh">香港空間改造王 第8集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251025150000 +0800" stop="20251025160000 +0800" channel="HOY生活台">
-<title lang="zh">伍姑娘真識食 第9集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251025160000 +0800" stop="20251025163000 +0800" channel="HOY生活台">
-<title lang="zh">30分鐘大放餸 第55集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251025163000 +0800" stop="20251025170000 +0800" channel="HOY生活台">
-<title lang="zh">30分鐘大放餸 第56集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251025170000 +0800" stop="20251025173000 +0800" channel="HOY生活台">
-<title lang="zh">香港奇則 第15集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251025173000 +0800" stop="20251025180000 +0800" channel="HOY生活台">
-<title lang="zh">香港奇則 第16集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251025180000 +0800" stop="20251025183000 +0800" channel="HOY生活台">
-<title lang="zh">煮題COOK 2 第30集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251025183000 +0800" stop="20251025190000 +0800" channel="HOY生活台">
-<title lang="zh">煮題COOK 2 第31集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251025190000 +0800" stop="20251025193000 +0800" channel="HOY生活台">
-<title lang="zh">升級美食 第5集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251025193000 +0800" stop="20251025200000 +0800" channel="HOY生活台">
-<title lang="zh">升級美食 第6集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251025200000 +0800" stop="20251025210000 +0800" channel="HOY生活台">
-<title lang="zh">香港空間改造王 第8集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251025210000 +0800" stop="20251025220000 +0800" channel="HOY生活台">
-<title lang="zh">伍姑娘真識食 第9集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251025220000 +0800" stop="20251025223000 +0800" channel="HOY生活台">
-<title lang="zh">30分鐘大放餸 第55集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251025223000 +0800" stop="20251025230000 +0800" channel="HOY生活台">
-<title lang="zh">30分鐘大放餸 第56集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251025230000 +0800" stop="20251025233000 +0800" channel="HOY生活台">
-<title lang="zh">香港奇則 第15集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251025233000 +0800" stop="20251026000000 +0800" channel="HOY生活台">
-<title lang="zh">香港奇則 第16集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251026000000 +0800" stop="20251026003000 +0800" channel="HOY生活台">
-<title lang="zh">煮題COOK 2 第30集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251026003000 +0800" stop="20251026010000 +0800" channel="HOY生活台">
-<title lang="zh">煮題COOK 2 第31集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251026010000 +0800" stop="20251026013000 +0800" channel="HOY生活台">
-<title lang="zh">升級美食 第5集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251026013000 +0800" stop="20251026020000 +0800" channel="HOY生活台">
-<title lang="zh">升級美食 第6集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251026020000 +0800" stop="20251026030000 +0800" channel="HOY生活台">
-<title lang="zh">香港空間改造王 第8集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251026030000 +0800" stop="20251026040000 +0800" channel="HOY生活台">
-<title lang="zh">伍姑娘真識食 第9集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251026040000 +0800" stop="20251026043000 +0800" channel="HOY生活台">
-<title lang="zh">30分鐘大放餸 第55集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251026043000 +0800" stop="20251026050000 +0800" channel="HOY生活台">
-<title lang="zh">30分鐘大放餸 第56集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251026050000 +0800" stop="20251026053000 +0800" channel="HOY生活台">
-<title lang="zh">香港奇則 第15集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251026053000 +0800" stop="20251026060000 +0800" channel="HOY生活台">
-<title lang="zh">香港奇則 第16集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251026060000 +0800" stop="20251026063000 +0800" channel="HOY生活台">
-<title lang="zh">煮題COOK 2 第32集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251026063000 +0800" stop="20251026070000 +0800" channel="HOY生活台">
-<title lang="zh">煮題COOK 2 第33集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251026070000 +0800" stop="20251026073000 +0800" channel="HOY生活台">
-<title lang="zh">升級美食 第7集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251026073000 +0800" stop="20251026080000 +0800" channel="HOY生活台">
-<title lang="zh">升級美食 第8集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251026080000 +0800" stop="20251026090000 +0800" channel="HOY生活台">
-<title lang="zh">香港空間改造王 第9集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251026090000 +0800" stop="20251026100000 +0800" channel="HOY生活台">
-<title lang="zh">伍姑娘真識食 第10集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251026100000 +0800" stop="20251026103000 +0800" channel="HOY生活台">
-<title lang="zh">30分鐘大放餸 第57集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251026103000 +0800" stop="20251026110000 +0800" channel="HOY生活台">
-<title lang="zh">30分鐘大放餸 第58集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251026110000 +0800" stop="20251026113000 +0800" channel="HOY生活台">
-<title lang="zh">香港奇則 第17集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251026113000 +0800" stop="20251026120000 +0800" channel="HOY生活台">
-<title lang="zh">香港奇則 第18集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251026120000 +0800" stop="20251026123000 +0800" channel="HOY生活台">
-<title lang="zh">煮題COOK 2 第32集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251026123000 +0800" stop="20251026130000 +0800" channel="HOY生活台">
-<title lang="zh">煮題COOK 2 第33集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251026130000 +0800" stop="20251026133000 +0800" channel="HOY生活台">
-<title lang="zh">升級美食 第7集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251026133000 +0800" stop="20251026140000 +0800" channel="HOY生活台">
-<title lang="zh">升級美食 第8集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251026140000 +0800" stop="20251026150000 +0800" channel="HOY生活台">
-<title lang="zh">香港空間改造王 第9集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251026150000 +0800" stop="20251026160000 +0800" channel="HOY生活台">
-<title lang="zh">伍姑娘真識食 第10集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251026160000 +0800" stop="20251026163000 +0800" channel="HOY生活台">
-<title lang="zh">30分鐘大放餸 第57集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251026163000 +0800" stop="20251026170000 +0800" channel="HOY生活台">
-<title lang="zh">30分鐘大放餸 第58集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251026170000 +0800" stop="20251026173000 +0800" channel="HOY生活台">
-<title lang="zh">香港奇則 第17集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251026173000 +0800" stop="20251026180000 +0800" channel="HOY生活台">
-<title lang="zh">香港奇則 第18集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251026180000 +0800" stop="20251026183000 +0800" channel="HOY生活台">
-<title lang="zh">煮題COOK 2 第32集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251026183000 +0800" stop="20251026190000 +0800" channel="HOY生活台">
-<title lang="zh">煮題COOK 2 第33集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251026190000 +0800" stop="20251026193000 +0800" channel="HOY生活台">
-<title lang="zh">升級美食 第7集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251026193000 +0800" stop="20251026200000 +0800" channel="HOY生活台">
-<title lang="zh">升級美食 第8集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251026200000 +0800" stop="20251026210000 +0800" channel="HOY生活台">
-<title lang="zh">香港空間改造王 第9集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251026210000 +0800" stop="20251026220000 +0800" channel="HOY生活台">
-<title lang="zh">伍姑娘真識食 第10集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251026220000 +0800" stop="20251026223000 +0800" channel="HOY生活台">
-<title lang="zh">30分鐘大放餸 第57集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251026223000 +0800" stop="20251026230000 +0800" channel="HOY生活台">
-<title lang="zh">30分鐘大放餸 第58集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251026230000 +0800" stop="20251026233000 +0800" channel="HOY生活台">
-<title lang="zh">香港奇則 第17集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251026233000 +0800" stop="20251027000000 +0800" channel="HOY生活台">
-<title lang="zh">香港奇則 第18集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251027000000 +0800" stop="20251027003000 +0800" channel="HOY生活台">
-<title lang="zh">煮題COOK 2 第32集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251027003000 +0800" stop="20251027010000 +0800" channel="HOY生活台">
-<title lang="zh">煮題COOK 2 第33集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251027010000 +0800" stop="20251027013000 +0800" channel="HOY生活台">
-<title lang="zh">升級美食 第7集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251027013000 +0800" stop="20251027020000 +0800" channel="HOY生活台">
-<title lang="zh">升級美食 第8集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251027020000 +0800" stop="20251027030000 +0800" channel="HOY生活台">
-<title lang="zh">香港空間改造王 第9集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251027030000 +0800" stop="20251027040000 +0800" channel="HOY生活台">
-<title lang="zh">伍姑娘真識食 第10集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251027040000 +0800" stop="20251027043000 +0800" channel="HOY生活台">
-<title lang="zh">30分鐘大放餸 第57集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251027043000 +0800" stop="20251027050000 +0800" channel="HOY生活台">
-<title lang="zh">30分鐘大放餸 第58集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251027050000 +0800" stop="20251027053000 +0800" channel="HOY生活台">
-<title lang="zh">香港奇則 第17集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251027053000 +0800" stop="20251027060000 +0800" channel="HOY生活台">
-<title lang="zh">香港奇則 第18集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251027060000 +0800" stop="20251027063000 +0800" channel="HOY生活台">
-<title lang="zh">煮題COOK 2 第34集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251027063000 +0800" stop="20251027070000 +0800" channel="HOY生活台">
-<title lang="zh">煮題COOK 2 第35集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251027070000 +0800" stop="20251027080000 +0800" channel="HOY生活台">
-<title lang="zh">味力昭人 第8集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251027080000 +0800" stop="20251027090000 +0800" channel="HOY生活台">
-<title lang="zh">臥底旅行團 3.0 第11集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251027090000 +0800" stop="20251027100000 +0800" channel="HOY生活台">
-<title lang="zh">臥底旅行團 3.0 第12集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251027100000 +0800" stop="20251027103000 +0800" channel="HOY生活台">
-<title lang="zh">30分鐘大放餸 第59集</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251027103000 +0800" stop="20251027110000 +0800" channel="HOY生活台">
-<title lang="zh">節目未能提供</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251027110000 +0800" stop="20251027120000 +0800" channel="HOY生活台">
-<title lang="zh">一粒鐘真人蘇 第26集</title>
-<desc lang="zh"> </desc>
-</programme>
 <programme start="20251019000000 +0800" stop="20251019230400 +0800" channel="HOY劇集台">
 <title lang="zh">節目未能提供</title>
 <desc lang="zh"> </desc>
@@ -6921,11 +5884,11 @@
 <desc lang="zh"> </desc>
 </programme>
 <programme start="20251020062400 +0800" stop="20251020062400 +0800" channel="spot on news">
-<title lang="zh">German-Israeli twins Gali and Ziv embrace after being released</title>
+<title lang="zh">Crash car misses man by inches</title>
 <desc lang="zh"> </desc>
 </programme>
 <programme start="20251020062400 +0800" stop="20251020062400 +0800" channel="spot on news">
-<title lang="zh">Crash car misses man by inches</title>
+<title lang="zh">German-Israeli twins Gali and Ziv embrace after being released</title>
 <desc lang="zh"> </desc>
 </programme>
 <programme start="20251020062400 +0800" stop="20251020062500 +0800" channel="spot on news">
@@ -12088,7 +11051,511 @@
 <title lang="zh">Charles and William set an example for the environment</title>
 <desc lang="zh"> </desc>
 </programme>
-<programme start="20251021023100 +0800" stop="20251021235959 +0800" channel="spot on news">
+<programme start="20251021023100 +0800" stop="20251021023100 +0800" channel="spot on news">
+<title lang="zh">Heidi Klum celebrates at Oktoberfest</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021023100 +0800" stop="20251021023400 +0800" channel="spot on news">
+<title lang="zh">Cute photos on Instagram: Vanessa Kirby has become a mother</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021023400 +0800" stop="20251021023500 +0800" channel="spot on news">
+<title lang="zh">Fire in the sky: Condor plane forced to make emergency landing</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021023500 +0800" stop="20251021023600 +0800" channel="spot on news">
+<title lang="zh">Windshield shattered: Aircraft forced to make emergency landing</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021023600 +0800" stop="20251021023700 +0800" channel="spot on news">
+<title lang="zh">"General Hospital" star Tristan Rogers has died at the age of 79</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021023700 +0800" stop="20251021023700 +0800" channel="spot on news">
+<title lang="zh">George Clooney drags himself sick to the movie premiere of "Jay Kelly"</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021023700 +0800" stop="20251021023800 +0800" channel="spot on news">
+<title lang="zh">Firefighters hurt after car crash causes gas explosion</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021023800 +0800" stop="20251021023800 +0800" channel="spot on news">
+<title lang="zh">Truck catches fire and cannot brake</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021023800 +0800" stop="20251021023900 +0800" channel="spot on news">
+<title lang="zh">'Devastated': Kiss band members mourn Ace Frehley</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021023900 +0800" stop="20251021024000 +0800" channel="spot on news">
+<title lang="zh">Data protection disaster! Ikea films thousands of customers paying</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021024000 +0800" stop="20251021024300 +0800" channel="spot on news">
+<title lang="zh">Rare appearance: Lana del Rey shows up with her husband</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021024300 +0800" stop="20251021024300 +0800" channel="spot on news">
+<title lang="zh">On campus: Students excavate skeleton of giant whale</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021024300 +0800" stop="20251021024400 +0800" channel="spot on news">
+<title lang="zh">Nicole Kidman and Keith Urban: Separation after 19 years of marriage</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021024400 +0800" stop="20251021024500 +0800" channel="spot on news">
+<title lang="zh">Hundreds of Koreans are flocking to this Swiss village - here's why</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021024500 +0800" stop="20251021024600 +0800" channel="spot on news">
+<title lang="zh">Good Mood Food: These foods make you happy</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021024600 +0800" stop="20251021024700 +0800" channel="spot on news">
+<title lang="zh">Man gets stuck on giant American flag at NFL game</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021024700 +0800" stop="20251021024800 +0800" channel="spot on news">
+<title lang="zh">Sensational discovery: Researchers uncover previously unknown dinosaur</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021024800 +0800" stop="20251021024800 +0800" channel="spot on news">
+<title lang="zh">Cute! Maltipoo puppy puts himself to bed</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021024800 +0800" stop="20251021025100 +0800" channel="spot on news">
+<title lang="zh">Prince Harry rides the waves in rare clip posted by Meghan</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021025100 +0800" stop="20251021025200 +0800" channel="spot on news">
+<title lang="zh">Windshield shattered: Aircraft forced to make emergency landing</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021025200 +0800" stop="20251021025200 +0800" channel="spot on news">
+<title lang="zh">Hot air balloon makes emergency landing on UK street</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021025200 +0800" stop="20251021025300 +0800" channel="spot on news">
+<title lang="zh">"The Crown" star Claire Foy turns heads in extravagant gown</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021025300 +0800" stop="20251021025300 +0800" channel="spot on news">
+<title lang="zh">Sarah Jessica Parker with black wings on the red carpet</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021025300 +0800" stop="20251021025600 +0800" channel="spot on news">
+<title lang="zh">From Hokkaido to Butternut: An overview of pumpkin varieties</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021025600 +0800" stop="20251021025700 +0800" channel="spot on news">
+<title lang="zh">Ryder Cup 2025: Golf stars poke fun at Donald Trump</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021025700 +0800" stop="20251021025900 +0800" channel="spot on news">
+<title lang="zh">Second baby on the way: Sofia Richie Grainge is pregnant again</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021025900 +0800" stop="20251021030000 +0800" channel="spot on news">
+<title lang="zh">Diane Keaton has died: Insiders open up about her health</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021030000 +0800" stop="20251021030100 +0800" channel="spot on news">
+<title lang="zh">Ruby Rose defends Taylor Swift and rails against "Wackadoodles"</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021030100 +0800" stop="20251021030200 +0800" channel="spot on news">
+<title lang="zh">Cat rolls around in glitter makeup goes viral</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021030200 +0800" stop="20251021030200 +0800" channel="spot on news">
+<title lang="zh">"Sopranos" star Jerry Adler dies at 96</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021030200 +0800" stop="20251021030300 +0800" channel="spot on news">
+<title lang="zh">Golden Retrievers see pair of otters and go crazy</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021030300 +0800" stop="20251021030300 +0800" channel="spot on news">
+<title lang="zh">Cable car tragedy in Lisbon: Father among the victims</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021030300 +0800" stop="20251021030400 +0800" channel="spot on news">
+<title lang="zh">Apron instead of dress: Emma Corrin in unconventional red carpet look</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021030400 +0800" stop="20251021030500 +0800" channel="spot on news">
+<title lang="zh">Mega discovery: NASA finds evidence of life on Mars</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021030500 +0800" stop="20251021030800 +0800" channel="spot on news">
+<title lang="zh">Police officer convicted: He stole underwear during a house search</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021030800 +0800" stop="20251021030900 +0800" channel="spot on news">
+<title lang="zh">Handshake becomes a power play: Trump flexes his muscles at Macron</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021030900 +0800" stop="20251021030900 +0800" channel="spot on news">
+<title lang="zh">Aircraft skids off runway and crashes into the sea</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021030900 +0800" stop="20251021031000 +0800" channel="spot on news">
+<title lang="zh">Fire alarm on plane: Hand luggage catches fire</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021031000 +0800" stop="20251021031000 +0800" channel="spot on news">
+<title lang="zh">German-Israeli twins Gali and Ziv embrace after being released</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021031000 +0800" stop="20251021031100 +0800" channel="spot on news">
+<title lang="zh">Céline Dion: Despite illness, she attends concert with her sons</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021031100 +0800" stop="20251021031200 +0800" channel="spot on news">
+<title lang="zh">Kristen Stewart shines in a mini dress</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021031200 +0800" stop="20251021031200 +0800" channel="spot on news">
+<title lang="zh">Windshield shattered: Aircraft forced to make emergency landing</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021031200 +0800" stop="20251021031300 +0800" channel="spot on news">
+<title lang="zh">Animal speedster: Rat interrupts football match</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021031300 +0800" stop="20251021031300 +0800" channel="spot on news">
+<title lang="zh">Victoria's Secret Show: Jasmine Tookes opens with baby bump</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021031300 +0800" stop="20251021031800 +0800" channel="spot on news">
+<title lang="zh">From Hokkaido to Butternut: An overview of pumpkin varieties</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021031800 +0800" stop="20251021031800 +0800" channel="spot on news">
+<title lang="zh">Cute photos on Instagram: Vanessa Kirby has become a mother</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021031800 +0800" stop="20251021031900 +0800" channel="spot on news">
+<title lang="zh">Drama in Indonesia: School collapses during class</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021031900 +0800" stop="20251021032000 +0800" channel="spot on news">
+<title lang="zh">High-altitude thrill in China: bungee jumping from the Huajiang Bridge</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021032000 +0800" stop="20251021032000 +0800" channel="spot on news">
+<title lang="zh">Right on the nose: plane forced to land without landing gear</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021032000 +0800" stop="20251021032100 +0800" channel="spot on news">
+<title lang="zh">Louvre break-in caught on camera: cell phone video shows thief</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021032100 +0800" stop="20251021032100 +0800" channel="spot on news">
+<title lang="zh">Typhoon Halong: House swept away by floodwaters</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021032100 +0800" stop="20251021032400 +0800" channel="spot on news">
+<title lang="zh">Donald Trump is furious about hairstyle scandal and photo manipulation</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021032400 +0800" stop="20251021032500 +0800" channel="spot on news">
+<title lang="zh">Hot air balloon makes emergency landing on UK street</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021032500 +0800" stop="20251021032600 +0800" channel="spot on news">
+<title lang="zh">Passenger attacks stewardess and is dragged off plane</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021032600 +0800" stop="20251021032600 +0800" channel="spot on news">
+<title lang="zh">From head to toe: Jason Momoa shines in pink</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021032600 +0800" stop="20251021032800 +0800" channel="spot on news">
+<title lang="zh">"A basketball machine": The press celebrates Germany's triumph</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021032800 +0800" stop="20251021032800 +0800" channel="spot on news">
+<title lang="zh">Amal and George Clooney shine at "Jay Kelly" premiere</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021032800 +0800" stop="20251021032900 +0800" channel="spot on news">
+<title lang="zh">Fire in the sky: Condor plane forced to make emergency landing</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021032900 +0800" stop="20251021033000 +0800" channel="spot on news">
+<title lang="zh">Five dead after tour bus crashes in New York State</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021033000 +0800" stop="20251021033200 +0800" channel="spot on news">
+<title lang="zh">Building collapses in Madrid: several dead and missing</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021033200 +0800" stop="20251021033300 +0800" channel="spot on news">
+<title lang="zh">Near Los Angeles: Helicopter crashes on beach</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021033300 +0800" stop="20251021033300 +0800" channel="spot on news">
+<title lang="zh">Huge columns of fire: Industrial building in Torrington ablaze</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021033300 +0800" stop="20251021033400 +0800" channel="spot on news">
+<title lang="zh">Jennifer Lopez &amp; Ben Affleck: Surprising red carpet comeback</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021033400 +0800" stop="20251021033500 +0800" channel="spot on news">
+<title lang="zh">Heavy protests: photos of Trump and Epstein at Windsor Castle</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021033500 +0800" stop="20251021033600 +0800" channel="spot on news">
+<title lang="zh">Windshield shattered: Aircraft forced to make emergency landing</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021033600 +0800" stop="20251021033600 +0800" channel="spot on news">
+<title lang="zh">Pole dancing fail on cruise ship goes viral</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021033600 +0800" stop="20251021033700 +0800" channel="spot on news">
+<title lang="zh">Halloween decorations keep firefighters busy</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021033700 +0800" stop="20251021033700 +0800" channel="spot on news">
+<title lang="zh">Private jet overshoots runway and crashes into fence</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021033700 +0800" stop="20251021033800 +0800" channel="spot on news">
+<title lang="zh">After chemical accident: Toxic gas cloud spotted in Germany</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021033800 +0800" stop="20251021034100 +0800" channel="spot on news">
+<title lang="zh">Refueling mishap: fuel hose detaches from aircraft</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021034100 +0800" stop="20251021034200 +0800" channel="spot on news">
+<title lang="zh">Water masses smash glass doors: Typhoon floods hotel lobby</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021034200 +0800" stop="20251021034200 +0800" channel="spot on news">
+<title lang="zh">Second baby on the way: Sofia Richie Grainge is pregnant again</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021034200 +0800" stop="20251021034300 +0800" channel="spot on news">
+<title lang="zh">Cute photos on Instagram: Vanessa Kirby has become a mother</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021034300 +0800" stop="20251021034400 +0800" channel="spot on news">
+<title lang="zh">Reception at Windsor Castle: Royals welcome the Trumps</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021034400 +0800" stop="20251021034400 +0800" channel="spot on news">
+<title lang="zh">"Dances with Wolves" actor Graham Greene is dead</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021034400 +0800" stop="20251021034500 +0800" channel="spot on news">
+<title lang="zh">Pubic hair thong: Kim Kardashian is "shocked" by the reactions</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021034500 +0800" stop="20251021034600 +0800" channel="spot on news">
+<title lang="zh">Crocodile splashes around in luxury resort while guests relax</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021034600 +0800" stop="20251021034700 +0800" channel="spot on news">
+<title lang="zh">Shocking moment: Historic church building suddenly collapses</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021034700 +0800" stop="20251021035000 +0800" channel="spot on news">
+<title lang="zh">Mishap at the UN: Donald Trump gets stuck on escalator</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021035000 +0800" stop="20251021035000 +0800" channel="spot on news">
+<title lang="zh">Louvre break-in caught on camera: cell phone video shows thief</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021035000 +0800" stop="20251021035100 +0800" channel="spot on news">
+<title lang="zh">Drone show ends in chaos: shower of sparks hits spectators</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021035100 +0800" stop="20251021035100 +0800" channel="spot on news">
+<title lang="zh">Super cute: kittens build a human ladder</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021035100 +0800" stop="20251021035200 +0800" channel="spot on news">
+<title lang="zh">On campus: Students excavate skeleton of giant whale</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021035200 +0800" stop="20251021035300 +0800" channel="spot on news">
+<title lang="zh">Dramatic rescue operation: tourist stuck on cliff</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021035300 +0800" stop="20251021035300 +0800" channel="spot on news">
+<title lang="zh">Madonna and daughter Lourdes: Joint appearance at Fashion Week</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021035300 +0800" stop="20251021035400 +0800" channel="spot on news">
+<title lang="zh">Giga traffic jam! Millions of travelers trapped on the freeway</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021035400 +0800" stop="20251021035500 +0800" channel="spot on news">
+<title lang="zh">Ruby Rose defends Taylor Swift and rails against "Wackadoodles"</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021035500 +0800" stop="20251021035800 +0800" channel="spot on news">
+<title lang="zh">"O'zapft is!" Mayor Dieter Reiter opens Oktoberfest 2025</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021035800 +0800" stop="20251021035900 +0800" channel="spot on news">
+<title lang="zh">Kim Kardashian shocks with mask look: why she covered herself up</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021035900 +0800" stop="20251021035900 +0800" channel="spot on news">
+<title lang="zh">Chemical fire rages in Newburgh manufacturing facility</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021035900 +0800" stop="20251021040000 +0800" channel="spot on news">
+<title lang="zh">Kim Kardashian dazzles with glamorous appearance</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021040000 +0800" stop="20251021040100 +0800" channel="spot on news">
+<title lang="zh">Austria's favorite animal: News about Emil the moose</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021040100 +0800" stop="20251021040200 +0800" channel="spot on news">
+<title lang="zh">Ryder Cup 2025: Golf stars poke fun at Donald Trump</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021040200 +0800" stop="20251021040300 +0800" channel="spot on news">
+<title lang="zh">Dancing, soccer, and lots of falls: Olympics for robots</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021040300 +0800" stop="20251021040300 +0800" channel="spot on news">
+<title lang="zh">Kim Kardashian shows up to Paris fashion show with a pixie cut</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021040300 +0800" stop="20251021040400 +0800" channel="spot on news">
+<title lang="zh">Rare phenomenon: Fire tornado swirls across field</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021040400 +0800" stop="20251021040700 +0800" channel="spot on news">
+<title lang="zh">Leonardo DiCaprio: "We lost an absolute legend"</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021040700 +0800" stop="20251021040700 +0800" channel="spot on news">
+<title lang="zh">Storm Amy has swept the UK and Ireland - one man was killed</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021040700 +0800" stop="20251021040800 +0800" channel="spot on news">
+<title lang="zh">Sweden: Historic church in Kiruna must be relocated</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021040800 +0800" stop="20251021040900 +0800" channel="spot on news">
+<title lang="zh">Florida: Government paints over rainbow memorial crosswalk</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021040900 +0800" stop="20251021041000 +0800" channel="spot on news">
+<title lang="zh">Firefighting helicopter crashes into pond: rotor torn apart</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021041000 +0800" stop="20251021041000 +0800" channel="spot on news">
+<title lang="zh">Fire alarm on plane: Hand luggage catches fire</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021041000 +0800" stop="20251021041100 +0800" channel="spot on news">
+<title lang="zh">Windshield shattered: Aircraft forced to make emergency landing</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021041100 +0800" stop="20251021041100 +0800" channel="spot on news">
+<title lang="zh">Millions storm the streets: Anti-Trump wave breaks records!</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021041100 +0800" stop="20251021041200 +0800" channel="spot on news">
+<title lang="zh">Data protection disaster! Ikea films thousands of customers paying</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021041200 +0800" stop="20251021041500 +0800" channel="spot on news">
+<title lang="zh">Norway: Landslide tears road and railway tracks into the depths</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021041500 +0800" stop="20251021041600 +0800" channel="spot on news">
+<title lang="zh">New album leaked hours before release: this is how Taylor Swift reacts</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021041600 +0800" stop="20251021041600 +0800" channel="spot on news">
+<title lang="zh">Adam Brody and Leighton Meester celebrate premiere of Netflix series</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021041600 +0800" stop="20251021041700 +0800" channel="spot on news">
+<title lang="zh">Aircraft skids off runway and crashes into the sea</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021041700 +0800" stop="20251021041700 +0800" channel="spot on news">
+<title lang="zh">At the last second: security guard saves woman from tram</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021041700 +0800" stop="20251021041800 +0800" channel="spot on news">
+<title lang="zh">35 train cars derail near Fort Worth, Texas</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021041800 +0800" stop="20251021041900 +0800" channel="spot on news">
+<title lang="zh">Cute photos on Instagram: Vanessa Kirby has become a mother</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021041900 +0800" stop="20251021041900 +0800" channel="spot on news">
+<title lang="zh">Sicily: Dilapidated bridge crumbles under cars</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021041900 +0800" stop="20251021042000 +0800" channel="spot on news">
+<title lang="zh">Horror crash in restaurant: Influencers hit by car while eating</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021042000 +0800" stop="20251021042000 +0800" channel="spot on news">
+<title lang="zh">Heavy weather in Nebraska: massive storm tears off prison roof</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021042000 +0800" stop="20251021042300 +0800" channel="spot on news">
+<title lang="zh">Philippines: Severe earthquake destroys homes and causes chaos</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021042300 +0800" stop="20251021042400 +0800" channel="spot on news">
+<title lang="zh">Emotional moment: Ousmane Dembélé in tears</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021042400 +0800" stop="20251021042500 +0800" channel="spot on news">
+<title lang="zh">Unusual squatters: Polar bears move into old research station</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021042500 +0800" stop="20251021042600 +0800" channel="spot on news">
+<title lang="zh">Primatologist Jane Goodall has died</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021042600 +0800" stop="20251021042600 +0800" channel="spot on news">
+<title lang="zh">After heavy rain: Landslide sweeps away entire house</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021042600 +0800" stop="20251021042700 +0800" channel="spot on news">
+<title lang="zh">Cat mom adopts mouse - the internet celebrates her</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021042700 +0800" stop="20251021042700 +0800" channel="spot on news">
+<title lang="zh">Naomi Watts receives star on the Walk of Fame</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021042700 +0800" stop="20251021042800 +0800" channel="spot on news">
+<title lang="zh">Sarah Jessica Parker with black wings on the red carpet</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021042800 +0800" stop="20251021042800 +0800" channel="spot on news">
+<title lang="zh">Near Los Angeles: Helicopter crashes on beach</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021042800 +0800" stop="20251021042900 +0800" channel="spot on news">
+<title lang="zh">'Devastated': Kiss band members mourn Ace Frehley</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021042900 +0800" stop="20251021043200 +0800" channel="spot on news">
+<title lang="zh">Almost 100 kilometers: Sandstorm swallows entire region</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251021043200 +0800" stop="20251021235959 +0800" channel="spot on news">
 <title lang="zh">節目未能提供</title>
 <desc lang="zh"> </desc>
 </programme>
