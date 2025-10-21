@@ -321,10 +321,29 @@ for ($idm655=1; $idm655 <= $nid655; $idm655++){
  $idd655=$id655+$idm655;
    $chn.="<channel id=\"".$cid655[$idm655-1][1]."\"><display-name lang=\"zh\">".$cid655[$idm655-1][1]."</display-name></channel>\n";
 }
+
+$uuu='https://www.ofiii.com/channel/watch/ofiii16';
+$ch = curl_init($uuu);
+    curl_setopt_array($ch, [
+        CURLOPT_RETURNTRANSFER => true,
+        CURLOPT_USERAGENT => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)',
+        CURLOPT_SSL_VERIFYPEER => false,
+        CURLOPT_SSL_VERIFYHOST => false,
+    ]);
+    $uuk = curl_exec($ch);
+    curl_close($ch);
+preg_match('/"buildId":"(.*)",/i', $uuk, $uum);
+
+
+
+    //$jsonUrl = "https://www.ofiii.com/_next/data/_10zLM4oyU8wcrcrw1Uic/channel/watch/{$id}.json?contentId={$id}";
+      // $jsonUrl = "https://www.ofiii.com/_next/data/".$uum[1]."/channel/watch/".$id.".json?contentId={$id}";
+
+
 for ($idm655=1; $idm655 <= $nid655; $idm655++){
 
 
-$url655= "https://www.ofiii.com/_next/data/Qi1G4-x6f7ycEL1ZDdUMG/channel/watch/".$cid655[$idm655-1][0].".json?contentId=".$cid655[$idm655-1][0];
+$url655= "https://www.ofiii.com/_next/data/".$uum[1]."/channel/watch/".$cid655[$idm655-1][0].".json?contentId=".$cid655[$idm655-1][0];
  $idd655=$id655+$idm655;
 //print $url655;
  $ch655=curl_init();
