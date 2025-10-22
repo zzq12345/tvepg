@@ -63,6 +63,17 @@ function replace_unicode_escape_sequence($match)
 
 $chn="<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<!DOCTYPE tv SYSTEM \"http://api.torrent-tv.ru/xmltv.dtd\">\n<tv generator-info-name=\"http://192.168.10.1/system/opt/\" generator-info-url=\"QQ \" >\n";
 
+$uuu='https://www.ofiii.com/channel/watch/ofiii16';
+$ch = curl_init($uuu);
+    curl_setopt_array($ch, [
+        CURLOPT_RETURNTRANSFER => true,
+        CURLOPT_USERAGENT => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)',
+        CURLOPT_SSL_VERIFYPEER => false,
+        CURLOPT_SSL_VERIFYHOST => false,
+    ]);
+    $uuk = curl_exec($ch);
+    curl_close($ch);
+preg_match('/"buildId":"(.*)",/i', $uuk, $uum);
 
 
 $id650=650081;//起始节目编号
@@ -115,9 +126,9 @@ for ($idm650=1; $idm650 <= $nid650; $idm650++){
 //print  $yuu651[1];
 for ($idm650=1; $idm650 <= $nid650; $idm650++){
 
-   $url650='https://www.ofiii.com/_next/data/Qi1G4-x6f7ycEL1ZDdUMG/channel/watch/'.$cid650[$idm650-1][0].'.json?contentId='.$cid650[$idm650-1][0];
+   $url650='https://www.ofiii.com/_next/data/'.$uum[1].'/channel/watch/'.$cid650[$idm650-1][0].'.json?contentId='.$cid650[$idm650-1][0];
                     
-//https://www.ofiii.com/_next/data/Qi1G4-x6f7ycEL1ZDdUMG/channel/watch/'.$cid650[$idm650-1][0].'.json?contentId='.$cid650[$idm650-1][0];
+//https://www.ofiii.com/_next/data/$uum/channel/watch/'.$cid650[$idm650-1][0].'.json?contentId='.$cid650[$idm650-1][0];
  $idd650=$id650+$idm650;
  $ch650=curl_init();
 curl_setopt($ch650,CURLOPT_URL,$url650);
@@ -322,17 +333,6 @@ for ($idm655=1; $idm655 <= $nid655; $idm655++){
    $chn.="<channel id=\"".$cid655[$idm655-1][1]."\"><display-name lang=\"zh\">".$cid655[$idm655-1][1]."</display-name></channel>\n";
 }
 
-$uuu='https://www.ofiii.com/channel/watch/ofiii16';
-$ch = curl_init($uuu);
-    curl_setopt_array($ch, [
-        CURLOPT_RETURNTRANSFER => true,
-        CURLOPT_USERAGENT => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)',
-        CURLOPT_SSL_VERIFYPEER => false,
-        CURLOPT_SSL_VERIFYHOST => false,
-    ]);
-    $uuk = curl_exec($ch);
-    curl_close($ch);
-preg_match('/"buildId":"(.*)",/i', $uuk, $uum);
 
 
 
