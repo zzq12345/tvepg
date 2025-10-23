@@ -39,7 +39,7 @@ function replace_unicode_escape_sequence($match)
 		return mb_convert_encoding(pack('H*', $match[1]), 'UTF-8', 'UCS-2BE');     
 }          
 
-$chn="<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<!DOCTYPE tv SYSTEM \"http://api.torrent-tv.ru/xmltv.dtd\">\n<tv generator-info-name=\"秋哥綜合\" generator-info-url=\"https://www.tdm.com.mo/c_tv/?ch=Satellite\">\n";
+$chn="<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<!DOCTYPE tv SYSTEM \"http://api.torrent-tv.ru/xmltv.dtd\">\n<tv generator-info-name=\"弄著玩的，歡迎使用\" generator-info-url=\"https://www.tdm.com.mo/c_tv/?ch=Satellite\">\n";
 
 $url='https://api2.hoy.tv/api/v3/a/channel';
   $ch = curl_init();
