@@ -39,10 +39,10 @@ foreach ($xml->programme as $programme) {
     $id = (string)$programme['channel'];
     if (in_array($id, $targetChannels)) {
         $newProgramme = $newXml->addChild('programme');
-        $newProgramme->addAttribute('channel', $id);
+       
         $newProgramme->addAttribute('start', (string)$programme['start']);
         $newProgramme->addAttribute('stop', (string)$programme['stop']);
-
+        $newProgramme->addAttribute('channel', $id);
         // 添加 title
         foreach ($programme->title as $title) {
             $titleNode = $newProgramme->addChild('title', (string)$title);
