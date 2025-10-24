@@ -52,12 +52,12 @@ $url='https://api2.hoy.tv/api/v3/a/channel';
  $re = str_replace('&', '&amp;', $re);	
     curl_close($ch);
  $nid= count(json_decode($re)->data);
-for ($idm = 1; $idm <= $nid-1; $idm++){
+for ($idm = 0; $idm <= $nid-1; $idm++){
 //for ($idm = 3; $idm <=3; $idm++){
     $name[$idm] =json_decode($re)->data[$idm]->name->zh_hk;
      $chn.="<channel id=\"".$name[$idm] ."\"><display-name lang=\"zh\">".$name[$idm] ."</display-name></channel>\n";
 }
-for ($idm = 1; $idm <= $nid-1; $idm++){
+for ($idm = 0; $idm <= $nid-1; $idm++){
 //$epg30[$idm] =json_decode($re)->data[$idm]->epg;
  $ch30 = curl_init();
     curl_setopt($ch30, CURLOPT_URL, json_decode($re)->data[$idm]->epg );
