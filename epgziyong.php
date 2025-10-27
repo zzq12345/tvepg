@@ -10,7 +10,7 @@ $xmlFiles = [
     './epgofiii.xml', 
     './epgnewhebei.xml',
     './epgnewguangdong.xml',
-    './epgyidong.xml'
+   // './epgyidong.xml'
     // './epgastro.xml',
     // './epgunifi.xml',
 ];
