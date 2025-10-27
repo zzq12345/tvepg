@@ -1,0 +1,89 @@
+name: Convert XML to Simplified and Traditional Chinese
+
+on:
+  push:
+    paths:
+      - "epgziyong.xml"              # 只有 epgziyong.xml 改动时触发
+  schedule:
+    - cron: '25 */1 * * *'           # 每小时第 25 分钟执行
+  workflow_dispatch:                 # 支持手动触发
+
+jobs:
+  convert:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Install dependencies
+        run: |
+          pip install opencc
+          sudo apt-get update
+          sudo apt-get install -y gzip
+
+      - name: Convert epgziyong.xml → Simplified & Traditional + Compress
+        run: |
+          python - <<'EOF'
+          from opencc import OpenCC
+          import os, gzip
+
+          input_file = "epgziyong.xml"
+          if not os.path.exists(input_file):
+              raise FileNotFoundError(f"{input_file} 不存在")
+
+          # 初始化两个转换器
+          cc_t2s = OpenCC('t2s')  # 繁 → 简
+          cc_s2t = OpenCC('s2t')  # 简 → 繁
+
+          with open(input_file, "r", encoding="utf-8") as f:
+              text = f.read()
+
+          # --- 繁转简 ---
+          simplified = cc_t2s.convert(text)
+          with open("swepg.xml", "w", encoding="utf-8") as f:
+              f.write(simplified)
+          with open("swepg.xml", "rb") as f_in, gzip.open("swepg.xml.gz", "wb") as f_out:
+              f_out.writelines(f_in)
+          print("✅ 已生成 swepg.xml 和 swepg.xml.gz（繁→简）")
+
+          # --- 简转繁 ---
+          traditional = cc_s2t.convert(text)
+          with open("twepg.xml", "w", encoding="utf-8") as f:
+              f.write(traditional)
+          with open("twepg.xml", "rb") as f_in, gzip.open("twepg.xml.gz", "wb") as f_out:
+              f_out.writelines(f_in)
+          print("✅ 已生成 twepg.xml 和 twepg.xml.gz（简→繁）")
+          EOF
+
+      - name: Commit and push result
+        run: |
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+
+          changes=0
+          for f in swepg.xml swepg.xml.gz twepg.xml twepg.xml.gz; do
+            if [ -s "$f" ]; then
+              git add "$f"
+              echo "✅ 已添加 $f"
+              changes=1
+            else
+              echo "⚠️ $f 為空或不存在，略過"
+            fi
+          done
+
+          if [ "$changes" -eq 1 ]; then
+            git commit -m "Auto convert epgziyong.xml → swepg/twepg (Simplified & Traditional) and compress"
+            git pull --rebase
+            git push
+            echo "🚀 變更已成功提交到倉庫"
+          else
+            echo "🛑 無變更可提交"
+          fi
