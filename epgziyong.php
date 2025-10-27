@@ -1,7 +1,6 @@
 <?php
 // 定义要合并的XML文件列表
 $xmlFiles = [
-   // './epgkai.xml',
     './epgkai1.xml',
     './epgnewshanghai.xml',
     './epgmytvsuper.xml',
@@ -10,10 +9,7 @@ $xmlFiles = [
     './epgofiii.xml', 
     './epgnewhebei.xml',
     './epgnewguangdong.xml',
-   // './epgyidong.xml'
-    // './epgastro.xml',
-    // './epgunifi.xml',
-];
+ ];
 
 // 创建新的SimpleXMLElement对象作为根元素
 $mergedXml = new SimpleXMLElement('<?xml version="1.0" encoding="UTF-8"?><tv></tv>');
