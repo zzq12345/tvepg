@@ -8,7 +8,7 @@
 <channel id="HOY 國際財經台"><display-name lang="zh">HOY 國際財經台</display-name></channel>
 <channel id="HOY TV"><display-name lang="zh">HOY TV</display-name></channel>
 <channel id="HOY 資訊台"><display-name lang="zh">HOY 資訊台</display-name></channel>
-<channel id="全運超前直播 - 沙灘排球︰男、女子分組賽 (上午9:00)"><display-name lang="zh">全運超前直播 - 沙灘排球︰男、女子分組賽 (上午9:00)</display-name></channel>
+<channel id="全運超前直播 - 沙灘排球︰男、女子分組賽 (下午3:00)"><display-name lang="zh">全運超前直播 - 沙灘排球︰男、女子分組賽 (下午3:00)</display-name></channel>
 <channel id="MotorVision"><display-name lang="zh">MotorVision</display-name></channel>
 <channel id="SportsPlus"><display-name lang="zh">SportsPlus</display-name></channel>
 <channel id="Travel &amp; Food TV"><display-name lang="zh">Travel &amp; Food TV</display-name></channel>
@@ -2781,15 +2781,139 @@
 <title lang="zh">澳洲冠軍聯賽 - 海德堡聯 對 南霍巴特</title>
 <desc lang="zh"> </desc>
 </programme>
-<programme start="20251103060000 +0800" stop="20251103235959 +0800" channel="HOY體育台">
+<programme start="20251103060000 +0800" stop="20251103070000 +0800" channel="HOY體育台">
+<title lang="zh">大眾參與 2025 第6集</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251103070000 +0800" stop="20251103072500 +0800" channel="HOY體育台">
+<title lang="zh">第十五屆全國運動會前奏 第9集</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251103072500 +0800" stop="20251103093000 +0800" channel="HOY體育台">
+<title lang="zh">阿根廷甲組足球聯賽 - 河床 對 甘拿斯亞 (直播)</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251103093000 +0800" stop="20251103100000 +0800" channel="HOY體育台">
+<title lang="zh">2025年個人賽車賽事 第1集</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251103100000 +0800" stop="20251103120000 +0800" channel="HOY體育台">
+<title lang="zh">阿聯酋職業足球聯賽 - 杜拜艾阿里 對 FC沙迦</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251103120000 +0800" stop="20251103140000 +0800" channel="HOY體育台">
+<title lang="zh">澳洲冠軍聯賽 - 馬可尼駿馬 對 海德堡聯</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251103140000 +0800" stop="20251103160000 +0800" channel="HOY體育台">
+<title lang="zh">澳洲女子職業足球聯賽 - 西悉尼流浪者 對 珀斯光輝</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251103160000 +0800" stop="20251103180000 +0800" channel="HOY體育台">
+<title lang="zh">東亞超級籃球聯賽 - 昌原獵隼 對 新北國王</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251103180000 +0800" stop="20251103200000 +0800" channel="HOY體育台">
+<title lang="zh">阿聯酋職業足球聯賽 - 杜拜艾阿里 對 FC沙迦</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251103200000 +0800" stop="20251103210000 +0800" channel="HOY體育台">
+<title lang="zh">電競世界杯精華 第4集</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251103210000 +0800" stop="20251103213000 +0800" channel="HOY體育台">
+<title lang="zh">大眾參與 2025 第1集</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251103213000 +0800" stop="20251103214000 +0800" channel="HOY體育台">
+<title lang="zh">全運HOY動 第6集</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251103214000 +0800" stop="20251103235500 +0800" channel="HOY體育台">
+<title lang="zh">亞洲聯賽冠軍盃精英聯賽 - 拿薩夫 對 阿爾華達 (直播)</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251103235500 +0800" stop="20251104020000 +0800" channel="HOY體育台">
+<title lang="zh">亞洲聯賽冠軍盃精英聯賽 - 艾杜哈尼 對 杜拜艾阿里 (直播)</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251104020000 +0800" stop="20251104023000 +0800" channel="HOY體育台">
+<title lang="zh">大眾參與 2025 第1集</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251104023000 +0800" stop="20251104030000 +0800" channel="HOY體育台">
+<title lang="zh">第十五屆全國運動會前奏 第9集</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251104030000 +0800" stop="20251104040000 +0800" channel="HOY體育台">
+<title lang="zh">電競世界杯精華 第1集</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251104040000 +0800" stop="20251104060000 +0800" channel="HOY體育台">
+<title lang="zh">澳洲冠軍聯賽 - 馬可尼駿馬 對 海德堡聯</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251104060000 +0800" stop="20251104081000 +0800" channel="HOY體育台">
 <title lang="zh">節目未能提供</title>
 <desc lang="zh"> </desc>
 </programme>
-<programme start="20251104000000 +0800" stop="20251104235959 +0800" channel="HOY體育台">
+<programme start="20251104081000 +0800" stop="20251104101500 +0800" channel="HOY體育台">
+<title lang="zh">阿根廷甲組足球聯賽 - 貝格拉諾 對 堤格雷 (直播)</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251104101500 +0800" stop="20251104103000 +0800" channel="HOY體育台">
+<title lang="zh">全運HOY動 第2集</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251104103000 +0800" stop="20251104110000 +0800" channel="HOY體育台">
+<title lang="zh">2025年個人賽車賽事 第2集</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251104110000 +0800" stop="20251104120000 +0800" channel="HOY體育台">
+<title lang="zh">大眾參與 2025 第6集</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251104120000 +0800" stop="20251104175500 +0800" channel="HOY體育台">
 <title lang="zh">節目未能提供</title>
 <desc lang="zh"> </desc>
 </programme>
-<programme start="20251105000000 +0800" stop="20251105235959 +0800" channel="HOY體育台">
+<programme start="20251104175500 +0800" stop="20251104201000 +0800" channel="HOY體育台">
+<title lang="zh">亞洲聯賽冠軍盃精英聯賽 - 町田澤維亞 對 墨爾本城 (直播)</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251104201000 +0800" stop="20251104221500 +0800" channel="HOY體育台">
+<title lang="zh">亞洲聯賽冠軍盃精英聯賽 - 武里南聯 對 上海海港 (直播)</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251104221500 +0800" stop="20251104223000 +0800" channel="HOY體育台">
+<title lang="zh">全運HOY動 第1集</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251104223000 +0800" stop="20251104230000 +0800" channel="HOY體育台">
+<title lang="zh">第十五屆全國運動會前奏 第5集</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251104230000 +0800" stop="20251104235500 +0800" channel="HOY體育台">
+<title lang="zh">電競世界杯精華 第5集</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251104235500 +0800" stop="20251105020000 +0800" channel="HOY體育台">
+<title lang="zh">亞洲聯賽冠軍盃精英聯賽 - 艾薩德 對 吉達艾阿里 (直播)</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251105020000 +0800" stop="20251105023000 +0800" channel="HOY體育台">
+<title lang="zh">大眾參與 2025 第2集</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251105023000 +0800" stop="20251105030000 +0800" channel="HOY體育台">
+<title lang="zh">第十五屆全國運動會前奏 第8集</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251105030000 +0800" stop="20251105040000 +0800" channel="HOY體育台">
+<title lang="zh">電競世界杯精華 第2集</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251105040000 +0800" stop="20251105235959 +0800" channel="HOY體育台">
 <title lang="zh">節目未能提供</title>
 <desc lang="zh"> </desc>
 </programme>
@@ -20530,11 +20654,11 @@
 <desc lang="zh"> </desc>
 </programme>
 <programme start="20251031074700 +0800" stop="20251031074700 +0800" channel="spot on news">
-<title lang="zh">Pumpkins After Dark: The Halloween Festival in Ireland</title>
+<title lang="zh">Fighter jet catches fire: Pilots escape using ejector seats</title>
 <desc lang="zh"> </desc>
 </programme>
 <programme start="20251031074700 +0800" stop="20251031074700 +0800" channel="spot on news">
-<title lang="zh">Fighter jet catches fire: Pilots escape using ejector seats</title>
+<title lang="zh">Pumpkins After Dark: The Halloween Festival in Ireland</title>
 <desc lang="zh"> </desc>
 </programme>
 <programme start="20251031074700 +0800" stop="20251031074800 +0800" channel="spot on news">
@@ -22882,11 +23006,11 @@
 <desc lang="zh"> </desc>
 </programme>
 <programme start="20251031163900 +0800" stop="20251031163900 +0800" channel="spot on news">
-<title lang="zh">"O'zapft is!" Mayor Dieter Reiter opens Oktoberfest 2025</title>
+<title lang="zh">Scary moment: Lightning strikes car</title>
 <desc lang="zh"> </desc>
 </programme>
 <programme start="20251031163900 +0800" stop="20251031163900 +0800" channel="spot on news">
-<title lang="zh">Scary moment: Lightning strikes car</title>
+<title lang="zh">"O'zapft is!" Mayor Dieter Reiter opens Oktoberfest 2025</title>
 <desc lang="zh"> </desc>
 </programme>
 <programme start="20251031163900 +0800" stop="20251031164000 +0800" channel="spot on news">
@@ -25970,11 +26094,11 @@
 <desc lang="zh"> </desc>
 </programme>
 <programme start="20251101041100 +0800" stop="20251101041100 +0800" channel="spot on news">
-<title lang="zh">Scary moment: Lightning strikes car</title>
+<title lang="zh">Man battles mega cobra for over an hour</title>
 <desc lang="zh"> </desc>
 </programme>
 <programme start="20251101041100 +0800" stop="20251101041100 +0800" channel="spot on news">
-<title lang="zh">Man battles mega cobra for over an hour</title>
+<title lang="zh">Scary moment: Lightning strikes car</title>
 <desc lang="zh"> </desc>
 </programme>
 <programme start="20251101041100 +0800" stop="20251101041200 +0800" channel="spot on news">
@@ -26046,11 +26170,11 @@
 <desc lang="zh"> </desc>
 </programme>
 <programme start="20251101042400 +0800" stop="20251101042400 +0800" channel="spot on news">
-<title lang="zh">Inferno on the Nile: Cruise ship engulfed in flames</title>
+<title lang="zh">Sensation: Tourists spot albino dolphin on the east coast of the USA</title>
 <desc lang="zh"> </desc>
 </programme>
 <programme start="20251101042400 +0800" stop="20251101042400 +0800" channel="spot on news">
-<title lang="zh">Sensation: Tourists spot albino dolphin on the east coast of the USA</title>
+<title lang="zh">Inferno on the Nile: Cruise ship engulfed in flames</title>
 <desc lang="zh"> </desc>
 </programme>
 <programme start="20251101042400 +0800" stop="20251101042700 +0800" channel="spot on news">
@@ -26082,11 +26206,11 @@
 <desc lang="zh"> </desc>
 </programme>
 <programme start="20251101043200 +0800" stop="20251101043200 +0800" channel="spot on news">
-<title lang="zh">Pumpkins After Dark: The Halloween Festival in Ireland</title>
+<title lang="zh">Shortly after take-off: aeroplane bursts into flames</title>
 <desc lang="zh"> </desc>
 </programme>
 <programme start="20251101043200 +0800" stop="20251101043200 +0800" channel="spot on news">
-<title lang="zh">Shortly after take-off: aeroplane bursts into flames</title>
+<title lang="zh">Pumpkins After Dark: The Halloween Festival in Ireland</title>
 <desc lang="zh"> </desc>
 </programme>
 <programme start="20251101043200 +0800" stop="20251101043700 +0800" channel="spot on news">
