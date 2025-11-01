@@ -8,7 +8,6 @@
 <channel id="HOY 國際財經台"><display-name lang="zh">HOY 國際財經台</display-name></channel>
 <channel id="HOY TV"><display-name lang="zh">HOY TV</display-name></channel>
 <channel id="HOY 資訊台"><display-name lang="zh">HOY 資訊台</display-name></channel>
-<channel id="全運超前直播 - 曲棍球︰女子B組 - 江蘇 對 香港 (下午6:00)"><display-name lang="zh">全運超前直播 - 曲棍球︰女子B組 - 江蘇 對 香港 (下午6:00)</display-name></channel>
 <channel id="MotorVision"><display-name lang="zh">MotorVision</display-name></channel>
 <channel id="SportsPlus"><display-name lang="zh">SportsPlus</display-name></channel>
 <channel id="Travel &amp; Food TV"><display-name lang="zh">Travel &amp; Food TV</display-name></channel>
@@ -3213,7 +3212,15 @@
 <title lang="zh">阿根廷甲組足球聯賽 - 聖羅倫素 對 萊斯查</title>
 <desc lang="zh"> </desc>
 </programme>
-<programme start="20251105080000 +0800" stop="20251105140000 +0800" channel="HOY體育台">
+<programme start="20251105080000 +0800" stop="20251105100000 +0800" channel="HOY體育台">
+<title lang="zh">節目未能提供</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251105100000 +0800" stop="20251105120000 +0800" channel="HOY體育台">
+<title lang="zh">阿聯酋職業足球聯賽 - 科爾法簡 對 艾華斯爾</title>
+<desc lang="zh"> </desc>
+</programme>
+<programme start="20251105120000 +0800" stop="20251105140000 +0800" channel="HOY體育台">
 <title lang="zh">節目未能提供</title>
 <desc lang="zh"> </desc>
 </programme>
@@ -20990,11 +20997,11 @@
 <desc lang="zh"> </desc>
 </programme>
 <programme start="20251031074700 +0800" stop="20251031074700 +0800" channel="spot on news">
-<title lang="zh">Fighter jet catches fire: Pilots escape using ejector seats</title>
+<title lang="zh">Pumpkins After Dark: The Halloween Festival in Ireland</title>
 <desc lang="zh"> </desc>
 </programme>
 <programme start="20251031074700 +0800" stop="20251031074700 +0800" channel="spot on news">
-<title lang="zh">Pumpkins After Dark: The Halloween Festival in Ireland</title>
+<title lang="zh">Fighter jet catches fire: Pilots escape using ejector seats</title>
 <desc lang="zh"> </desc>
 </programme>
 <programme start="20251031074700 +0800" stop="20251031074800 +0800" channel="spot on news">
@@ -23342,11 +23349,11 @@
 <desc lang="zh"> </desc>
 </programme>
 <programme start="20251031163900 +0800" stop="20251031163900 +0800" channel="spot on news">
-<title lang="zh">Scary moment: Lightning strikes car</title>
+<title lang="zh">"O'zapft is!" Mayor Dieter Reiter opens Oktoberfest 2025</title>
 <desc lang="zh"> </desc>
 </programme>
 <programme start="20251031163900 +0800" stop="20251031163900 +0800" channel="spot on news">
-<title lang="zh">"O'zapft is!" Mayor Dieter Reiter opens Oktoberfest 2025</title>
+<title lang="zh">Scary moment: Lightning strikes car</title>
 <desc lang="zh"> </desc>
 </programme>
 <programme start="20251031163900 +0800" stop="20251031164000 +0800" channel="spot on news">
@@ -26430,11 +26437,11 @@
 <desc lang="zh"> </desc>
 </programme>
 <programme start="20251101041100 +0800" stop="20251101041100 +0800" channel="spot on news">
-<title lang="zh">Scary moment: Lightning strikes car</title>
+<title lang="zh">Man battles mega cobra for over an hour</title>
 <desc lang="zh"> </desc>
 </programme>
 <programme start="20251101041100 +0800" stop="20251101041100 +0800" channel="spot on news">
-<title lang="zh">Man battles mega cobra for over an hour</title>
+<title lang="zh">Scary moment: Lightning strikes car</title>
 <desc lang="zh"> </desc>
 </programme>
 <programme start="20251101041100 +0800" stop="20251101041200 +0800" channel="spot on news">
@@ -31266,11 +31273,11 @@
 <desc lang="zh"> </desc>
 </programme>
 <programme start="20251101222600 +0800" stop="20251101222600 +0800" channel="spot on news">
-<title lang="zh">Inferno on the Nile: Cruise ship engulfed in flames</title>
+<title lang="zh">Stolen car flies spectacularly over intersection</title>
 <desc lang="zh"> </desc>
 </programme>
 <programme start="20251101222600 +0800" stop="20251101222600 +0800" channel="spot on news">
-<title lang="zh">Stolen car flies spectacularly over intersection</title>
+<title lang="zh">Inferno on the Nile: Cruise ship engulfed in flames</title>
 <desc lang="zh"> </desc>
 </programme>
 <programme start="20251101222600 +0800" stop="20251101222700 +0800" channel="spot on news">
@@ -31386,11 +31393,11 @@
 <desc lang="zh"> </desc>
 </programme>
 <programme start="20251101225200 +0800" stop="20251101225200 +0800" channel="spot on news">
-<title lang="zh">After heavy rain: Landslide sweeps away entire house</title>
+<title lang="zh">Cute! Golden Retriever wants to jump into television</title>
 <desc lang="zh"> </desc>
 </programme>
 <programme start="20251101225200 +0800" stop="20251101225200 +0800" channel="spot on news">
-<title lang="zh">Cute! Golden Retriever wants to jump into television</title>
+<title lang="zh">After heavy rain: Landslide sweeps away entire house</title>
 <desc lang="zh"> </desc>
 </programme>
 <programme start="20251101225200 +0800" stop="20251101225300 +0800" channel="spot on news">
